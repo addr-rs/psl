@@ -16,5 +16,5 @@ default-features = false
 optional = true
 
 [dev-dependencies]
-psl-lexer = { version = "0.3", path = "../lexer" }
+psl-lexer = "0.3.0"
 rspec = "1.0.0"
