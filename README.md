@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/addr-rs/psl.svg?branch=master)](https://travis-ci.org/addr-rs/psl) [![Latest Version](https://img.shields.io/crates/v/psl.svg)](https://crates.io/crates/psl) [![Docs](https://docs.rs/psl/badge.svg)](https://docs.rs/psl)
 
-This library uses Mozilla's [Public Suffix List](https://publicsuffix.org) to reliably determine the suffix of a domain name. It compiles the list down to native Rust code for ultimate speed and correctness. This list compilation is done as a separate step by the maintainer so compile times for the crate itself are still very fast. This crate has no dependencies, not even on the `std` library, so it can even be used in embedded systems.
+This library uses Mozilla's [Public Suffix List](https://publicsuffix.org) to reliably determine the suffix of a domain name. It compiles the list down to native Rust code for ultimate speed and correctness. This list compilation is done as a separate step by the maintainer so the crate still compiles very quickly. This crate has no dependencies, not even on the `std` library, so it can even be used in embedded systems.
 
 ## Setting Up
 
