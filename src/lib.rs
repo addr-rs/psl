@@ -27,7 +27,7 @@ pub fn suffix(name: &[u8]) -> Option<Suffix<'_>> {
         return None;
     }
     let offset = name.len() - len;
-    let bytes = &name[offset..];
+    let bytes = name.get(offset..)?;
     Some(Suffix { bytes, fqdn, typ })
 }
 
@@ -43,11 +43,11 @@ pub fn domain(name: &[u8]) -> Option<Domain<'_>> {
         return None;
     }
     let offset = name_len - (1 + suffix_len);
-    let subdomain = &name[..offset];
+    let subdomain = name.get(..offset)?;
     let root_label = subdomain.rsplitn(2, |x| *x == b'.').next()?;
     let registrable_len = root_label.len() + 1 + suffix_len;
     let offset = name_len - registrable_len;
-    let bytes = &name[offset..];
+    let bytes = name.get(offset..)?;
     Some(Domain { bytes, suffix })
 }
 
