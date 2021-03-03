@@ -130,6 +130,8 @@ fn list_behaviour() {
             ("example.com.", "com."),
             ("www.食狮.中国", "中国"),
             ("www.xn--85x722f.xn--55qx5d.cn", "xn--55qx5d.cn"),
+            ("a.b.example.uk.com", "uk.com"),
+            ("_tcp.example.com.", "com."),
         ];
 
         for (input, expected) in extra {
