@@ -128,6 +128,8 @@ fn list_behaviour() {
             ("sh", "sh"),
             (".", "."),
             ("example.com.", "com."),
+            ("www.食狮.中国", "中国"),
+            ("www.xn--85x722f.xn--55qx5d.cn", "xn--55qx5d.cn"),
         ];
 
         for (input, expected) in extra {
@@ -174,6 +176,8 @@ fn list_behaviour() {
             ("sh", true, Some(Type::Icann)),
             (".", false, None),
             ("example.gafregsrse", false, None),
+            ("www.食狮.中国", true, Some(Type::Icann)),
+            ("www.xn--85x722f.xn--55qx5d.cn", true, Some(Type::Icann)),
         ];
 
         for (input, known_suffix, typ) in extra {
