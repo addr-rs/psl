@@ -1,0 +1,11 @@
+language: rust
+
+rust:
+- nightly
+- beta
+- stable
+
+script:
+- cargo make test
+- cargo check --all-features
+- cargo doc --all-features --no-deps
