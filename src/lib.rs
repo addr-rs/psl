@@ -1,7 +1,7 @@
+//! A native Rust library for Mozilla's Public Suffix List
+
 #![no_std]
 #![forbid(unsafe_code)]
-
-//! A native Rust library for Mozilla's Public Suffix List
 
 mod list;
 #[cfg(feature = "serde")]
