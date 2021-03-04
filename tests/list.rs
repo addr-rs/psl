@@ -147,7 +147,7 @@ fn list_behaviour() {
                     )),
                     move |_| {
                         let suffix = psl::suffix(input.as_bytes()).unwrap();
-                        if suffix.as_bytes() == expected.as_bytes() {
+                        if suffix == expected {
                             ExampleResult::Success
                         } else {
                             let msg = format!(
