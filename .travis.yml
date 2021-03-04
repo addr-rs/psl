@@ -7,6 +7,6 @@ rust:
 
 script:
 - cargo install --force cargo-make
-- cargo make test
-- cargo check --all-features
+- cargo make compile-list
+- cargo test --all-features
 - cargo doc --all-features --no-deps
