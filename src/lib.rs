@@ -95,6 +95,18 @@ impl Suffix<'_> {
     }
 }
 
+impl PartialEq<&[u8]> for Suffix<'_> {
+    fn eq(&self, other: &&[u8]) -> bool {
+        self.bytes == *other
+    }
+}
+
+impl PartialEq<&str> for Suffix<'_> {
+    fn eq(&self, other: &&str) -> bool {
+        self.bytes == other.as_bytes()
+    }
+}
+
 /// A registrable domain name
 #[derive(Copy, Clone, Eq, PartialEq, Ord, PartialOrd, Hash, Debug)]
 pub struct Domain<'a> {
@@ -111,5 +123,17 @@ impl Domain<'_> {
     #[inline]
     pub fn suffix(&self) -> Suffix<'_> {
         self.suffix
+    }
+}
+
+impl PartialEq<&[u8]> for Domain<'_> {
+    fn eq(&self, other: &&[u8]) -> bool {
+        self.bytes == *other
+    }
+}
+
+impl PartialEq<&str> for Domain<'_> {
+    fn eq(&self, other: &&str) -> bool {
+        self.bytes == other.as_bytes()
     }
 }
