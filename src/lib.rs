@@ -75,22 +75,22 @@ pub struct Suffix<'a> {
 
 impl Suffix<'_> {
     #[inline]
-    pub fn as_bytes(&self) -> &[u8] {
+    pub const fn as_bytes(&self) -> &[u8] {
         &self.bytes
     }
 
     #[inline]
-    pub fn is_fqdn(&self) -> bool {
+    pub const fn is_fqdn(&self) -> bool {
         self.fqdn
     }
 
     #[inline]
-    pub fn typ(&self) -> Option<Type> {
+    pub const fn typ(&self) -> Option<Type> {
         self.typ
     }
 
     #[inline]
-    pub fn is_known(&self) -> bool {
+    pub const fn is_known(&self) -> bool {
         self.typ.is_some()
     }
 }
@@ -116,12 +116,12 @@ pub struct Domain<'a> {
 
 impl Domain<'_> {
     #[inline]
-    pub fn as_bytes(&self) -> &[u8] {
+    pub const fn as_bytes(&self) -> &[u8] {
         &self.bytes
     }
 
     #[inline]
-    pub fn suffix(&self) -> Suffix<'_> {
+    pub const fn suffix(&self) -> Suffix<'_> {
         self.suffix
     }
 }
