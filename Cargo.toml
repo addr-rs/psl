@@ -11,7 +11,7 @@ authors = ["rushmorem <rushmore@webenchanter.com>"]
 edition = "2018"
 
 [dependencies.serde]
-version = "1.0.123"
+version = "1.0.124"
 default-features = false
 optional = true
 
