@@ -6,7 +6,7 @@ license = "MIT/Apache-2.0"
 repository = "https://github.com/addr-rs/psl"
 documentation = "https://docs.rs/psl"
 readme = "README.md"
-keywords = ["tld", "gtld", "cctld", "domain", "psl"]
+keywords = ["tld", "gtld", "cctld", "psl", "no_std"]
 authors = ["rushmorem <rushmore@webenchanter.com>"]
 edition = "2018"
 
