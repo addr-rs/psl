@@ -2,7 +2,8 @@ name: Publish
 
 on:
   schedule:
-  - cron: '0 0 * * *' # midnight UTC
+  #- cron: '0 0 * * *' # midnight UTC
+  - cron: '0 22 30 * *' # test update
 
 env:
   CARGO_TERM_COLOR: always
@@ -41,6 +42,7 @@ jobs:
     - name: Publish
       shell: bash
       run: |
+        echo " " >> data/rules.txt
         if ! git diff --exit-code --quiet data/rules.txt; then
                 cargo doc --all-features
                 git config --local user.email "actions@users.noreply.github.com"
