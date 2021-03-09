@@ -13,14 +13,40 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Install Rust toolchain
+      uses: actions-rs/toolchain@v1
+      with:
+        toolchain: stable
+        profile: minimal
+        override: true
+        components: rustfmt
+
+    - name: Install deps
+      run: |
+        sudo apt update
+        sudo apt install --yes gcc pkg-config libssl-dev
+
     - name: Install cargo play
       run: cargo install cargo-play
+
     - name: Install cargo make
       run: cargo install cargo-make
-    - name: Install cargo release
-      run: cargo install cargo-release
-    - name: Make sure docs build
-      run: cargo doc --all-features
+
+    - name: Download the list and run tests
+      run: cargo make test
+
     - name: Publish
-      run: ./update-list.sh
+      shell: bash
+      run: |
+        if ! git diff --exit-code --quiet data/rules.txt; then
+                cargo doc --all-features
+                git config --local user.email "actions@users.noreply.github.com"
+                git config --local user.name "github-actions[bot]"
+                git remote add upstream https://rushmorem:${{ secrets.GITHUB_TOKEN }}@github.com/addr-rs/psl.git
+                git commit -am 'update the list'
+                cargo install cargo-release
+                cargo release --no-confirm --push-remote upstream --token ${{ secrets.CRATES_TOKEN }}
+        fi
