@@ -1,0 +1,26 @@
+name: Publish
+
+on:
+  schedule:
+  - cron: '0 0 * * *' # midnight UTC
+
+env:
+  CARGO_TERM_COLOR: always
+
+jobs:
+  publish:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Install cargo play
+      run: cargo install cargo-play
+    - name: Install cargo make
+      run: cargo install cargo-make
+    - name: Install cargo release
+      run: cargo install cargo-release
+    - name: Make sure docs build
+      run: cargo doc --all-features
+    - name: Publish
+      run: ./update-list.sh
