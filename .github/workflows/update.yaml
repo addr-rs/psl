@@ -1,9 +1,9 @@
 name: Publish
 
-on:
-  schedule:
+on: [workflow_dispatch] 
+  #schedule:
   #- cron: '0 0 * * *' # midnight UTC
-  - cron: '0 22 30 * *' # test update
+  #- cron: '0 22 30 * *' # test update
 
 env:
   CARGO_TERM_COLOR: always
