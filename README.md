@@ -1,6 +1,6 @@
 # A native Rust library for Mozilla's Public Suffix List
 
-[![Publish](https://github.com/addr-rs/psl/actions/workflows/update.yaml/badge.svg)](https://github.com/addr-rs/psl/actions/workflows/update.yaml) [![Latest Version](https://img.shields.io/crates/v/psl.svg)](https://crates.io/crates/psl) [![Docs](https://docs.rs/psl/badge.svg)](https://docs.rs/psl)
+[![CI](https://github.com/addr-rs/psl/actions/workflows/ci.yml/badge.svg)](https://github.com/addr-rs/psl/actions/workflows/ci.yml) [![Publish](https://github.com/addr-rs/psl/actions/workflows/update.yaml/badge.svg)](https://github.com/addr-rs/psl/actions/workflows/update.yaml) [![Latest Version](https://img.shields.io/crates/v/psl.svg)](https://crates.io/crates/psl) [![Docs](https://docs.rs/psl/badge.svg)](https://docs.rs/psl)
 
 This library uses Mozilla's [Public Suffix List](https://publicsuffix.org) to reliably determine the suffix of a domain name. It compiles the list down to native Rust code for ultimate speed and correctness. This list compilation is done as a separate step by the maintainer so the crate still compiles very quickly. This crate has no dependencies, not even on the `std` library, so it can even be used in embedded systems.
 
