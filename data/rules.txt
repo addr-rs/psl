@@ -9139,4 +9139,4 @@ cloud66.zone
 hs.zone
 *.triton.zone
 lima.zone
-zuerich 
+zuerich
