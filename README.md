@@ -10,7 +10,7 @@ Add this crate to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-psl = "1"
+psl = "2"
 ```
 
 ## Examples
