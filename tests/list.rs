@@ -3,7 +3,7 @@ use std::io::prelude::*;
 use std::path::Path;
 use std::{env, mem, str};
 
-use psl::Type;
+use psl::{List, Psl, Type};
 use psl_lexer::request;
 use rspec::report::ExampleResult;
 
@@ -77,7 +77,7 @@ fn list_behaviour() {
                         if input.starts_with(".") || input.contains("..") {
                             (None, None)
                         } else {
-                            psl::domain(input.to_lowercase().as_bytes())
+                            List.domain(input.to_lowercase().as_bytes())
                                 .map(|d| {
                                     let domain = str::from_utf8(d.as_bytes()).unwrap().to_string();
                                     let suffix =
@@ -146,7 +146,7 @@ fn list_behaviour() {
                         val(&expected_suffix.map(ToString::to_string))
                     )),
                     move |_| {
-                        let suffix = psl::suffix(input.as_bytes()).unwrap();
+                        let suffix = List.suffix(input.as_bytes()).unwrap();
                         if suffix == expected {
                             ExampleResult::Success
                         } else {
@@ -193,7 +193,7 @@ fn list_behaviour() {
                         val(&Some(known_suffix.to_string()))
                     )),
                     move |_| {
-                        let suffix = psl::suffix(input.as_bytes()).unwrap();
+                        let suffix = List.suffix(input.as_bytes()).unwrap();
                         assert_eq!(suffix.typ(), typ);
                         if suffix.is_known() == known_suffix {
                             ExampleResult::Success

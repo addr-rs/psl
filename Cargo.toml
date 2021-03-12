@@ -1,7 +1,7 @@
 [package]
 name = "psl"
 description = "A native library for Mozilla's Public Suffix List"
-version = "1.0.10-alpha.0"
+version = "2.0.0-alpha.0"
 license = "MIT/Apache-2.0"
 repository = "https://github.com/addr-rs/psl"
 documentation = "https://docs.rs/psl"
@@ -10,10 +10,8 @@ keywords = ["tld", "gtld", "cctld", "psl", "no_std"]
 authors = ["rushmorem <rushmore@webenchanter.com>"]
 edition = "2018"
 
-[dependencies.serde]
-version = "1.0.124"
-default-features = false
-optional = true
+[dependencies]
+psl-types = "2.0.0"
 
 [dev-dependencies]
 psl-lexer = "0.3.1"
