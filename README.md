@@ -15,7 +15,7 @@ This library uses Mozilla's [Public Suffix List](https://publicsuffix.org) to re
 
 It compiles the list down to native Rust code for ultimate speed. This list compilation is done as a separate step by the `Publish` GitHub Action so the crate still compiles very quickly. The `Publish` action automatically checks for updates everyday and pushes an updated crate to crates.io if there were any updates in the upstream domain suffixes. This keeps the crate automatically synchronised with the official list.
 
-If you need a dynamic list that can be updated at runtime, though slower, please use the [publicsuffix](https://crates.io/crates/publicsuffix) crate instead (which also has optional support for looking up domain names in any case).
+If you need a dynamic list that can be updated at runtime, though a bit slower, please use the [publicsuffix](https://crates.io/crates/publicsuffix) crate instead (which also has optional support for looking up domain names in any case).
 
 ## Setting Up
 
