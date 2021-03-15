@@ -1225,6 +1225,8 @@ gotpantheon.com
 platter-app.com
 pleskns.com
 xen.prgmr.com
+*.pythonanywhere.com
+*.eu.pythonanywhere.com
 qualifioapp.com
 qbuser.com
 qa2.com
