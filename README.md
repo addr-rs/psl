@@ -1,6 +1,15 @@
-# A native Rust library for Mozilla's Public Suffix List
+# PSL
 
-[![CI](https://github.com/addr-rs/psl/actions/workflows/ci.yml/badge.svg)](https://github.com/addr-rs/psl/actions/workflows/ci.yml) [![Publish](https://github.com/addr-rs/psl/actions/workflows/update.yaml/badge.svg)](https://github.com/addr-rs/psl/actions/workflows/update.yaml) [![Latest Version](https://img.shields.io/crates/v/psl.svg)](https://crates.io/crates/psl) [![Docs](https://docs.rs/psl/badge.svg)](https://docs.rs/psl)
+A native Rust library for Mozilla's Public Suffix List
+
+[![CI](https://github.com/addr-rs/psl/actions/workflows/ci.yml/badge.svg)](https://github.com/addr-rs/psl/actions/workflows/ci.yml)
+[![Publish](https://github.com/addr-rs/psl/actions/workflows/update.yaml/badge.svg)](https://github.com/addr-rs/psl/actions/workflows/update.yaml)
+[![Latest Version](https://img.shields.io/crates/v/psl.svg)](https://crates.io/crates/psl)
+[![Crates.io downloads](https://img.shields.io/crates/d/psl)](https://crates.io/crates/psl)
+[![Docs](https://docs.rs/psl/badge.svg)](https://docs.rs/psl)
+[![Minimum supported Rust version](https://img.shields.io/badge/rustc-1.41+-yellow.svg)](https://www.rust-lang.org)
+![Maintenance](https://img.shields.io/badge/maintenance-actively--developed-brightgreen.svg)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 This library uses Mozilla's [Public Suffix List](https://publicsuffix.org) to reliably determine the suffix of a domain name.
 
