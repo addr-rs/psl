@@ -8621,6 +8621,7 @@ page
 pdns.page
 plesk.page
 prvcy.page
+magnet.page
 panasonic
 paris
 pars
