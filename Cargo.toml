@@ -14,5 +14,4 @@ edition = "2018"
 psl-types = "2.0.6"
 
 [dev-dependencies]
-psl-lexer = "0.3.1"
 rspec = "1.0.0"

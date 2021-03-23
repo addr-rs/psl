@@ -4,21 +4,19 @@ use std::path::Path;
 use std::{env, mem, str};
 
 use psl::{List, Psl, Type};
-use psl_lexer::request;
 use rspec::report::ExampleResult;
 
 #[test]
 fn list_behaviour() {
     rspec::run(&rspec::describe("the official test", (), |ctx| {
-        let tests = "https://raw.githubusercontent.com/publicsuffix/list/master/tests/tests.txt";
-        let body = request(tests).unwrap_or_else(|_| {
+        let body = {
             let root = env::var("CARGO_MANIFEST_DIR").unwrap();
             let path = Path::new(&root).join("tests").join("tests.txt");
             let mut file = File::open(path).unwrap();
             let mut contents = String::new();
             file.read_to_string(&mut contents).unwrap();
             contents
-        });
+        };
 
         let mut parse = false;
 
