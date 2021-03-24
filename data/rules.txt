@@ -1222,6 +1222,7 @@ ownprovider.com
 pgfog.com
 pagefrontapp.com
 pagexl.com
+*.paywhirl.com
 gotpantheon.com
 platter-app.com
 pleskns.com
@@ -1897,6 +1898,7 @@ resindevice.io
 devices.resinstaging.io
 hzc.io
 sandcats.io
+shiftcrypto.io
 shiftedit.io
 mo-siemens.io
 apps.lair.io
@@ -8113,6 +8115,7 @@ fly.dev
 iserv.dev
 loginline.dev
 platter-app.dev
+shiftcrypto.dev
 vercel.dev
 *.webhare.dev
 dhl
@@ -8302,6 +8305,7 @@ hbo
 hdfc
 hdfcbank
 health
+hra.health
 healthcare
 help
 helsinki
