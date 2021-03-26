@@ -1103,6 +1103,7 @@ fastly-terrarium.com
 fastvps-server.com
 mydobiss.com
 firebaseapp.com
+forgeblocks.com
 framercanvas.com
 freebox-os.com
 freeboxos.com
@@ -5248,8 +5249,6 @@ jelastic.saveincloud.net
 nordeste-idc.saveincloud.net
 j.scaleforce.net
 jelastic.tsukaeru.net
-atl.jelastic.vps-host.net
-njs.jelastic.vps-host.net
 kinghost.net
 uni5.net
 krellian.net
@@ -5310,6 +5309,10 @@ yandexcloud.net
 storage.yandexcloud.net
 website.yandexcloud.net
 za.net
+vps-host.net
+atl.jelastic.vps-host.net
+njs.jelastic.vps-host.net
+ric.jelastic.vps-host.net
 nf
 com.nf
 net.nf
