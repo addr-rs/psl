@@ -803,6 +803,7 @@ n4t.co
 nodum.co
 repl.co
 com
+*.devcdnaccesso.com
 adobeaemcloud.com
 *.dev.adobeaemcloud.com
 kasserver.com
@@ -8238,7 +8239,6 @@ frontdoor
 frontier
 ftr
 fujitsu
-fujixerox
 fun
 fund
 furniture
