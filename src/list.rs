@@ -23929,6 +23929,13 @@ fn lookup_594_1_0(acc: usize) -> Info {
     }
 }
 #[inline]
+fn lookup_594_1_1(acc: usize) -> Info {
+    Info {
+        len: acc + 1 + 7usize,
+        typ: Some(Type::Private),
+    }
+}
+#[inline]
 fn lookup_594_1<'a, T>(mut labels: T, mut acc: usize) -> Info
 where
     T: Iterator<Item = &'a [u8]>,
@@ -23941,6 +23948,7 @@ where
     match labels.next() {
         Some(label) => match label {
             [98, 108, 111, 103, 115, 112, 111, 116] => lookup_594_1_0(acc),
+            [114, 97, 118, 112, 97, 103, 101] => lookup_594_1_1(acc),
             _ => info,
         },
         None => info,
