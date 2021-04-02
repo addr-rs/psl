@@ -1134,13 +1134,9 @@ smushcdn.com
 wphostedmail.com
 wpmucdn.com
 pixolino.com
+amscompute.com
 clicketcloud.com
-ams.cloudswitches.com
-au.cloudswitches.com
-sg.cloudswitches.com
 dopaas.com
-elastyco.com
-nv.elastyco.com
 hidora.com
 paas.hosted-by-previder.com
 rag-cloud.hosteur.com
@@ -1274,6 +1270,8 @@ hk.com
 wafflecell.com
 idnblogger.com
 indowapblog.com
+reserve-online.com
+hotelwithflight.com
 remotewd.com
 pages.wiardweb.com
 woltlab-demo.com
@@ -1500,7 +1498,6 @@ eu
 mycd.eu
 cloudns.eu
 jelastic.dogado.eu
-paas.leviracloud.eu
 barsy.eu
 wellbeingzone.eu
 spdns.eu
@@ -1876,10 +1873,9 @@ lolipop.io
 hasura-app.io
 hostyhosting.io
 *.moonscale.io
+paas.beebyte.io
+sekd1.beebyteapp.io
 jele.io
-ocs.opusinteractive.io
-cloud.unispace.io
-cloud-de.unispace.io
 cloud-fr1.unispace.io
 webthings.io
 loginline.io
@@ -5102,7 +5098,6 @@ gob.mx
 edu.mx
 net.mx
 blogspot.mx
-jl.serv.net.mx
 nym.mx
 my
 biz.my
@@ -5241,10 +5236,10 @@ iobb.net
 cloudjiffy.net
 fra1-de.cloudjiffy.net
 west1-us.cloudjiffy.net
-ams1.jls.docktera.net
 jls-sto1.elastx.net
 jls-sto2.elastx.net
 jls-sto3.elastx.net
+faststacks.net
 fr-1.paas.massivegrid.net
 lon-1.paas.massivegrid.net
 lon-2.paas.massivegrid.net
@@ -5313,6 +5308,7 @@ familyds.net
 torproject.net
 pages.torproject.net
 fastblog.net
+reserve-online.net
 community-pro.net
 meinforum.net
 yandexcloud.net
@@ -6602,6 +6598,7 @@ zgora.pl
 zgorzelec.pl
 beep.pl
 shoparena.pl
+sdscloud.pl
 unicloud.pl
 krasnik.pl
 leczna.pl
@@ -7846,6 +7843,7 @@ netlify.app
 *.northflank.app
 telebit.app
 vercel.app
+bookonline.app
 apple
 aquarelle
 arab
@@ -8016,7 +8014,8 @@ vip.jelastic.cloud
 jele.cloud
 it1.eur.aruba.jenv-aruba.cloud
 it1.jenv-aruba.cloud
-it1-eur.jenv-arubabiz.cloud
+keliweb.cloud
+cs.keliweb.cloud
 oxa.cloud
 tn.oxa.cloud
 uk.oxa.cloud
@@ -8833,6 +8832,7 @@ mintere.site
 omniwe.site
 opensocial.site
 *.platformsh.site
+*.tst.site
 byen.site
 srht.site
 ski
