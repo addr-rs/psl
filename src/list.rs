@@ -74752,14 +74752,14 @@ fn lookup_1129_6(acc: usize) -> Info {
 #[inline]
 fn lookup_1129_7(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 3usize,
-        typ: Some(Type::Icann),
+        len: acc + 1 + 4usize,
+        typ: Some(Type::Private),
     }
 }
 #[inline]
 fn lookup_1129_8(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 4usize,
+        len: acc + 1 + 3usize,
         typ: Some(Type::Private),
     }
 }
@@ -74767,32 +74767,25 @@ fn lookup_1129_8(acc: usize) -> Info {
 fn lookup_1129_9(acc: usize) -> Info {
     Info {
         len: acc + 1 + 3usize,
-        typ: Some(Type::Private),
-    }
-}
-#[inline]
-fn lookup_1129_10(acc: usize) -> Info {
-    Info {
-        len: acc + 1 + 3usize,
         typ: Some(Type::Icann),
     }
 }
 #[inline]
-fn lookup_1129_11(acc: usize) -> Info {
+fn lookup_1129_10(acc: usize) -> Info {
     Info {
         len: acc + 1 + 8usize,
         typ: Some(Type::Icann),
     }
 }
 #[inline]
-fn lookup_1129_12(acc: usize) -> Info {
+fn lookup_1129_11(acc: usize) -> Info {
     Info {
         len: acc + 1 + 7usize,
         typ: Some(Type::Icann),
     }
 }
 #[inline]
-fn lookup_1129_13(acc: usize) -> Info {
+fn lookup_1129_12(acc: usize) -> Info {
     Info {
         len: acc + 1 + 5usize,
         typ: Some(Type::Icann),
@@ -74815,15 +74808,14 @@ where
             [99, 111, 110, 115, 117, 108, 97, 100, 111] => lookup_1129_2(acc),
             [101, 100, 117] => lookup_1129_3(acc),
             [101, 109, 98, 97, 105, 120, 97, 100, 97] => lookup_1129_4(acc),
-            [103, 111, 118] => lookup_1129_5(acc),
-            [109, 105, 108] => lookup_1129_6(acc),
-            [110, 101, 116] => lookup_1129_7(acc),
-            [110, 111, 104, 111] => lookup_1129_8(acc),
-            [110, 111, 109] => lookup_1129_9(acc),
-            [111, 114, 103] => lookup_1129_10(acc),
-            [112, 114, 105, 110, 99, 105, 112, 101] => lookup_1129_11(acc),
-            [115, 97, 111, 116, 111, 109, 101] => lookup_1129_12(acc),
-            [115, 116, 111, 114, 101] => lookup_1129_13(acc),
+            [109, 105, 108] => lookup_1129_5(acc),
+            [110, 101, 116] => lookup_1129_6(acc),
+            [110, 111, 104, 111] => lookup_1129_7(acc),
+            [110, 111, 109] => lookup_1129_8(acc),
+            [111, 114, 103] => lookup_1129_9(acc),
+            [112, 114, 105, 110, 99, 105, 112, 101] => lookup_1129_10(acc),
+            [115, 97, 111, 116, 111, 109, 101] => lookup_1129_11(acc),
+            [115, 116, 111, 114, 101] => lookup_1129_12(acc),
             _ => info,
         },
         None => info,
