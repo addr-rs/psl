@@ -8387,7 +8387,6 @@ ist
 istanbul
 itau
 itv
-iveco
 jaguar
 java
 jcb
@@ -8859,7 +8858,6 @@ uber.space
 xs4all.space
 sport
 spot
-spreadbetting
 srl
 stada
 staples
