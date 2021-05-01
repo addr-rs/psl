@@ -7843,6 +7843,8 @@ web.app
 hasura.app
 loginline.app
 netlify.app
+*.developer.app
+noop.app
 *.northflank.app
 telebit.app
 vercel.app
