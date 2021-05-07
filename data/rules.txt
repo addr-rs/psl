@@ -1218,6 +1218,8 @@ servequake.com
 static.observableusercontent.com
 orsites.com
 operaunite.com
+authgear-staging.com
+authgearapps.com
 skygearapp.com
 outsystemscloud.com
 ownprovider.com
@@ -1560,6 +1562,7 @@ fbxos.fr
 freebox-os.fr
 freeboxos.fr
 blogspot.fr
+goupile.fr
 on-web.fr
 chirurgiens-dentistes-en-france.fr
 ga
@@ -7295,6 +7298,7 @@ dh.bytemark.co.uk
 vm.bytemark.co.uk
 conn.uk
 copro.uk
+hosp.uk
 service.gov.uk
 pymnt.uk
 homeoffice.gov.uk
