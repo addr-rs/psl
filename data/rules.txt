@@ -1869,7 +1869,7 @@ enonic.io
 customer.enonic.io
 fh-muenster.io
 shw.io
-*.id.forgerock.io
+id.forgerock.io
 ghost.io
 github.io
 gitlab.io

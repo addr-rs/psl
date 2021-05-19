@@ -24920,23 +24920,10 @@ fn lookup_614_22(acc: usize) -> Info {
     }
 }
 #[inline]
-fn lookup_614_23_0_0(wild: &[u8], acc: usize) -> Info {
+fn lookup_614_23_0(acc: usize) -> Info {
     Info {
-        len: acc + 1 + wild.len(),
+        len: acc + 1 + 2usize,
         typ: Some(Type::Private),
-    }
-}
-#[inline]
-fn lookup_614_23_0<'a, T>(info: Info, mut labels: T, mut acc: usize) -> Info
-where
-    T: Iterator<Item = &'a [u8]>,
-{
-    acc += 1 + 2usize;
-    match labels.next() {
-        Some(label) => match label {
-            wild => lookup_614_23_0_0(wild, acc),
-        },
-        None => info,
     }
 }
 #[inline]
@@ -24947,7 +24934,7 @@ where
     acc += 1 + 9usize;
     match labels.next() {
         Some(label) => match label {
-            [105, 100] => lookup_614_23_0(info, labels, acc),
+            [105, 100] => lookup_614_23_0(acc),
             _ => info,
         },
         None => info,
