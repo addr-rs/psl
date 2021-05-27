@@ -1360,6 +1360,7 @@ dyn-ip24.de
 home-webserver.de
 dyn.home-webserver.de
 myhome-server.de
+*.frusky.de
 goip.de
 blogspot.de
 günstigbestellen.de
@@ -1857,6 +1858,7 @@ b-data.io
 backplaneapp.io
 app.banzaicloud.io
 *.backyards.banzaicloud.io
+bluebite.io
 boxfuse.io
 browsersafetymark.io
 uk0.bigv.io
@@ -5154,6 +5156,7 @@ alwaysdata.net
 cloudfront.net
 t3l3p0rt.net
 myfritz.net
+onavstack.net
 blackbaudcdn.net
 boomla.net
 bplaced.net
@@ -8033,6 +8036,7 @@ uk.reclaim.cloud
 us.reclaim.cloud
 ch.trendhosting.cloud
 de.trendhosting.cloud
+jotelulu.cloud
 kuleuven.cloud
 linkyard.cloud
 *.magentosite.cloud
@@ -8842,6 +8846,7 @@ opensocial.site
 *.tst.site
 byen.site
 srht.site
+novecore.site
 ski
 skin
 sky
