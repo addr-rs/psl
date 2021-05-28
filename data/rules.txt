@@ -8130,7 +8130,6 @@ curv.dev
 deno.dev
 deno-staging.dev
 fly.dev
-github.dev
 githubpreview.dev
 *.gateway.dev
 iserv.dev
