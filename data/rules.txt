@@ -1230,6 +1230,7 @@ pagexl.com
 gotpantheon.com
 platter-app.com
 pleskns.com
+postman-echo.com
 xen.prgmr.com
 pythonanywhere.com
 eu.pythonanywhere.com
@@ -1893,6 +1894,8 @@ nodum.io
 nid.io
 pantheonsite.io
 dyn53.io
+pstmn.io
+mock.pstmn.io
 protonet.io
 qoto.io
 qcx.io
@@ -5155,6 +5158,7 @@ adobeaemcloud.net
 alwaysdata.net
 cloudfront.net
 t3l3p0rt.net
+appudo.net
 myfritz.net
 onavstack.net
 blackbaudcdn.net
@@ -6337,6 +6341,7 @@ hopto.org
 myftp.org
 no-ip.org
 zapto.org
+httpbin.org
 pubtls.org
 my-firewall.org
 myfirewall.org
@@ -7315,6 +7320,7 @@ cust.retrosnub.co.uk
 nh-serv.co.uk
 no-ip.co.uk
 wellbeingzone.co.uk
+adimo.co.uk
 gwiddle.co.uk
 us
 dni.us
