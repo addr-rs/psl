@@ -919,7 +919,6 @@ wpdevcloud.com
 cloudcontrolled.com
 cloudcontrolapp.com
 trycloudflare.com
-multibaas.com
 *.customer-oci.com
 *.oci.customer-oci.com
 *.ocp.customer-oci.com
@@ -7842,7 +7841,6 @@ aol
 apartments
 app
 wnext.app
-multibaas.app
 platform0.app
 ondigitalocean.app
 edgecompute.app
