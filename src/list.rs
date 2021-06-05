@@ -49497,12 +49497,19 @@ fn lookup_815_3(acc: usize) -> Info {
 #[inline]
 fn lookup_815_4(acc: usize) -> Info {
     Info {
+        len: acc + 1 + 8usize,
+        typ: Some(Type::Private),
+    }
+}
+#[inline]
+fn lookup_815_5(acc: usize) -> Info {
+    Info {
         len: acc + 1 + 3usize,
         typ: Some(Type::Icann),
     }
 }
 #[inline]
-fn lookup_815_5(acc: usize) -> Info {
+fn lookup_815_6(acc: usize) -> Info {
     Info {
         len: acc + 1 + 3usize,
         typ: Some(Type::Icann),
@@ -49524,8 +49531,9 @@ where
             [101, 100, 117] => lookup_815_1(acc),
             [103, 111, 118] => lookup_815_2(acc),
             [108, 97, 98] => lookup_815_3(acc),
-            [110, 101, 116] => lookup_815_4(acc),
-            [111, 114, 103] => lookup_815_5(acc),
+            [109, 105, 110, 105, 115, 105, 116, 101] => lookup_815_4(acc),
+            [110, 101, 116] => lookup_815_5(acc),
+            [111, 114, 103] => lookup_815_6(acc),
             _ => info,
         },
         None => info,
