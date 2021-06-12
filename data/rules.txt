@@ -633,6 +633,7 @@ com.by
 of.by
 blogspot.com.by
 mycloud.by
+mediatech.by
 nym.by
 bz
 com.bz
@@ -8139,6 +8140,7 @@ githubpreview.dev
 *.gateway.dev
 iserv.dev
 loginline.dev
+mediatech.dev
 platter-app.dev
 shiftcrypto.dev
 vercel.dev
