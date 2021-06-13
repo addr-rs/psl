@@ -6746,6 +6746,7 @@ edu.rs
 gov.rs
 in.rs
 org.rs
+shop.brendly.rs
 blogspot.rs
 ua.rs
 nom.rs
