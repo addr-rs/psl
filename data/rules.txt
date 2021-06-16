@@ -716,7 +716,6 @@ nl.ci
 *.ck
 !www.ck
 cl
-aprendemas.cl
 co.cl
 gob.cl
 gov.cl
@@ -929,6 +928,7 @@ dattorelay.com
 dattoweb.com
 mydatto.com
 builtwithdark.com
+ddns5.com
 drayddns.com
 dreamhosters.com
 mydrobo.com
