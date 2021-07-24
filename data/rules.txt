@@ -5,6 +5,7 @@ gov.ac
 net.ac
 mil.ac
 org.ac
+drr.ac
 ad
 nom.ad
 ae
@@ -263,6 +264,7 @@ gov.ba
 mil.ba
 net.ba
 org.ba
+rs.ba
 blogspot.ba
 bb
 biz.bb
@@ -1091,6 +1093,7 @@ loseyourip.com
 ooguy.com
 theworkpc.com
 mytuleap.com
+tuleap-partners.com
 eu-1.evennode.com
 eu-2.evennode.com
 eu-3.evennode.com
@@ -1859,6 +1862,7 @@ b-data.io
 backplaneapp.io
 app.banzaicloud.io
 *.backyards.banzaicloud.io
+bitbucket.io
 bluebite.io
 boxfuse.io
 browsersafetymark.io
@@ -4502,6 +4506,7 @@ mobi
 barsy.mobi
 dscloud.mobi
 mp
+ju.mp
 mq
 mr
 gov.mr
@@ -5160,6 +5165,7 @@ alwaysdata.net
 cloudfront.net
 t3l3p0rt.net
 appudo.net
+cdn.prod.atlassian-dev.net
 myfritz.net
 onavstack.net
 blackbaudcdn.net
@@ -6151,7 +6157,6 @@ merseine.nu
 mine.nu
 shacknet.nu
 nom.nu
-uwu.nu
 enterprisecloud.nu
 nz
 ac.nz
@@ -6878,6 +6883,7 @@ com.se
 blogspot.se
 conf.se
 iopsys.se
+itcouldbewor.se
 sg
 com.sg
 net.sg
@@ -8069,6 +8075,7 @@ cologne
 comcast
 commbank
 community
+nog.community
 ravendb.community
 myforum.community
 company
@@ -8890,6 +8897,7 @@ stcgroup
 stockholm
 storage
 store
+sellfy.store
 shopware.store
 storebase.store
 stream
