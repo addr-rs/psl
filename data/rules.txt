@@ -193,6 +193,7 @@ blogspot.co.at
 biz.at
 info.at
 priv.at
+myspreadshop.at
 12hp.at
 2ix.at
 4lima.at
@@ -233,6 +234,7 @@ wa.gov.au
 schools.nsw.edu.au
 blogspot.com.au
 mel.cloudlets.com.au
+myspreadshop.com.au
 aw
 com.aw
 ax
@@ -284,6 +286,7 @@ webhosting.be
 blogspot.be
 cloud.interhostsolutions.be
 ezproxy.kuleuven.be
+myspreadshop.be
 *.transurl.be
 bf
 gov.bf
@@ -668,6 +671,7 @@ barsy.ca
 co.ca
 blogspot.ca
 no-ip.ca
+myspreadshop.ca
 cat
 cc
 cloudns.cc
@@ -691,6 +695,7 @@ appengine.flow.ch
 linkyard-cloud.ch
 dnsking.ch
 gotdns.ch
+myspreadshop.ch
 *.firenet.ch
 *.svc.firenet.ch
 12hp.ch
@@ -805,6 +810,7 @@ n4t.co
 nodum.co
 repl.co
 id.repl.co
+supabase.co
 com
 *.devcdnaccesso.com
 adobeaemcloud.com
@@ -930,6 +936,8 @@ dattorelay.com
 dattoweb.com
 mydatto.com
 builtwithdark.com
+demo.datadetect.com
+instance.datadetect.com
 ddns5.com
 drayddns.com
 dreamhosters.com
@@ -1265,10 +1273,12 @@ beta.bounty-full.com
 try-snowplow.com
 stackhero-network.com
 playstation-cloud.com
+myspreadshop.com
 api.stdlib.com
 temp-dns.com
 dsmynas.com
 familyds.com
+reservd.com
 thingdustdata.com
 bloxcms.com
 townnews-staging.com
@@ -1389,6 +1399,7 @@ my-gateway.de
 my-router.de
 spdns.de
 customer.speedpartner.de
+myspreadshop.de
 taifun-dns.de
 12hp.de
 2ix.de
@@ -1418,6 +1429,7 @@ firm.dk
 reg.dk
 store.dk
 blogspot.dk
+myspreadshop.dk
 dm
 com.dm
 net.dm
@@ -1493,6 +1505,7 @@ org.es
 gob.es
 edu.es
 blogspot.com.es
+myspreadshop.es
 et
 com.et
 gov.et
@@ -1520,6 +1533,7 @@ iki.fi
 fi.cloudplatform.fi
 demo.datacenter.fi
 paas.datacenter.fi
+myspreadshop.fi
 fj
 ac.fj
 biz.fj
@@ -1570,6 +1584,8 @@ blogspot.fr
 goupile.fr
 on-web.fr
 chirurgiens-dentistes-en-france.fr
+myspreadshop.fr
+ynh.fr
 ga
 gb
 edu.gd
@@ -1791,6 +1807,7 @@ ie
 gov.ie
 blogspot.ie
 nym.ie
+myspreadshop.ie
 il
 ac.il
 co.il
@@ -1831,6 +1848,7 @@ web.in
 cloudns.in
 blogspot.in
 barsy.in
+supabase.in
 info
 cloudns.info
 dynamic-dns.info
@@ -1926,6 +1944,9 @@ cust.dev.thingdust.io
 cust.disrec.thingdust.io
 cust.prod.thingdust.io
 cust.testing.thingdust.io
+reservd.dev.thingdust.io
+reservd.disrec.thingdust.io
+reservd.testing.thingdust.io
 2038.io
 wedeploy.io
 editorx.io
@@ -2370,6 +2391,7 @@ cloud.jelastic.open.tim.it
 16-b.it
 32-b.it
 64-b.it
+myspreadshop.it
 syncloud.it
 je
 co.je
@@ -5320,8 +5342,10 @@ vps-host.net
 atl.jelastic.vps-host.net
 njs.jelastic.vps-host.net
 ric.jelastic.vps-host.net
+myspreadshop.net
 soc.srcf.net
 user.srcf.net
+supabase.net
 dsmynas.net
 familyds.net
 torproject.net
@@ -5384,6 +5408,7 @@ co.nl
 hosting-cluster.nl
 blogspot.nl
 khplay.nl
+myspreadshop.nl
 *.transurl.nl
 cistron.nl
 demon.nl
@@ -6143,6 +6168,7 @@ valer.hedmark.no
 våler.hedmark.no
 co.no
 blogspot.no
+myspreadshop.no
 *.np
 nr
 biz.nr
@@ -6632,6 +6658,7 @@ krakow.pl
 poznan.pl
 wroc.pl
 zakopane.pl
+myspreadshop.pl
 gda.pl
 gdansk.pl
 gdynia.pl
@@ -6884,6 +6911,8 @@ blogspot.se
 conf.se
 iopsys.se
 itcouldbewor.se
+myspreadshop.se
+su.paba.se
 sg
 com.sg
 net.sg
@@ -7329,6 +7358,7 @@ nh-serv.co.uk
 no-ip.co.uk
 wellbeingzone.co.uk
 adimo.co.uk
+myspreadshop.co.uk
 gwiddle.co.uk
 us
 dni.us
