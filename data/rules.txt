@@ -8525,6 +8525,7 @@ mypep.link
 *.dweb.link
 lipsy
 live
+hlx.live
 living
 lixil
 llc
@@ -8673,6 +8674,8 @@ homelink.one
 ong
 onl
 online
+eero.online
+eero-stage.online
 barsy.online
 ooo
 open
@@ -8686,6 +8689,8 @@ ott
 ovh
 nerdpol.ovh
 page
+hlx.page
+hlx3.page
 pdns.page
 plesk.page
 prvcy.page
