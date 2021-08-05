@@ -8060,6 +8060,7 @@ clinique
 clothing
 cloud
 *.banzai.cloud
+elementor.cloud
 *.statics.cloud
 es-1.axarnet.cloud
 diadem.cloud
@@ -8120,6 +8121,7 @@ contractors
 cooking
 cookingchannel
 cool
+elementor.cool
 de.cool
 corsica
 country
