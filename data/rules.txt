@@ -17,7 +17,6 @@ ac.ae
 gov.ae
 mil.ae
 blogspot.ae
-nom.ae
 aero
 accident-investigation.aero
 accident-prevention.aero
@@ -111,7 +110,6 @@ com.af
 org.af
 net.af
 edu.af
-nom.af
 ag
 com.ag
 org.ag
@@ -124,7 +122,6 @@ com.ai
 net.ai
 org.ai
 uwu.ai
-nom.ai
 al
 com.al
 edu.al
@@ -133,7 +130,6 @@ mil.al
 net.al
 org.al
 blogspot.al
-nom.al
 am
 co.am
 com.am
@@ -639,7 +635,6 @@ of.by
 blogspot.com.by
 mycloud.by
 mediatech.by
-nym.by
 bz
 com.bz
 net.bz
@@ -648,8 +643,6 @@ edu.bz
 gov.bz
 za.bz
 gsj.bz
-nom.bz
-nym.bz
 ca
 ab.ca
 bc.ca
@@ -728,7 +721,6 @@ gob.cl
 gov.cl
 mil.cl
 blogspot.cl
-nom.cl
 cm
 co.cm
 com.cm
@@ -1471,7 +1463,6 @@ edu.ec
 gov.ec
 gob.ec
 mil.ec
-nym.ec
 edu
 git-pages.rit.edu
 ee
@@ -1591,7 +1582,6 @@ gb
 edu.gd
 gov.gd
 gd
-nom.gd
 ge
 com.ge
 edu.ge
@@ -1600,7 +1590,6 @@ org.ge
 mil.ge
 net.ge
 pvt.ge
-nom.ge
 gf
 gg
 co.gg
@@ -1630,7 +1619,6 @@ edu.gl
 net.gl
 org.gl
 biz.gl
-nom.gl
 xx.gl
 gm
 gn
@@ -1657,7 +1645,6 @@ net.gr
 org.gr
 gov.gr
 blogspot.gr
-nym.gr
 gs
 gt
 com.gt
@@ -1667,7 +1654,6 @@ ind.gt
 mil.gt
 net.gt
 org.gt
-nom.gt
 blog.gt
 de.gt
 to.gt
@@ -1688,7 +1674,6 @@ edu.gy
 gov.gy
 net.gy
 org.gy
-nym.gy
 be.gy
 hk
 com.hk
@@ -1714,7 +1699,6 @@ org.hk
 組织.hk
 blogspot.hk
 secaas.hk
-nym.hk
 ltd.hk
 inc.hk
 hm
@@ -1725,7 +1709,6 @@ org.hn
 net.hn
 mil.hn
 gob.hn
-nom.hn
 cc.hn
 hr
 iz.hr
@@ -1806,7 +1789,6 @@ wblog.id
 ie
 gov.ie
 blogspot.ie
-nym.ie
 myspreadshop.ie
 il
 ac.il
@@ -1830,7 +1812,6 @@ plc.co.im
 tt.im
 tv.im
 ro.im
-nom.im
 in
 co.in
 firm.in
@@ -4215,7 +4196,6 @@ ne.ke
 or.ke
 sc.ke
 blogspot.co.ke
-nom.ke
 kg
 org.kg
 net.kg
@@ -4322,7 +4302,6 @@ mil.kz
 com.kz
 jcloud.kz
 upaas.kazteleport.kz
-nym.kz
 la
 int.la
 net.la
@@ -4334,7 +4313,6 @@ com.la
 org.la
 bnr.la
 c.la
-nym.la
 lb
 com.lb
 edu.lb
@@ -4348,13 +4326,10 @@ co.lc
 org.lc
 edu.lc
 gov.lc
-nym.lc
 oy.lc
 li
 blogspot.li
 caa.li
-nom.li
-nym.li
 lk
 gov.lk
 sch.lk
@@ -4391,10 +4366,8 @@ de.ls
 lt
 gov.lt
 blogspot.lt
-nym.lt
 lu
 blogspot.lu
-nym.lu
 lv
 com.lv
 edu.lv
@@ -4405,7 +4378,6 @@ id.lv
 net.lv
 asn.lv
 conf.lv
-nom.lv
 ly
 com.ly
 net.ly
@@ -4470,7 +4442,6 @@ hopto.me
 loginto.me
 noip.me
 webhop.me
-nym.me
 diskstation.me
 dscloud.me
 i234.me
@@ -4502,7 +4473,6 @@ gov.mk
 inf.mk
 name.mk
 blogspot.mk
-nom.mk
 ml
 com.ml
 edu.ml
@@ -4517,7 +4487,6 @@ gov.mn
 edu.mn
 org.mn
 nyc.mn
-nym.mn
 mo
 com.mo
 net.mo
@@ -5136,7 +5105,6 @@ gob.mx
 edu.mx
 net.mx
 blogspot.mx
-nym.mx
 my
 biz.my
 com.my
@@ -6182,7 +6150,6 @@ nu
 merseine.nu
 mine.nu
 shacknet.nu
-nom.nu
 enterprisecloud.nu
 nz
 ac.nz
@@ -6202,7 +6169,6 @@ org.nz
 parliament.nz
 school.nz
 blogspot.co.nz
-nym.nz
 om
 co.om
 com.om
@@ -6410,7 +6376,6 @@ org.pe
 com.pe
 net.pe
 blogspot.pe
-nym.pe
 pf
 com.pf
 org.pf
@@ -6720,7 +6685,6 @@ publ.pt
 com.pt
 nome.pt
 blogspot.pt
-nym.pt
 pw
 co.pw
 ne.pw
@@ -6730,7 +6694,6 @@ go.pw
 belau.pw
 cloudns.pw
 x443.pw
-nom.pw
 py
 com.py
 coop.py
@@ -6749,7 +6712,6 @@ net.qa
 org.qa
 sch.qa
 blogspot.qa
-nom.qa
 re
 asso.re
 com.re
@@ -6770,7 +6732,6 @@ www.ro
 co.ro
 shop.ro
 blogspot.ro
-nym.ro
 rs
 ac.rs
 co.rs
@@ -6781,7 +6742,6 @@ org.rs
 shop.brendly.rs
 blogspot.rs
 ua.rs
-nom.rs
 ox.rs
 ru
 ac.ru
@@ -6941,11 +6901,9 @@ si
 gitapp.si
 gitpage.si
 blogspot.si
-nom.si
 sj
 sk
 blogspot.sk
-nym.sk
 sl
 com.sl
 net.sl
@@ -6992,7 +6950,6 @@ org.st
 principe.st
 saotome.st
 store.st
-nom.st
 noho.st
 su
 abkhazia.su
@@ -7047,7 +7004,6 @@ tuva.su
 vladikavkaz.su
 vladimir.su
 vologda.su
-nym.su
 sv
 com.sv
 edu.sv
@@ -7056,7 +7012,6 @@ org.sv
 red.sv
 sx
 gov.sx
-nym.sx
 sy
 edu.sy
 gov.sy
@@ -7103,7 +7058,6 @@ nic.tj
 org.tj
 test.tj
 web.tj
-nom.tj
 tk
 tl
 gov.tl
@@ -7216,7 +7170,6 @@ club.tw
 mymailer.com.tw
 url.tw
 blogspot.tw
-nym.tw
 tz
 ac.tz
 co.tz
@@ -7324,7 +7277,6 @@ ne.ug
 com.ug
 org.ug
 blogspot.ug
-nom.ug
 uk
 ac.uk
 co.uk
@@ -7612,7 +7564,6 @@ mil.uy
 net.uy
 org.uy
 blogspot.com.uy
-nom.uy
 uz
 co.uz
 com.uz
@@ -7629,7 +7580,6 @@ edu.vc
 gv.vc
 d.gv.vc
 0e.vc
-nom.vc
 ve
 arts.ve
 co.ve
@@ -7649,7 +7599,6 @@ store.ve
 tec.ve
 web.ve
 vg
-nom.vg
 at.vg
 vi
 co.vi
