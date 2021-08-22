@@ -81926,14 +81926,14 @@ fn lookup_1253_0(acc: usize) -> Info {
 #[inline]
 fn lookup_1253_1(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 2usize,
+        len: acc + 1 + 3usize,
         typ: Some(Type::Icann),
     }
 }
 #[inline]
 fn lookup_1253_2(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 3usize,
+        len: acc + 1 + 2usize,
         typ: Some(Type::Icann),
     }
 }
@@ -81954,14 +81954,14 @@ fn lookup_1253_4(acc: usize) -> Info {
 #[inline]
 fn lookup_1253_5(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 4usize,
+        len: acc + 1 + 3usize,
         typ: Some(Type::Icann),
     }
 }
 #[inline]
 fn lookup_1253_6(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 3usize,
+        len: acc + 1 + 4usize,
         typ: Some(Type::Icann),
     }
 }
@@ -81975,14 +81975,14 @@ fn lookup_1253_7(acc: usize) -> Info {
 #[inline]
 fn lookup_1253_8(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 4usize,
+        len: acc + 1 + 3usize,
         typ: Some(Type::Icann),
     }
 }
 #[inline]
 fn lookup_1253_9(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 3usize,
+        len: acc + 1 + 4usize,
         typ: Some(Type::Icann),
     }
 }
@@ -82017,7 +82017,7 @@ fn lookup_1253_13(acc: usize) -> Info {
 #[inline]
 fn lookup_1253_14(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 5usize,
+        len: acc + 1 + 3usize,
         typ: Some(Type::Icann),
     }
 }
@@ -82036,6 +82036,27 @@ fn lookup_1253_16(acc: usize) -> Info {
     }
 }
 #[inline]
+fn lookup_1253_17(acc: usize) -> Info {
+    Info {
+        len: acc + 1 + 5usize,
+        typ: Some(Type::Icann),
+    }
+}
+#[inline]
+fn lookup_1253_18(acc: usize) -> Info {
+    Info {
+        len: acc + 1 + 3usize,
+        typ: Some(Type::Icann),
+    }
+}
+#[inline]
+fn lookup_1253_19(acc: usize) -> Info {
+    Info {
+        len: acc + 1 + 3usize,
+        typ: Some(Type::Icann),
+    }
+}
+#[inline]
 fn lookup_1253<'a, T>(mut labels: T) -> Info
 where
     T: Iterator<Item = &'a [u8]>,
@@ -82048,22 +82069,25 @@ where
     match labels.next() {
         Some(label) => match label {
             [97, 114, 116, 115] => lookup_1253_0(acc),
-            [99, 111] => lookup_1253_1(acc),
-            [99, 111, 109] => lookup_1253_2(acc),
-            [101, 49, 50] => lookup_1253_3(acc),
-            [101, 100, 117] => lookup_1253_4(acc),
-            [102, 105, 114, 109] => lookup_1253_5(acc),
-            [103, 111, 98] => lookup_1253_6(acc),
-            [103, 111, 118] => lookup_1253_7(acc),
-            [105, 110, 102, 111] => lookup_1253_8(acc),
-            [105, 110, 116] => lookup_1253_9(acc),
-            [109, 105, 108] => lookup_1253_10(acc),
-            [110, 101, 116] => lookup_1253_11(acc),
-            [111, 114, 103] => lookup_1253_12(acc),
-            [114, 101, 99] => lookup_1253_13(acc),
-            [115, 116, 111, 114, 101] => lookup_1253_14(acc),
-            [116, 101, 99] => lookup_1253_15(acc),
-            [119, 101, 98] => lookup_1253_16(acc),
+            [98, 105, 98] => lookup_1253_1(acc),
+            [99, 111] => lookup_1253_2(acc),
+            [99, 111, 109] => lookup_1253_3(acc),
+            [101, 49, 50] => lookup_1253_4(acc),
+            [101, 100, 117] => lookup_1253_5(acc),
+            [102, 105, 114, 109] => lookup_1253_6(acc),
+            [103, 111, 98] => lookup_1253_7(acc),
+            [103, 111, 118] => lookup_1253_8(acc),
+            [105, 110, 102, 111] => lookup_1253_9(acc),
+            [105, 110, 116] => lookup_1253_10(acc),
+            [109, 105, 108] => lookup_1253_11(acc),
+            [110, 101, 116] => lookup_1253_12(acc),
+            [110, 111, 109] => lookup_1253_13(acc),
+            [111, 114, 103] => lookup_1253_14(acc),
+            [114, 97, 114] => lookup_1253_15(acc),
+            [114, 101, 99] => lookup_1253_16(acc),
+            [115, 116, 111, 114, 101] => lookup_1253_17(acc),
+            [116, 101, 99] => lookup_1253_18(acc),
+            [119, 101, 98] => lookup_1253_19(acc),
             _ => info,
         },
         None => info,
