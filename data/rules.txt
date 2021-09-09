@@ -675,6 +675,7 @@ scrapping.cc
 twmail.cc
 csx.cc
 fantasyleague.cc
+instances.spawn.cc
 cd
 gov.cd
 cf
@@ -1092,6 +1093,9 @@ kozow.com
 loseyourip.com
 ooguy.com
 theworkpc.com
+elluciancrmadvance.com
+elluciancrmadvise.com
+elluciancrmrecruit.com
 mytuleap.com
 tuleap-partners.com
 eu-1.evennode.com
@@ -1371,6 +1375,7 @@ goip.de
 blogspot.de
 günstigbestellen.de
 günstigliefern.de
+pages.it.hs-heilbronn.de
 dyn-berlin.de
 in-berlin.de
 in-brb.de
@@ -1781,6 +1786,7 @@ or.id
 ponpes.id
 sch.id
 web.id
+*.rss.my.id
 flap.id
 blogspot.co.id
 forte.id
@@ -1801,6 +1807,7 @@ net.il
 org.il
 ravpage.co.il
 blogspot.co.il
+tabitorder.co.il
 im
 ac.im
 co.im
@@ -1871,8 +1878,6 @@ dyndns.dappnode.io
 dedyn.io
 drud.io
 definima.io
-enonic.io
-customer.enonic.io
 fh-muenster.io
 shw.io
 id.forgerock.io
@@ -4432,7 +4437,6 @@ lohmus.me
 barsy.me
 mcpe.me
 mcdir.me
-nctu.me
 soundcast.me
 tcp4.me
 brasilia.me
@@ -6608,7 +6612,9 @@ zarow.pl
 zgora.pl
 zgorzelec.pl
 beep.pl
+ecommerce-shop.pl
 shoparena.pl
+homesklep.pl
 sdscloud.pl
 unicloud.pl
 krasnik.pl
@@ -6733,6 +6739,7 @@ www.ro
 co.ro
 shop.ro
 blogspot.ro
+barsy.ro
 rs
 ac.rs
 co.rs
@@ -7313,6 +7320,9 @@ wellbeingzone.co.uk
 adimo.co.uk
 myspreadshop.co.uk
 gwiddle.co.uk
+affinitylottery.org.uk
+raffleentry.org.uk
+weeklylottery.org.uk
 us
 dni.us
 fed.us
@@ -8767,6 +8777,7 @@ run
 hs.run
 development.run
 ravendb.run
+servers.run
 *.code.run
 repl.run
 rwe
@@ -8837,7 +8848,7 @@ silk
 sina
 singles
 site
-cloudera.site
+*.cloudera.site
 cyon.site
 fnwk.site
 folionetwork.site
@@ -8869,6 +8880,7 @@ software
 sohu
 solar
 solutions
+*.diher.solutions
 song
 sony
 soy
