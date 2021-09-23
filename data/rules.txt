@@ -1089,6 +1089,7 @@ simple-url.com
 space-to-rent.com
 teaches-yoga.com
 writesthisblog.com
+*.digitaloceanspaces.com
 ddnsfree.com
 ddnsgeek.com
 giize.com
