@@ -8309,6 +8309,7 @@ goodyear
 goog
 cloud.goog
 translate.goog
+*.usercontent.goog
 google
 gop
 got
@@ -8759,7 +8760,6 @@ ril
 rio
 rip
 clan.rip
-rmit
 rocher
 rocks
 myddns.rocks
