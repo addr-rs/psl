@@ -5178,7 +5178,6 @@ jp.net
 se.net
 uk.net
 in.net
-clic2000.net
 clickrising.net
 cloudaccess.net
 cdn77-ssl.net
@@ -8957,6 +8956,7 @@ tjx
 tkmaxx
 tmall
 today
+prequalifyme.today
 tokyo
 tools
 top
