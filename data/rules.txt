@@ -8915,7 +8915,6 @@ surf
 surgery
 suzuki
 swatch
-swiftcover
 swiss
 sydney
 systems
