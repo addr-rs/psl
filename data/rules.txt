@@ -1167,6 +1167,7 @@ app.lmpm.com
 members.linode.com
 *.nodebalancer.linode.com
 *.linodeobjects.com
+ip.linodeusercontent.com
 barsycenter.com
 barsyonline.com
 mazeplay.com
@@ -1938,6 +1939,8 @@ cust.testing.thingdust.io
 reservd.dev.thingdust.io
 reservd.disrec.thingdust.io
 reservd.testing.thingdust.io
+tickets.io
+upli.io
 2038.io
 wedeploy.io
 editorx.io
@@ -8723,7 +8726,6 @@ pwc
 qpon
 quebec
 quest
-qvc
 racing
 radio
 raid
