@@ -17130,6 +17130,41 @@ fn lookup_305_0(acc: usize) -> Info {
     }
 }
 #[inline]
+fn lookup_305_1(acc: usize) -> Info {
+    Info {
+        len: acc + 1 + 3usize,
+        typ: Some(Type::Icann),
+    }
+}
+#[inline]
+fn lookup_305_2(acc: usize) -> Info {
+    Info {
+        len: acc + 1 + 3usize,
+        typ: Some(Type::Icann),
+    }
+}
+#[inline]
+fn lookup_305_3(acc: usize) -> Info {
+    Info {
+        len: acc + 1 + 3usize,
+        typ: Some(Type::Icann),
+    }
+}
+#[inline]
+fn lookup_305_4(acc: usize) -> Info {
+    Info {
+        len: acc + 1 + 4usize,
+        typ: Some(Type::Icann),
+    }
+}
+#[inline]
+fn lookup_305_5(acc: usize) -> Info {
+    Info {
+        len: acc + 1 + 3usize,
+        typ: Some(Type::Icann),
+    }
+}
+#[inline]
 fn lookup_305<'a, T>(mut labels: T) -> Info
 where
     T: Iterator<Item = &'a [u8]>,
@@ -17142,6 +17177,11 @@ where
     match labels.next() {
         Some(label) => match label {
             [98, 108, 111, 103, 115, 112, 111, 116] => lookup_305_0(acc),
+            [99, 111, 109] => lookup_305_1(acc),
+            [101, 100, 117] => lookup_305_2(acc),
+            [105, 110, 116] => lookup_305_3(acc),
+            [110, 111, 109, 101] => lookup_305_4(acc),
+            [111, 114, 103] => lookup_305_5(acc),
             _ => info,
         },
         None => info,

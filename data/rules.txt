@@ -1317,6 +1317,11 @@ net.cu
 gov.cu
 inf.cu
 cv
+com.cv
+edu.cv
+int.cv
+nome.cv
+org.cv
 blogspot.cv
 cw
 com.cw
