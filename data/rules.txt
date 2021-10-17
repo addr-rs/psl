@@ -889,6 +889,7 @@ s3-website.eu-central-1.amazonaws.com
 s3-website.eu-west-2.amazonaws.com
 s3-website.eu-west-3.amazonaws.com
 s3-website.us-east-2.amazonaws.com
+siiites.com
 appspacehosted.com
 appspaceusercontent.com
 on-aptible.com
@@ -5333,6 +5334,8 @@ user.srcf.net
 supabase.net
 dsmynas.net
 familyds.net
+beta.tailscale.net
+ts.net
 torproject.net
 pages.torproject.net
 fastblog.net
@@ -8641,9 +8644,9 @@ omega
 one
 onred.one
 staging.onred.one
-service.one
 for.one
 under.one
+service.one
 homelink.one
 ong
 onl
