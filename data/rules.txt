@@ -911,7 +911,6 @@ uk.com
 us.com
 za.com
 ar.com
-gb.com
 hu.com
 kr.com
 no.com
