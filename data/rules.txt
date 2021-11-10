@@ -1114,6 +1114,7 @@ fastly-terrarium.com
 fastvps-server.com
 mydobiss.com
 firebaseapp.com
+fldrv.com
 forgeblocks.com
 framercanvas.com
 freebox-os.com
@@ -7853,6 +7854,7 @@ platform0.app
 ondigitalocean.app
 edgecompute.app
 fireweb.app
+onflashdrive.app
 framer.app
 run.app
 a.run.app
