@@ -5387,8 +5387,6 @@ nom.ni
 org.ni
 web.ni
 nl
-amsw.nl
-virtueeldomein.nl
 co.nl
 hosting-cluster.nl
 blogspot.nl
