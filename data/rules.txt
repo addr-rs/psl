@@ -804,7 +804,6 @@ leadpages.co
 lpages.co
 mypi.co
 n4t.co
-nodum.co
 repl.co
 id.repl.co
 supabase.co
@@ -1477,6 +1476,8 @@ edu.ec
 gov.ec
 gob.ec
 mil.ec
+base.ec
+official.ec
 edu
 git-pages.rit.edu
 ee
@@ -1907,7 +1908,6 @@ barsy.io
 *.azurecontainer.io
 ngrok.io
 stage.nodeart.io
-nodum.io
 nid.io
 pantheonsite.io
 dyn53.io
@@ -1934,6 +1934,7 @@ apps.lair.io
 spacekit.io
 utwente.io
 *.s5y.io
+edugit.io
 telebit.io
 cust.dev.thingdust.io
 cust.disrec.thingdust.io
@@ -4198,6 +4199,12 @@ uenohara.yamanashi.jp
 yamanakako.yamanashi.jp
 yamanashi.yamanashi.jp
 user.aseinet.ne.jp
+buyshop.jp
+fashionstore.jp
+handcrafted.jp
+kawaiishop.jp
+supersale.jp
+theshop.jp
 gehirn.ne.jp
 usercontent.jp
 blogspot.jp
@@ -5174,6 +5181,7 @@ appudo.net
 cdn.prod.atlassian-dev.net
 myfritz.net
 onavstack.net
+shopselect.net
 blackbaudcdn.net
 boomla.net
 bplaced.net
@@ -6362,7 +6370,7 @@ spdns.org
 small-web.org
 dsmynas.org
 familyds.org
-edugit.org
+s3.teckids.org
 tuxfamily.org
 diskstation.org
 hk.org
@@ -7813,7 +7821,6 @@ ads
 adult
 aeg
 aetna
-afamilycompany
 afl
 africa
 agakhan
@@ -8176,7 +8183,6 @@ download
 drive
 dtv
 dubai
-duck
 dunlop
 dupont
 durban
@@ -8208,6 +8214,7 @@ eurovision
 eus
 user.party.eus
 events
+koobin.events
 co.events
 exchange
 expert
@@ -8297,7 +8304,6 @@ gift
 gifts
 gives
 giving
-glade
 glass
 gle
 global
@@ -8629,7 +8635,6 @@ ntt
 nyc
 obi
 observer
-off
 office
 okinawa
 olayan
@@ -8732,7 +8737,6 @@ quebec
 quest
 racing
 radio
-raid
 read
 realestate
 realtor
@@ -8814,7 +8818,6 @@ schule
 schwarz
 science
 ybo.science
-scjohnson
 scot
 edu.scot
 gov.scot
@@ -8842,6 +8845,8 @@ shia
 shiksha
 shoes
 shop
+base.shop
+hoplix.shop
 barsy.shop
 shopping
 shouji
