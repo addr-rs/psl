@@ -1183,6 +1183,7 @@ sphinx.mythic-beasts.com
 vs.mythic-beasts.com
 x.mythic-beasts.com
 yali.mythic-beasts.com
+cloud.nospamproxy.com
 4u.com
 nfshost.com
 001www.com
@@ -1281,6 +1282,7 @@ reservd.com
 thingdustdata.com
 bloxcms.com
 townnews-staging.com
+pro.typeform.com
 hk.com
 wafflecell.com
 idnblogger.com
