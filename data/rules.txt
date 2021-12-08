@@ -8039,6 +8039,7 @@ clothing
 cloud
 *.banzai.cloud
 elementor.cloud
+eu.encoway.cloud
 *.statics.cloud
 es-1.axarnet.cloud
 diadem.cloud
