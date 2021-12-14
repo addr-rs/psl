@@ -8041,6 +8041,7 @@ cloud
 elementor.cloud
 eu.encoway.cloud
 *.statics.cloud
+ravendb.cloud
 es-1.axarnet.cloud
 diadem.cloud
 vip.jelastic.cloud
