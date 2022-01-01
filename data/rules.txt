@@ -8510,7 +8510,6 @@ lipsy
 live
 hlx.live
 living
-lixil
 llc
 llp
 loan
