@@ -1278,6 +1278,7 @@ api.stdlib.com
 temp-dns.com
 dsmynas.com
 familyds.com
+site.tb-hosting.com
 reservd.com
 thingdustdata.com
 bloxcms.com
@@ -4313,11 +4314,10 @@ ind.kw
 net.kw
 org.kw
 ky
-edu.ky
-gov.ky
 com.ky
-org.ky
+edu.ky
 net.ky
+org.ky
 kz
 org.kz
 edu.kz
@@ -8672,6 +8672,7 @@ nerdpol.ovh
 page
 hlx.page
 hlx3.page
+codeberg.page
 pdns.page
 plesk.page
 prvcy.page
