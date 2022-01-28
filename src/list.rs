@@ -79308,12 +79308,19 @@ fn lookup_1229_4(acc: usize) -> Info {
 #[inline]
 fn lookup_1229_5_0(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 10usize,
+        len: acc + 1 + 3usize,
         typ: Some(Type::Private),
     }
 }
 #[inline]
 fn lookup_1229_5_1(acc: usize) -> Info {
+    Info {
+        len: acc + 1 + 10usize,
+        typ: Some(Type::Private),
+    }
+}
+#[inline]
+fn lookup_1229_5_2(acc: usize) -> Info {
     Info {
         len: acc + 1 + 7usize,
         typ: Some(Type::Private),
@@ -79331,8 +79338,9 @@ where
     };
     match labels.next() {
         Some(label) => match label {
-            [104, 111, 109, 101, 111, 102, 102, 105, 99, 101] => lookup_1229_5_0(acc),
-            [115, 101, 114, 118, 105, 99, 101] => lookup_1229_5_1(acc),
+            [97, 112, 105] => lookup_1229_5_0(acc),
+            [104, 111, 109, 101, 111, 102, 102, 105, 99, 101] => lookup_1229_5_1(acc),
+            [115, 101, 114, 118, 105, 99, 101] => lookup_1229_5_2(acc),
             _ => info,
         },
         None => info,
