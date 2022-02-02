@@ -7315,6 +7315,13 @@ vm.bytemark.co.uk
 conn.uk
 copro.uk
 hosp.uk
+independent-commission.uk
+independent-inquest.uk
+independent-inquiry.uk
+independent-panel.uk
+independent-review.uk
+public-inquiry.uk
+royal-commission.uk
 service.gov.uk
 api.gov.uk
 pymnt.uk
