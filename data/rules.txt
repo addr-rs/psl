@@ -8125,7 +8125,6 @@ crown
 crs
 cruise
 cruises
-csc
 cuisinella
 cymru
 cyou
