@@ -1340,10 +1340,9 @@ com.cy
 ekloges.cy
 gov.cy
 ltd.cy
-name.cy
+mil.cy
 net.cy
 org.cy
-parliament.cy
 press.cy
 pro.cy
 tm.cy
