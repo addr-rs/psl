@@ -935,6 +935,8 @@ builtwithdark.com
 demo.datadetect.com
 instance.datadetect.com
 ddns5.com
+discordsays.com
+discordsez.com
 drayddns.com
 dreamhosters.com
 mydrobo.com
@@ -8679,6 +8681,7 @@ nerdpol.ovh
 page
 hlx.page
 hlx3.page
+translated.page
 codeberg.page
 pdns.page
 plesk.page
@@ -8797,6 +8800,7 @@ development.run
 ravendb.run
 servers.run
 *.code.run
+onporter.run
 repl.run
 rwe
 ryukyu
