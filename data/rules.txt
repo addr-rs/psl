@@ -1544,6 +1544,7 @@ iki.fi
 fi.cloudplatform.fi
 demo.datacenter.fi
 paas.datacenter.fi
+kapsi.fi
 myspreadshop.fi
 fj
 ac.fj
