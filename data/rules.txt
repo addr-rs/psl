@@ -1295,6 +1295,7 @@ reserve-online.com
 hotelwithflight.com
 remotewd.com
 pages.wiardweb.com
+messwithdns.com
 woltlab-demo.com
 wpenginepowered.com
 js.wpenginepowered.com
@@ -8687,6 +8688,7 @@ codeberg.page
 pdns.page
 plesk.page
 prvcy.page
+rocky.page
 magnet.page
 panasonic
 paris
