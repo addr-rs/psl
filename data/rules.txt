@@ -1162,6 +1162,7 @@ jed.wafaicloud.com
 lon.wafaicloud.com
 ryd.wafaicloud.com
 *.cns.joyent.com
+ktistory.com
 lpusercontent.com
 app.lmpm.com
 members.linode.com
@@ -1290,8 +1291,6 @@ pro.typeform.com
 hk.com
 *.vultrobjects.com
 wafflecell.com
-idnblogger.com
-indowapblog.com
 reserve-online.com
 hotelwithflight.com
 remotewd.com
@@ -1808,8 +1807,6 @@ web.id
 flap.id
 blogspot.co.id
 forte.id
-bloger.id
-wblog.id
 ie
 gov.ie
 blogspot.ie
@@ -4583,7 +4580,6 @@ myds.me
 synology.me
 tbits.me
 site.transip.me
-wbq.me
 wedeploy.me
 yombo.me
 nohost.me
@@ -5456,7 +5452,6 @@ beta.tailscale.net
 ts.net
 torproject.net
 pages.torproject.net
-fastblog.net
 reserve-online.net
 community-pro.net
 meinforum.net
