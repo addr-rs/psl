@@ -8905,7 +8905,10 @@ hs.run
 development.run
 ravendb.run
 servers.run
+*.build.run
 *.code.run
+*.database.run
+*.migration.run
 onporter.run
 repl.run
 rwe
