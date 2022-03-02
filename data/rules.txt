@@ -4548,8 +4548,6 @@ c66.me
 daplie.me
 localhost.daplie.me
 edgestack.me
-couk.me
-ukco.me
 filegear.me
 filegear-au.me
 filegear-de.me
