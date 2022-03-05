@@ -1934,6 +1934,7 @@ sandcats.io
 shiftcrypto.io
 shiftedit.io
 mo-siemens.io
+musician.io
 apps.lair.io
 *.stolos.io
 spacekit.io
@@ -7971,6 +7972,7 @@ clerk.app
 clerkstage.app
 wnext.app
 platform0.app
+deta.app
 ondigitalocean.app
 edgecompute.app
 fireweb.app
@@ -7986,6 +7988,7 @@ netlify.app
 noop.app
 *.northflank.app
 telebit.app
+typedream.app
 vercel.app
 bookonline.app
 apple
@@ -8266,6 +8269,7 @@ workers.dev
 curv.dev
 deno.dev
 deno-staging.dev
+deta.dev
 fly.dev
 githubpreview.dev
 *.gateway.dev
