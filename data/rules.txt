@@ -811,6 +811,8 @@ com
 *.devcdnaccesso.com
 adobeaemcloud.com
 *.dev.adobeaemcloud.com
+airkitapps.com
+airkitapps-au.com
 aivencloud.com
 kasserver.com
 *.compute.amazonaws.com
@@ -1102,6 +1104,7 @@ ooguy.com
 theworkpc.com
 mytuleap.com
 tuleap-partners.com
+encoreapi.com
 eu-1.evennode.com
 eu-2.evennode.com
 eu-3.evennode.com
@@ -1528,6 +1531,7 @@ name.et
 info.et
 net.et
 eu
+airkitapps.eu
 mycd.eu
 cloudns.eu
 jelastic.dogado.eu
@@ -7975,6 +7979,7 @@ wnext.app
 platform0.app
 deta.app
 ondigitalocean.app
+encr.app
 edgecompute.app
 fireweb.app
 onflashdrive.app
