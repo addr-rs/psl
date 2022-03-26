@@ -8280,6 +8280,7 @@ fly.dev
 githubpreview.dev
 *.gateway.dev
 iserv.dev
+*.user.localcert.dev
 loginline.dev
 mediatech.dev
 platter-app.dev
