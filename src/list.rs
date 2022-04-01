@@ -11169,10 +11169,24 @@ fn lookup_261_30(acc: usize) -> Info {
     }
 }
 #[inline]
-fn lookup_261_31(acc: usize) -> Info {
+fn lookup_261_31_0(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 2usize,
-        typ: Some(Type::Icann),
+        len: acc + 1 + 6usize,
+        typ: Some(Type::Private),
+    }
+}
+#[inline]
+fn lookup_261_31<'a, T>(info: Info, mut labels: T, mut acc: usize) -> Info
+where
+    T: Iterator<Item = &'a [u8]>,
+{
+    acc += 1 + 12usize;
+    match labels.next() {
+        Some(label) => match label {
+            [100, 105, 114, 101, 99, 116] => lookup_261_31_0(acc),
+            _ => info,
+        },
+        None => info,
     }
 }
 #[inline]
@@ -11227,7 +11241,7 @@ fn lookup_261_38(acc: usize) -> Info {
 #[inline]
 fn lookup_261_39(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 10usize,
+        len: acc + 1 + 2usize,
         typ: Some(Type::Icann),
     }
 }
@@ -11248,7 +11262,7 @@ fn lookup_261_41(acc: usize) -> Info {
 #[inline]
 fn lookup_261_42(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 2usize,
+        len: acc + 1 + 10usize,
         typ: Some(Type::Icann),
     }
 }
@@ -11269,7 +11283,7 @@ fn lookup_261_44(acc: usize) -> Info {
 #[inline]
 fn lookup_261_45(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 6usize,
+        len: acc + 1 + 2usize,
         typ: Some(Type::Icann),
     }
 }
@@ -11282,6 +11296,13 @@ fn lookup_261_46(acc: usize) -> Info {
 }
 #[inline]
 fn lookup_261_47(acc: usize) -> Info {
+    Info {
+        len: acc + 1 + 6usize,
+        typ: Some(Type::Icann),
+    }
+}
+#[inline]
+fn lookup_261_48(acc: usize) -> Info {
     Info {
         len: acc + 1 + 6usize,
         typ: Some(Type::Icann),
@@ -11330,23 +11351,26 @@ where
             [110, 120] => lookup_261_28(acc),
             [111, 114, 103] => lookup_261_29(acc),
             [113, 104] => lookup_261_30(acc),
-            [115, 99] => lookup_261_31(acc),
-            [115, 100] => lookup_261_32(acc),
-            [115, 104] => lookup_261_33(acc),
-            [115, 110] => lookup_261_34(acc),
-            [115, 120] => lookup_261_35(acc),
-            [116, 106] => lookup_261_36(acc),
-            [116, 119] => lookup_261_37(acc),
-            [120, 106] => lookup_261_38(acc),
-            [120, 110, 45, 45, 53, 53, 113, 120, 53, 100] => lookup_261_39(acc),
-            [120, 110, 45, 45, 105, 111, 48, 97, 55, 105] => lookup_261_40(acc),
-            [120, 110, 45, 45, 111, 100, 48, 97, 108, 103] => lookup_261_41(acc),
-            [120, 122] => lookup_261_42(acc),
-            [121, 110] => lookup_261_43(acc),
-            [122, 106] => lookup_261_44(acc),
-            [229, 133, 172, 229, 143, 184] => lookup_261_45(acc),
-            [231, 182, 178, 231, 181, 161] => lookup_261_46(acc),
-            [231, 189, 145, 231, 187, 156] => lookup_261_47(acc),
+            [113, 117, 105, 99, 107, 99, 111, 110, 110, 101, 99, 116] => {
+                lookup_261_31(info, labels, acc)
+            }
+            [115, 99] => lookup_261_32(acc),
+            [115, 100] => lookup_261_33(acc),
+            [115, 104] => lookup_261_34(acc),
+            [115, 110] => lookup_261_35(acc),
+            [115, 120] => lookup_261_36(acc),
+            [116, 106] => lookup_261_37(acc),
+            [116, 119] => lookup_261_38(acc),
+            [120, 106] => lookup_261_39(acc),
+            [120, 110, 45, 45, 53, 53, 113, 120, 53, 100] => lookup_261_40(acc),
+            [120, 110, 45, 45, 105, 111, 48, 97, 55, 105] => lookup_261_41(acc),
+            [120, 110, 45, 45, 111, 100, 48, 97, 108, 103] => lookup_261_42(acc),
+            [120, 122] => lookup_261_43(acc),
+            [121, 110] => lookup_261_44(acc),
+            [122, 106] => lookup_261_45(acc),
+            [229, 133, 172, 229, 143, 184] => lookup_261_46(acc),
+            [231, 182, 178, 231, 181, 161] => lookup_261_47(acc),
+            [231, 189, 145, 231, 187, 156] => lookup_261_48(acc),
             _ => info,
         },
         None => info,

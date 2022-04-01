@@ -782,6 +782,7 @@ cn-northwest-1.eb.amazonaws.com.cn
 *.elb.amazonaws.com.cn
 s3.cn-north-1.amazonaws.com.cn
 instantcloud.cn
+direct.quickconnect.cn
 co
 arts.co
 com.co
