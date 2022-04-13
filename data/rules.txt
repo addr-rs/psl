@@ -5405,6 +5405,7 @@ azurewebsites.net
 azure-mobile.net
 cloudapp.net
 azurestaticapps.net
+1.azurestaticapps.net
 centralus.azurestaticapps.net
 eastasia.azurestaticapps.net
 eastus2.azurestaticapps.net
