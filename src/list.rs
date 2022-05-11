@@ -59203,40 +59203,47 @@ fn lookup_856_3(acc: usize) -> Info {
 #[inline]
 fn lookup_856_4(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 15usize,
+        len: acc + 1 + 3usize,
         typ: Some(Type::Private),
     }
 }
 #[inline]
 fn lookup_856_5(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 6usize,
+        len: acc + 1 + 15usize,
         typ: Some(Type::Private),
     }
 }
 #[inline]
 fn lookup_856_6(acc: usize) -> Info {
     Info {
+        len: acc + 1 + 6usize,
+        typ: Some(Type::Private),
+    }
+}
+#[inline]
+fn lookup_856_7(acc: usize) -> Info {
+    Info {
         len: acc + 1 + 12usize,
         typ: Some(Type::Private),
     }
 }
 #[inline]
-fn lookup_856_7_0(wild: &[u8], acc: usize) -> Info {
+fn lookup_856_8_0(wild: &[u8], acc: usize) -> Info {
     Info {
         len: acc + 1 + wild.len(),
         typ: Some(Type::Private),
     }
 }
 #[inline]
-fn lookup_856_7<'a, T>(info: Info, mut labels: T, mut acc: usize) -> Info
+fn lookup_856_8<'a, T>(info: Info, mut labels: T, mut acc: usize) -> Info
 where
     T: Iterator<Item = &'a [u8]>,
 {
     acc += 1 + 8usize;
     match labels.next() {
         Some(label) => match label {
-            wild => lookup_856_7_0(wild, acc),
+            wild => lookup_856_8_0(wild, acc),
         },
         None => info,
     }
@@ -59257,12 +59264,13 @@ where
             [99, 105, 115, 116, 114, 111, 110] => lookup_856_1(acc),
             [99, 111] => lookup_856_2(acc),
             [100, 101, 109, 111, 110] => lookup_856_3(acc),
+            [103, 111, 118] => lookup_856_4(acc),
             [104, 111, 115, 116, 105, 110, 103, 45, 99, 108, 117, 115, 116, 101, 114] => {
-                lookup_856_4(acc)
+                lookup_856_5(acc)
             }
-            [107, 104, 112, 108, 97, 121] => lookup_856_5(acc),
-            [109, 121, 115, 112, 114, 101, 97, 100, 115, 104, 111, 112] => lookup_856_6(acc),
-            [116, 114, 97, 110, 115, 117, 114, 108] => lookup_856_7(info, labels, acc),
+            [107, 104, 112, 108, 97, 121] => lookup_856_6(acc),
+            [109, 121, 115, 112, 114, 101, 97, 100, 115, 104, 111, 112] => lookup_856_7(acc),
+            [116, 114, 97, 110, 115, 117, 114, 108] => lookup_856_8(info, labels, acc),
             _ => info,
         },
         None => info,
