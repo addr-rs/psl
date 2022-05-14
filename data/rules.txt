@@ -1264,6 +1264,9 @@ rackmaze.com
 rhcloud.com
 app.render.com
 onrender.com
+builder.code.com
+dev-builder.code.com
+stg-builder.code.com
 logoip.com
 scrysec.com
 firewall-gateway.com
@@ -6771,6 +6774,7 @@ med.pl
 sopot.pl
 pm
 own.pm
+name.pm
 pn
 gov.pn
 co.pn
@@ -7172,6 +7176,7 @@ td
 blogspot.td
 tel
 tf
+sch.tf
 tg
 th
 ac.th
@@ -7779,6 +7784,8 @@ blog.vu
 dev.vu
 me.vu
 wf
+biz.wf
+sch.wf
 ws
 com.ws
 net.ws
