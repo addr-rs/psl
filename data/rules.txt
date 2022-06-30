@@ -1264,9 +1264,9 @@ rackmaze.com
 rhcloud.com
 app.render.com
 onrender.com
-builder.code.com
-dev-builder.code.com
-stg-builder.code.com
+*.builder.code.com
+*.dev-builder.code.com
+*.stg-builder.code.com
 logoip.com
 scrysec.com
 firewall-gateway.com
@@ -1403,7 +1403,9 @@ in-brb.de
 in-butter.de
 in-dsl.de
 in-vpn.de
+iservschule.de
 mein-iserv.de
+schulplattform.de
 schulserver.de
 test-iserv.de
 keymachine.de
@@ -2399,6 +2401,8 @@ vs.it
 vt.it
 vv.it
 blogspot.it
+ibxos.it
+iliadboxos.it
 jc.neen.it
 cloud.jelastic.open.tim.it
 16-b.it
@@ -4278,6 +4282,7 @@ kill.jp
 kilo.jp
 kuron.jp
 littlestar.jp
+lolipopmc.jp
 lolitapunk.jp
 lomo.jp
 lovepop.jp
@@ -8000,6 +8005,7 @@ a.run.app
 web.app
 hasura.app
 loginline.app
+messerli.app
 netlify.app
 *.developer.app
 noop.app
