@@ -25230,22 +25230,22 @@ fn lookup_595_0(acc: usize) -> Info {
 #[inline]
 fn lookup_595_1(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 5usize,
-        typ: Some(Type::Private),
+        len: acc + 1 + 2usize,
+        typ: Some(Type::Icann),
     }
 }
 #[inline]
 fn lookup_595_2(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 8usize,
-        typ: Some(Type::Private),
+        len: acc + 1 + 2usize,
+        typ: Some(Type::Icann),
     }
 }
 #[inline]
 fn lookup_595_3(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 7usize,
-        typ: Some(Type::Private),
+        len: acc + 1 + 2usize,
+        typ: Some(Type::Icann),
     }
 }
 #[inline]
@@ -25258,14 +25258,14 @@ fn lookup_595_4(acc: usize) -> Info {
 #[inline]
 fn lookup_595_5(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 3usize,
-        typ: Some(Type::Icann),
+        len: acc + 1 + 5usize,
+        typ: Some(Type::Private),
     }
 }
 #[inline]
 fn lookup_595_6(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 4usize,
+        len: acc + 1 + 5usize,
         typ: Some(Type::Icann),
     }
 }
@@ -25279,42 +25279,42 @@ fn lookup_595_7(acc: usize) -> Info {
 #[inline]
 fn lookup_595_8(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 3usize,
-        typ: Some(Type::Icann),
+        len: acc + 1 + 8usize,
+        typ: Some(Type::Private),
     }
 }
 #[inline]
 fn lookup_595_9(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 3usize,
+        len: acc + 1 + 8usize,
         typ: Some(Type::Icann),
     }
 }
 #[inline]
 fn lookup_595_10(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 3usize,
+        len: acc + 1 + 2usize,
         typ: Some(Type::Icann),
     }
 }
 #[inline]
 fn lookup_595_11(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 3usize,
-        typ: Some(Type::Icann),
+        len: acc + 1 + 7usize,
+        typ: Some(Type::Private),
     }
 }
 #[inline]
 fn lookup_595_12(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 3usize,
+        len: acc + 1 + 2usize,
         typ: Some(Type::Icann),
     }
 }
 #[inline]
 fn lookup_595_13(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 3usize,
+        len: acc + 1 + 2usize,
         typ: Some(Type::Icann),
     }
 }
@@ -25328,12 +25328,215 @@ fn lookup_595_14(acc: usize) -> Info {
 #[inline]
 fn lookup_595_15(acc: usize) -> Info {
     Info {
+        len: acc + 1 + 4usize,
+        typ: Some(Type::Icann),
+    }
+}
+#[inline]
+fn lookup_595_16(acc: usize) -> Info {
+    Info {
+        len: acc + 1 + 2usize,
+        typ: Some(Type::Icann),
+    }
+}
+#[inline]
+fn lookup_595_17(acc: usize) -> Info {
+    Info {
+        len: acc + 1 + 5usize,
+        typ: Some(Type::Icann),
+    }
+}
+#[inline]
+fn lookup_595_18(acc: usize) -> Info {
+    Info {
+        len: acc + 1 + 2usize,
+        typ: Some(Type::Icann),
+    }
+}
+#[inline]
+fn lookup_595_19(acc: usize) -> Info {
+    Info {
+        len: acc + 1 + 3usize,
+        typ: Some(Type::Icann),
+    }
+}
+#[inline]
+fn lookup_595_20(acc: usize) -> Info {
+    Info {
+        len: acc + 1 + 2usize,
+        typ: Some(Type::Icann),
+    }
+}
+#[inline]
+fn lookup_595_21(acc: usize) -> Info {
+    Info {
+        len: acc + 1 + 4usize,
+        typ: Some(Type::Icann),
+    }
+}
+#[inline]
+fn lookup_595_22(acc: usize) -> Info {
+    Info {
+        len: acc + 1 + 3usize,
+        typ: Some(Type::Icann),
+    }
+}
+#[inline]
+fn lookup_595_23(acc: usize) -> Info {
+    Info {
+        len: acc + 1 + 3usize,
+        typ: Some(Type::Icann),
+    }
+}
+#[inline]
+fn lookup_595_24(acc: usize) -> Info {
+    Info {
+        len: acc + 1 + 7usize,
+        typ: Some(Type::Icann),
+    }
+}
+#[inline]
+fn lookup_595_25(acc: usize) -> Info {
+    Info {
+        len: acc + 1 + 3usize,
+        typ: Some(Type::Icann),
+    }
+}
+#[inline]
+fn lookup_595_26(acc: usize) -> Info {
+    Info {
+        len: acc + 1 + 4usize,
+        typ: Some(Type::Icann),
+    }
+}
+#[inline]
+fn lookup_595_27(acc: usize) -> Info {
+    Info {
+        len: acc + 1 + 3usize,
+        typ: Some(Type::Icann),
+    }
+}
+#[inline]
+fn lookup_595_28(acc: usize) -> Info {
+    Info {
+        len: acc + 1 + 8usize,
+        typ: Some(Type::Icann),
+    }
+}
+#[inline]
+fn lookup_595_29(acc: usize) -> Info {
+    Info {
+        len: acc + 1 + 2usize,
+        typ: Some(Type::Icann),
+    }
+}
+#[inline]
+fn lookup_595_30(acc: usize) -> Info {
+    Info {
+        len: acc + 1 + 2usize,
+        typ: Some(Type::Icann),
+    }
+}
+#[inline]
+fn lookup_595_31(acc: usize) -> Info {
+    Info {
+        len: acc + 1 + 3usize,
+        typ: Some(Type::Icann),
+    }
+}
+#[inline]
+fn lookup_595_32(acc: usize) -> Info {
+    Info {
+        len: acc + 1 + 3usize,
+        typ: Some(Type::Icann),
+    }
+}
+#[inline]
+fn lookup_595_33(acc: usize) -> Info {
+    Info {
+        len: acc + 1 + 3usize,
+        typ: Some(Type::Icann),
+    }
+}
+#[inline]
+fn lookup_595_34(acc: usize) -> Info {
+    Info {
+        len: acc + 1 + 3usize,
+        typ: Some(Type::Icann),
+    }
+}
+#[inline]
+fn lookup_595_35(acc: usize) -> Info {
+    Info {
+        len: acc + 1 + 2usize,
+        typ: Some(Type::Icann),
+    }
+}
+#[inline]
+fn lookup_595_36(acc: usize) -> Info {
+    Info {
+        len: acc + 1 + 4usize,
+        typ: Some(Type::Icann),
+    }
+}
+#[inline]
+fn lookup_595_37(acc: usize) -> Info {
+    Info {
+        len: acc + 1 + 3usize,
+        typ: Some(Type::Icann),
+    }
+}
+#[inline]
+fn lookup_595_38(acc: usize) -> Info {
+    Info {
+        len: acc + 1 + 3usize,
+        typ: Some(Type::Icann),
+    }
+}
+#[inline]
+fn lookup_595_39(acc: usize) -> Info {
+    Info {
         len: acc + 1 + 8usize,
         typ: Some(Type::Private),
     }
 }
 #[inline]
-fn lookup_595_16(acc: usize) -> Info {
+fn lookup_595_40(acc: usize) -> Info {
+    Info {
+        len: acc + 1 + 6usize,
+        typ: Some(Type::Icann),
+    }
+}
+#[inline]
+fn lookup_595_41(acc: usize) -> Info {
+    Info {
+        len: acc + 1 + 2usize,
+        typ: Some(Type::Icann),
+    }
+}
+#[inline]
+fn lookup_595_42(acc: usize) -> Info {
+    Info {
+        len: acc + 1 + 2usize,
+        typ: Some(Type::Icann),
+    }
+}
+#[inline]
+fn lookup_595_43(acc: usize) -> Info {
+    Info {
+        len: acc + 1 + 2usize,
+        typ: Some(Type::Icann),
+    }
+}
+#[inline]
+fn lookup_595_44(acc: usize) -> Info {
+    Info {
+        len: acc + 1 + 2usize,
+        typ: Some(Type::Icann),
+    }
+}
+#[inline]
+fn lookup_595_45(acc: usize) -> Info {
     Info {
         len: acc + 1 + 3usize,
         typ: Some(Type::Private),
@@ -25351,23 +25554,52 @@ where
     };
     match labels.next() {
         Some(label) => match label {
-            [97, 99] => lookup_595_0(acc),
-            [98, 97, 114, 115, 121] => lookup_595_1(acc),
-            [98, 108, 111, 103, 115, 112, 111, 116] => lookup_595_2(acc),
-            [99, 108, 111, 117, 100, 110, 115] => lookup_595_3(acc),
-            [99, 111] => lookup_595_4(acc),
-            [101, 100, 117] => lookup_595_5(acc),
-            [102, 105, 114, 109] => lookup_595_6(acc),
-            [103, 101, 110] => lookup_595_7(acc),
-            [103, 111, 118] => lookup_595_8(acc),
-            [105, 110, 100] => lookup_595_9(acc),
-            [109, 105, 108] => lookup_595_10(acc),
-            [110, 101, 116] => lookup_595_11(acc),
-            [110, 105, 99] => lookup_595_12(acc),
-            [111, 114, 103] => lookup_595_13(acc),
-            [114, 101, 115] => lookup_595_14(acc),
-            [115, 117, 112, 97, 98, 97, 115, 101] => lookup_595_15(acc),
-            [119, 101, 98] => lookup_595_16(acc),
+            [53, 103] => lookup_595_0(acc),
+            [54, 103] => lookup_595_1(acc),
+            [97, 99] => lookup_595_2(acc),
+            [97, 105] => lookup_595_3(acc),
+            [97, 109] => lookup_595_4(acc),
+            [98, 97, 114, 115, 121] => lookup_595_5(acc),
+            [98, 105, 104, 97, 114] => lookup_595_6(acc),
+            [98, 105, 122] => lookup_595_7(acc),
+            [98, 108, 111, 103, 115, 112, 111, 116] => lookup_595_8(acc),
+            [98, 117, 115, 105, 110, 101, 115, 115] => lookup_595_9(acc),
+            [99, 97] => lookup_595_10(acc),
+            [99, 108, 111, 117, 100, 110, 115] => lookup_595_11(acc),
+            [99, 110] => lookup_595_12(acc),
+            [99, 111] => lookup_595_13(acc),
+            [99, 111, 109] => lookup_595_14(acc),
+            [99, 111, 111, 112] => lookup_595_15(acc),
+            [99, 115] => lookup_595_16(acc),
+            [100, 101, 108, 104, 105] => lookup_595_17(acc),
+            [100, 114] => lookup_595_18(acc),
+            [101, 100, 117] => lookup_595_19(acc),
+            [101, 114] => lookup_595_20(acc),
+            [102, 105, 114, 109] => lookup_595_21(acc),
+            [103, 101, 110] => lookup_595_22(acc),
+            [103, 111, 118] => lookup_595_23(acc),
+            [103, 117, 106, 97, 114, 97, 116] => lookup_595_24(acc),
+            [105, 110, 100] => lookup_595_25(acc),
+            [105, 110, 102, 111] => lookup_595_26(acc),
+            [105, 110, 116] => lookup_595_27(acc),
+            [105, 110, 116, 101, 114, 110, 101, 116] => lookup_595_28(acc),
+            [105, 111] => lookup_595_29(acc),
+            [109, 101] => lookup_595_30(acc),
+            [109, 105, 108] => lookup_595_31(acc),
+            [110, 101, 116] => lookup_595_32(acc),
+            [110, 105, 99] => lookup_595_33(acc),
+            [111, 114, 103] => lookup_595_34(acc),
+            [112, 103] => lookup_595_35(acc),
+            [112, 111, 115, 116] => lookup_595_36(acc),
+            [112, 114, 111] => lookup_595_37(acc),
+            [114, 101, 115] => lookup_595_38(acc),
+            [115, 117, 112, 97, 98, 97, 115, 101] => lookup_595_39(acc),
+            [116, 114, 97, 118, 101, 108] => lookup_595_40(acc),
+            [116, 118] => lookup_595_41(acc),
+            [117, 107] => lookup_595_42(acc),
+            [117, 112] => lookup_595_43(acc),
+            [117, 115] => lookup_595_44(acc),
+            [119, 101, 98] => lookup_595_45(acc),
             _ => info,
         },
         None => info,
