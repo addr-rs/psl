@@ -10,6 +10,10 @@ keywords = ["tld", "no_std", "tldextract", "domain", "publicsuffix"]
 authors = ["rushmorem <rushmore@webenchanter.com>"]
 edition = "2018"
 
+[features]
+default = ["helpers"]
+helpers = [ ]
+
 [dependencies]
 psl-types = "2.0.11"
 

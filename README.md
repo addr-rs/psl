@@ -29,29 +29,27 @@ psl = "2"
 ## Examples
 
 ```rust
-use psl::{Psl, List};
-
-let suffix = List.suffix(b"www.example.com")?;
+let suffix = psl::suffix(b"www.example.com")?;
 assert_eq!(suffix, "com");
 assert_eq!(suffix.typ(), Some(Type::Icann));
 
-let domain = List.domain(b"www.example.com")?;
+let domain = psl::domain(b"www.example.com")?;
 assert_eq!(domain, "example.com");
 assert_eq!(domain.suffix(), "com");
 
-let domain = List.domain("www.食狮.中国".as_bytes())?;
+let domain = psl::domain("www.食狮.中国".as_bytes())?;
 assert_eq!(domain, "食狮.中国");
 assert_eq!(domain.suffix(), "中国");
 
-let domain = List.domain(b"www.xn--85x722f.xn--55qx5d.cn")?;
+let domain = psl::domain(b"www.xn--85x722f.xn--55qx5d.cn")?;
 assert_eq!(domain, "xn--85x722f.xn--55qx5d.cn");
 assert_eq!(domain.suffix(), "xn--55qx5d.cn");
 
-let domain = List.domain(b"a.b.example.uk.com")?;
+let domain = psl::domain(b"a.b.example.uk.com")?;
 assert_eq!(domain, "example.uk.com");
 assert_eq!(domain.suffix(), "uk.com");
 
-let domain = List.domain(b"_tcp.example.com.")?;
+let domain = psl::domain(b"_tcp.example.com.")?;
 assert_eq!(domain, "example.com.");
 assert_eq!(domain.suffix(), "com.");
 ```
