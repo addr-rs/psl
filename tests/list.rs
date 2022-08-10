@@ -41,10 +41,7 @@ fn list_behaviour() {
                         Some("null") => "",
                         Some(res) => res,
                         None => {
-                            panic!(format!(
-                                "line {} of the test file doesn't seem to be valid",
-                                i
-                            ));
+                            panic!("line {} of the test file doesn't seem to be valid", i);
                         }
                     };
                     if !expected_tld(input) {
@@ -65,10 +62,7 @@ fn list_behaviour() {
                             (Some(root.to_string()), Some(suffix.to_string()))
                         }
                         None => {
-                            panic!(format!(
-                                "line {} of the test file doesn't seem to be valid",
-                                i
-                            ));
+                            panic!("line {} of the test file doesn't seem to be valid", i);
                         }
                     };
                     let (found_root, found_suffix) =
