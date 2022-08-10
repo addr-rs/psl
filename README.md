@@ -31,7 +31,7 @@ psl = "2"
 ```rust
 let suffix = psl::suffix(b"www.example.com")?;
 assert_eq!(suffix, "com");
-assert_eq!(suffix.typ(), Some(Type::Icann));
+assert_eq!(suffix.typ(), Some(psl::Type::Icann));
 
 let domain = psl::domain(b"www.example.com")?;
 assert_eq!(domain, "example.com");
