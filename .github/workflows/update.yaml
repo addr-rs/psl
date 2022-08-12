@@ -53,5 +53,5 @@ jobs:
                 git add data/rules.txt src/list.rs
                 git commit -m 'update the list'
                 cargo install --force --version 0.21.1 cargo-release
-                cargo release --execute --no-confirm --push-remote upstream --token ${{ secrets.CRATES_TOKEN }} patch
+                cargo release patch --execute --no-confirm --push-remote upstream --token ${{ secrets.CRATES_TOKEN }}
         fi
