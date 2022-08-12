@@ -1834,6 +1834,11 @@ org.il
 ravpage.co.il
 blogspot.co.il
 tabitorder.co.il
+ישראל
+אקדמיה.ישראל
+ישוב.ישראל
+צהל.ישראל
+ממשל.ישראל
 im
 ac.im
 co.im
