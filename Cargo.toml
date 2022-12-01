@@ -9,6 +9,7 @@ readme = "README.md"
 keywords = ["tld", "no_std", "tldextract", "domain", "publicsuffix"]
 authors = ["rushmorem <rushmore@webenchanter.com>"]
 edition = "2018"
+exclude = ["/tests"]
 
 [features]
 default = ["helpers"]
