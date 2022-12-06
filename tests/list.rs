@@ -1,7 +1,7 @@
 use std::fs::File;
 use std::io::prelude::*;
 use std::path::Path;
-use std::{env, mem, str};
+use std::{env, str};
 
 use psl::{List, Psl, Type};
 use rspec::report::ExampleResult;
@@ -208,11 +208,7 @@ fn list_behaviour() {
 //
 // This will leak memory but that's OK for our testing purposes
 fn msg(s: String) -> &'static str {
-    unsafe {
-        let ret = mem::transmute(&s as &str);
-        mem::forget(s);
-        ret
-    }
+    Box::leak(s.into_boxed_str())
 }
 
 fn val(s: &Option<String>) -> String {
