@@ -43,6 +43,8 @@ jobs:
       run: cargo make test
 
     - name: Publish
+      env:
+        CARGO_REGISTRY_TOKEN: ${{ secrets.CRATES_TOKEN }}
       shell: bash
       run: |
         if ! git diff --exit-code --quiet data/rules.txt; then
@@ -52,6 +54,6 @@ jobs:
                 git remote add upstream https://rushmorem:${{ secrets.GITHUB_TOKEN }}@github.com/addr-rs/psl.git
                 git add data/rules.txt src/list.rs
                 git commit -m 'update the list'
-                cargo install --force --version 0.24.0 cargo-release
-                cargo release patch --execute --no-confirm --push-remote upstream --token ${{ secrets.CRATES_TOKEN }}
+                cargo install --force --version 0.24.8 cargo-release
+                cargo release patch --execute --no-confirm --push-remote upstream
         fi
