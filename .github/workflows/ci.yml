@@ -14,7 +14,6 @@ jobs:
         uses: dtolnay/rust-toolchain@stable
         with:
           toolchain: 1.41.1
-          override: true
 
       - name: Run cargo check
         run: cargo check --all-features
@@ -30,7 +29,6 @@ jobs:
         uses: dtolnay/rust-toolchain@stable
         with:
           toolchain: stable
-          override: true
           components: rustfmt, clippy
 
       - name: Run cargo fmt
