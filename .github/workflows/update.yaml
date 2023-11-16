@@ -46,6 +46,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       shell: bash
       run: |
+        if ! git diff --exit-code --quiet data/rules.txt; then
                 cargo doc --all-features
                 git config --local user.email "actions@users.noreply.github.com"
                 git config --local user.name "github-actions[bot]"
@@ -57,3 +58,4 @@ jobs:
                 git add Cargo.toml
                 git commit -m 'bump version'
                 /home/runner/.cargo/bin/release-plz release --verbose
+        fi
