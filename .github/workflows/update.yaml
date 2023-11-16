@@ -54,8 +54,8 @@ jobs:
                 git add data/rules.txt src/list.rs
                 git commit -m 'update the list'
                 cargo install --force --version 0.3.30 release-plz
-                /home/runner/.cargo/bin/release-plz update --no-changelog --verbose
+                /home/runner/.cargo/bin/release-plz update --no-changelog
                 git add Cargo.toml
                 git commit -m 'bump version'
-                /home/runner/.cargo/bin/release-plz release --verbose
+                /home/runner/.cargo/bin/release-plz release
         fi
