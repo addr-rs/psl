@@ -52,6 +52,6 @@ jobs:
                 git remote add upstream https://rushmorem:${{ secrets.GITHUB_TOKEN }}@github.com/addr-rs/psl.git
                 git add data/rules.txt src/list.rs
                 git commit -m 'update the list'
-                cargo install --force --version 0.25.0 cargo-release
-                cargo release --execute --no-confirm --push-remote upstream patch
+                cargo install --force --version 0.3 release-plz
+                /home/runner/.cargo/bin/release-plz release
         fi
