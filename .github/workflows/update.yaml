@@ -50,13 +50,13 @@ jobs:
                 cargo doc --all-features
                 git config --local user.email "actions@users.noreply.github.com"
                 git config --local user.name "github-actions[bot]"
-                git remote remove origin
-                git remote add origin https://rushmorem:${{ secrets.GITHUB_TOKEN }}@github.com/addr-rs/psl.git
+                git remote add upstream https://rushmorem:${{ secrets.GITHUB_TOKEN }}@github.com/addr-rs/psl.git
                 git add data/rules.txt src/list.rs
                 git commit -m 'update the list'
                 cargo install --force --version 0.3.30 release-plz
                 /home/runner/.cargo/bin/release-plz update --no-changelog
                 git add Cargo.toml
                 git commit -m 'bump version'
+                git push upstream main
                 /home/runner/.cargo/bin/release-plz release
         fi
