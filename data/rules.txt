@@ -8598,7 +8598,6 @@ erni
 esq
 estate
 *.compute.estate
-etisalat
 eurovision
 eus
 user.party.eus
@@ -9496,7 +9495,6 @@ xin
 手机
 ارامكو
 العليان
-اتصالات
 بازار
 ابوظبي
 كاثوليك
