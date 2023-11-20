@@ -32,10 +32,10 @@ jobs:
         sudo apt install --yes gcc pkg-config libssl-dev
 
     - name: Install cargo play
-      run: cargo install cargo-play
+      run: cargo install --locked cargo-play
 
     - name: Install cargo make
-      run: cargo install cargo-make
+      run: cargo install --locked cargo-make
 
     - name: Download the list and run tests
       run: cargo make test
