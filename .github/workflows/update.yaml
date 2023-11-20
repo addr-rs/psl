@@ -23,7 +23,7 @@ jobs:
     - name: Install Rust toolchain
       uses: dtolnay/rust-toolchain@stable
       with:
-        toolchain: 1.72.0
+        toolchain: stable
         components: rustfmt
 
     - name: Install deps
@@ -53,7 +53,7 @@ jobs:
                 git remote add upstream https://rushmorem:${{ secrets.GITHUB_TOKEN }}@github.com/addr-rs/psl.git
                 git add data/rules.txt src/list.rs
                 git commit -m 'update the list'
-                cargo install --force --version 0.3.30 release-plz
+                cargo install --force --locked --version 0.3.30 release-plz
                 /home/runner/.cargo/bin/release-plz update --no-changelog
                 git add Cargo.toml
                 git commit -m 'bump version'
