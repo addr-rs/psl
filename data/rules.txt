@@ -8522,6 +8522,7 @@ delta
 democrat
 dental
 dentist
+desi
 design
 bss.design
 dev
@@ -9411,6 +9412,7 @@ webcam
 weber
 website
 framer.website
+wed
 wedding
 weibo
 weir
