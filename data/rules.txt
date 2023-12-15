@@ -9182,7 +9182,6 @@ save
 saxo
 sbi
 sbs
-sca
 scb
 schaeffler
 schmidt
