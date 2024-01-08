@@ -84675,13 +84675,6 @@ fn lookup_1198_5_1(acc: usize) -> Info {
 #[inline]
 fn lookup_1198_5_2(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 10usize,
-        typ: Some(Type::Private),
-    }
-}
-#[inline]
-fn lookup_1198_5_3(acc: usize) -> Info {
-    Info {
         len: acc + 1 + 7usize,
         typ: Some(Type::Private),
     }
@@ -84700,8 +84693,7 @@ where
         Some(label) => match label {
             [97, 112, 105] => lookup_1198_5_0(acc),
             [99, 97, 109, 112, 97, 105, 103, 110] => lookup_1198_5_1(acc),
-            [104, 111, 109, 101, 111, 102, 102, 105, 99, 101] => lookup_1198_5_2(acc),
-            [115, 101, 114, 118, 105, 99, 101] => lookup_1198_5_3(acc),
+            [115, 101, 114, 118, 105, 99, 101] => lookup_1198_5_2(acc),
             _ => info,
         },
         None => info,
