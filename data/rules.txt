@@ -8265,7 +8265,6 @@ azure
 baby
 baidu
 banamex
-bananarepublic
 band
 bank
 bar
@@ -9006,7 +9005,6 @@ office
 okinawa
 olayan
 olayangroup
-oldnavy
 ollo
 omega
 one
