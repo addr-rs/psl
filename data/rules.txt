@@ -1609,7 +1609,6 @@ us-2.evennode.com
 us-3.evennode.com
 us-4.evennode.com
 onfabrica.com
-apps.fbsbx.com
 fastly-edge.com
 fastly-terrarium.com
 fastvps-server.com
@@ -1669,6 +1668,8 @@ barsycenter.com
 barsyonline.com
 mazeplay.com
 miniserver.com
+atmeta.com
+apps.fbsbx.com
 meteorapp.com
 eu.meteorapp.com
 hostedpi.com
@@ -1766,6 +1767,7 @@ x0.com
 *.builder.code.com
 *.dev-builder.code.com
 *.stg-builder.code.com
+*.001.test.code-builder-stg.platform.salesforce.com
 logoip.com
 scrysec.com
 firewall-gateway.com
@@ -8883,6 +8885,7 @@ mypep.link
 *.dweb.link
 lipsy
 live
+aem.live
 hlx.live
 living
 llc
@@ -9031,6 +9034,7 @@ ott
 ovh
 nerdpol.ovh
 page
+aem.page
 hlx.page
 hlx3.page
 translated.page
