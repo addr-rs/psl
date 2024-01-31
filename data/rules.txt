@@ -1741,6 +1741,7 @@ pagefrontapp.com
 pagexl.com
 *.paywhirl.com
 gotpantheon.com
+upsunapp.com
 platter-app.com
 pleskns.com
 postman-echo.com
@@ -7127,7 +7128,6 @@ org.sh
 mil.sh
 bip.sh
 hashbang.sh
-bc.platform.sh
 ent.platform.sh
 eu.platform.sh
 us.platform.sh
@@ -8169,6 +8169,7 @@ ngrok-free.app
 *.developer.app
 noop.app
 *.northflank.app
+*.upsun.app
 snowflake.app
 privatelink.snowflake.app
 streamlit.app
