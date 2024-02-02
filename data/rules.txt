@@ -8157,8 +8157,7 @@ edgecompute.app
 fireweb.app
 onflashdrive.app
 framer.app
-run.app
-a.run.app
+*.run.app
 web.app
 hasura.app
 loginline.app
