@@ -879,6 +879,7 @@ execute-api.ap-southeast-2.amazonaws.com
 execute-api.ap-southeast-3.amazonaws.com
 execute-api.ap-southeast-4.amazonaws.com
 execute-api.ca-central-1.amazonaws.com
+execute-api.ca-west-1.amazonaws.com
 execute-api.eu-central-1.amazonaws.com
 execute-api.eu-central-2.amazonaws.com
 execute-api.eu-north-1.amazonaws.com
@@ -1101,6 +1102,16 @@ s3-accesspoint-fips.ca-central-1.amazonaws.com
 s3-fips.ca-central-1.amazonaws.com
 s3-object-lambda.ca-central-1.amazonaws.com
 s3-website.ca-central-1.amazonaws.com
+s3.dualstack.ca-west-1.amazonaws.com
+s3-accesspoint.dualstack.ca-west-1.amazonaws.com
+s3-accesspoint-fips.dualstack.ca-west-1.amazonaws.com
+s3-fips.dualstack.ca-west-1.amazonaws.com
+s3-website.dualstack.ca-west-1.amazonaws.com
+s3.ca-west-1.amazonaws.com
+s3-accesspoint.ca-west-1.amazonaws.com
+s3-accesspoint-fips.ca-west-1.amazonaws.com
+s3-fips.ca-west-1.amazonaws.com
+s3-website.ca-west-1.amazonaws.com
 s3.dualstack.eu-central-1.amazonaws.com
 s3-accesspoint.dualstack.eu-central-1.amazonaws.com
 s3-website.dualstack.eu-central-1.amazonaws.com
@@ -1337,6 +1348,8 @@ webview-assets.cloud9.eu-west-2.amazonaws.com
 webview-assets.aws-cloud9.eu-west-3.amazonaws.com
 vfs.cloud9.eu-west-3.amazonaws.com
 webview-assets.cloud9.eu-west-3.amazonaws.com
+webview-assets.aws-cloud9.il-central-1.amazonaws.com
+vfs.cloud9.il-central-1.amazonaws.com
 webview-assets.aws-cloud9.me-south-1.amazonaws.com
 vfs.cloud9.me-south-1.amazonaws.com
 webview-assets.cloud9.me-south-1.amazonaws.com
@@ -1620,6 +1633,7 @@ framercanvas.com
 freebox-os.com
 freeboxos.com
 freemyip.com
+aliases121.com
 gentapps.com
 gentlentapis.com
 githubusercontent.com
@@ -1672,6 +1686,7 @@ atmeta.com
 apps.fbsbx.com
 meteorapp.com
 eu.meteorapp.com
+*.cloudapp.azure.com
 hostedpi.com
 customer.mythic-beasts.com
 caracal.mythic-beasts.com
@@ -2445,6 +2460,7 @@ beagleboard.io
 bitbucket.io
 bluebite.io
 boxfuse.io
+*.s.brave.io
 browsersafetymark.io
 uk0.bigv.io
 cleverapps.io
@@ -2956,6 +2972,7 @@ vr.it
 vs.it
 vt.it
 vv.it
+12chars.it
 blogspot.it
 ibxos.it
 iliadboxos.it
@@ -4943,7 +4960,6 @@ com.kg
 edu.kg
 gov.kg
 mil.kg
-blog.kg
 io.kg
 jp.kg
 tv.kg
@@ -5474,9 +5490,11 @@ uni5.net
 krellian.net
 barsy.net
 memset.net
+azure-api.net
+azureedge.net
+azurefd.net
 azurewebsites.net
 azure-mobile.net
-cloudapp.net
 azurestaticapps.net
 1.azurestaticapps.net
 2.azurestaticapps.net
@@ -5490,6 +5508,10 @@ eastasia.azurestaticapps.net
 eastus2.azurestaticapps.net
 westeurope.azurestaticapps.net
 westus2.azurestaticapps.net
+cloudapp.net
+trafficmanager.net
+blob.core.windows.net
+servicebus.windows.net
 dnsup.net
 hicam.net
 now-dns.net
@@ -6898,6 +6920,7 @@ jur.pro
 law.pro
 med.pro
 recht.pro
+12chars.pro
 cloudns.pro
 bci.dnstrace.pro
 barsy.pro
@@ -8156,6 +8179,7 @@ encr.app
 edgecompute.app
 fireweb.app
 onflashdrive.app
+flutterflow.app
 framer.app
 *.run.app
 web.app
@@ -8211,6 +8235,9 @@ notebook.ap-southeast-2.sagemaker.aws
 notebook.ap-southeast-3.sagemaker.aws
 notebook.ap-southeast-4.sagemaker.aws
 notebook.ca-central-1.sagemaker.aws
+notebook-fips.ca-central-1.sagemaker.aws
+notebook.ca-west-1.sagemaker.aws
+notebook-fips.ca-west-1.sagemaker.aws
 notebook.eu-central-1.sagemaker.aws
 notebook.eu-central-2.sagemaker.aws
 notebook.eu-north-1.sagemaker.aws
@@ -8262,6 +8289,7 @@ studio.us-gov-west-1.sagemaker.aws
 studio-fips.us-gov-west-1.sagemaker.aws
 studio.us-west-1.sagemaker.aws
 studio.us-west-2.sagemaker.aws
+*.private.repost.aws
 axa
 azure
 baby
@@ -8526,6 +8554,8 @@ desi
 design
 bss.design
 dev
+12chars.dev
+panel.dev
 autocode.dev
 *.lcl.dev
 *.lclstage.dev
@@ -8674,6 +8704,7 @@ gallo
 gallup
 game
 games
+pley.games
 gap
 garden
 gay
@@ -9014,6 +9045,7 @@ omega
 one
 onred.one
 staging.onred.one
+*.kin.one
 service.one
 homelink.one
 ong
@@ -9103,6 +9135,8 @@ protection
 pru
 prudential
 pub
+*.id.pub
+*.kin.pub
 barsy.pub
 pwc
 qpon
