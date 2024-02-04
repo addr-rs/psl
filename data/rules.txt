@@ -860,6 +860,8 @@ repl.co
 id.repl.co
 supabase.co
 com
+a2hosted.com
+cpserver.com
 *.devcdnaccesso.com
 adobeaemcloud.com
 *.dev.adobeaemcloud.com
@@ -8482,6 +8484,7 @@ smartlabeling.scw.cloud
 trafficplex.cloud
 urown.cloud
 voorloper.cloud
+zap.cloud
 club
 cloudns.club
 jele.club
