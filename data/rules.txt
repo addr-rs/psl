@@ -1440,6 +1440,7 @@ trycloudflare.com
 *.oci.customer-oci.com
 *.ocp.customer-oci.com
 *.ocs.customer-oci.com
+cyclic-app.com
 dattolocal.com
 dattorelay.com
 dattoweb.com
@@ -2423,6 +2424,7 @@ up.in
 us.in
 web.in
 cloudns.in
+cyclic.co.in
 blogspot.in
 barsy.in
 supabase.in
@@ -8173,6 +8175,7 @@ app
 clerk.app
 clerkstage.app
 wnext.app
+cyclic.app
 platform0.app
 deta.app
 ondigitalocean.app
@@ -8427,6 +8430,7 @@ clinique
 clothing
 cloud
 *.banzai.cloud
+cyclic.cloud
 elementor.cloud
 eu.encoway.cloud
 *.statics.cloud
