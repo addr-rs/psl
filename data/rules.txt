@@ -8503,7 +8503,6 @@ codes
 coffee
 college
 cologne
-comcast
 commbank
 community
 nog.community
@@ -9480,7 +9479,6 @@ wtc
 wtf
 xbox
 xerox
-xfinity
 xihuan
 xin
 कॉम
