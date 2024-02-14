@@ -1436,6 +1436,7 @@ cloudcontrolapp.com
 cf-ipfs.com
 cloudflare-ipfs.com
 trycloudflare.com
+*.cprapid.com
 *.customer-oci.com
 *.oci.customer-oci.com
 *.ocp.customer-oci.com
