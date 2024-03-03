@@ -6,6 +6,8 @@ net.ac
 mil.ac
 org.ac
 drr.ac
+feedback.ac
+forms.ac
 ad
 nom.ad
 ae
@@ -1808,6 +1810,9 @@ stackhero-network.com
 playstation-cloud.com
 myspreadshop.com
 api.stdlib.com
+streak-link.com
+streaklinks.com
+streakusercontent.com
 temp-dns.com
 dsmynas.com
 familyds.com
@@ -1867,6 +1872,13 @@ cx
 gov.cx
 ath.cx
 info.cx
+assessments.cx
+calculators.cx
+funnels.cx
+paynow.cx
+quizzes.cx
+researched.cx
+tests.cx
 cy
 ac.cy
 biz.cy
@@ -2159,6 +2171,7 @@ net.gg
 org.gg
 kaas.gg
 cya.gg
+stackit.gg
 panel.gg
 daemon.panel.gg
 gh
@@ -2539,6 +2552,8 @@ reservd.testing.thingdust.io
 tickets.io
 upli.io
 2038.io
+webflow.io
+webflowtest.io
 wedeploy.io
 editorx.io
 wixstudio.io
@@ -5544,6 +5559,7 @@ cloudycluster.net
 bar0.net
 bar1.net
 bar2.net
+myradweb.net
 rackmaze.net
 squares.net
 schokokeks.net
@@ -5563,6 +5579,7 @@ dsmynas.net
 familyds.net
 beta.tailscale.net
 ts.net
+*.c.ts.net
 torproject.net
 pages.torproject.net
 reserve-online.net
@@ -6929,6 +6946,7 @@ recht.pro
 cloudns.pro
 bci.dnstrace.pro
 barsy.pro
+ngrok.pro
 ps
 edu.ps
 gov.ps
@@ -7163,6 +7181,7 @@ now.sh
 vxl.sh
 wedeploy.sh
 si
+f5.si
 gitapp.si
 gitpage.si
 blogspot.si
@@ -7193,6 +7212,7 @@ me.so
 net.so
 org.so
 sch.so
+surveys.so
 sr
 ss
 biz.ss
@@ -7832,6 +7852,7 @@ golffan.us
 noip.us
 pointto.us
 platterp.us
+servername.us
 lib.de.us
 uy
 com.uy
@@ -8172,6 +8193,7 @@ anz
 aol
 apartments
 app
+adaptable.app
 *.beget.app
 clerk.app
 clerkstage.app
@@ -8199,6 +8221,8 @@ ngrok-free.app
 noop.app
 *.northflank.app
 *.upsun.app
+replit.app
+id.replit.app
 snowflake.app
 privatelink.snowflake.app
 streamlit.app
@@ -8488,6 +8512,7 @@ s3.pl-waw.scw.cloud
 s3-website.pl-waw.scw.cloud
 scalebook.scw.cloud
 smartlabeling.scw.cloud
+runs.onstackit.cloud
 *.sensiosite.cloud
 trafficplex.cloud
 urown.cloud
@@ -8585,9 +8610,37 @@ iserv.dev
 *.user.localcert.dev
 loginline.dev
 mediatech.dev
+modx.dev
 ngrok.dev
 ngrok-free.dev
 platter-app.dev
+replit.dev
+archer.replit.dev
+bones.replit.dev
+canary.replit.dev
+global.replit.dev
+hacker.replit.dev
+id.replit.dev
+janeway.replit.dev
+kim.replit.dev
+kira.replit.dev
+kirk.replit.dev
+odo.replit.dev
+paris.replit.dev
+picard.replit.dev
+pike.replit.dev
+prerelease.replit.dev
+reed.replit.dev
+riker.replit.dev
+sisko.replit.dev
+spock.replit.dev
+staging.replit.dev
+sulu.replit.dev
+tarpit.replit.dev
+teams.replit.dev
+tucker.replit.dev
+wesley.replit.dev
+worf.replit.dev
 shiftcrypto.dev
 vercel.dev
 *.webhare.dev
@@ -8627,6 +8680,7 @@ edeka
 education
 co.education
 email
+on.crisp.email
 emerck
 energy
 engineer
@@ -8929,6 +8983,7 @@ lipsy
 live
 aem.live
 hlx.live
+*.ewp.live
 living
 llc
 llp
@@ -9188,6 +9243,7 @@ rip
 clan.rip
 rocks
 myddns.rocks
+stackit.rocks
 lima-city.rocks
 webspace.rocks
 rodeo
@@ -9207,6 +9263,7 @@ servers.run
 *.migration.run
 onporter.run
 repl.run
+stackit.run
 wix.run
 rwe
 ryukyu
@@ -9274,6 +9331,7 @@ sina
 singles
 site
 *.cloudera.site
+convex.site
 cyon.site
 fnwk.site
 folionetwork.site
@@ -9606,5 +9664,6 @@ zone
 cloud66.zone
 hs.zone
 *.triton.zone
+stackit.zone
 lima.zone
 zuerich
