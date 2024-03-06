@@ -832,6 +832,7 @@ cn-north-1.eb.amazonaws.com.cn
 cn-northwest-1.eb.amazonaws.com.cn
 *.elb.amazonaws.com.cn
 canva-apps.cn
+*.my.canvasite.cn
 instantcloud.cn
 direct.quickconnect.cn
 co
@@ -9330,6 +9331,7 @@ silk
 sina
 singles
 site
+*.my.canva.site
 *.cloudera.site
 convex.site
 cyon.site
