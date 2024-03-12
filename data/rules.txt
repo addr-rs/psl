@@ -8815,7 +8815,6 @@ gripe
 grocery
 group
 discourse.group
-guardian
 gucci
 guge
 guide
