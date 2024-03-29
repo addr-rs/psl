@@ -1693,7 +1693,7 @@ atmeta.com
 apps.fbsbx.com
 meteorapp.com
 eu.meteorapp.com
-*.cloudapp.azure.com
+cloudapp.azure.com
 hostedpi.com
 customer.mythic-beasts.com
 caracal.mythic-beasts.com
@@ -5177,6 +5177,7 @@ tm.mc
 asso.mc
 md
 blogspot.md
+ir.md
 at.md
 de.md
 jp.md
@@ -8588,6 +8589,7 @@ dental
 dentist
 desi
 design
+graphic.design
 bss.design
 dev
 12chars.dev
@@ -8977,6 +8979,7 @@ limo
 lincoln
 link
 cyon.link
+ipfs.nftstorage.link
 mypep.link
 *.dweb.link
 lipsy
