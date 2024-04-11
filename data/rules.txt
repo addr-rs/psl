@@ -124,6 +124,7 @@ com.ai
 net.ai
 org.ai
 uwu.ai
+framer.ai
 al
 com.al
 edu.al
@@ -177,6 +178,8 @@ as
 gov.as
 asia
 cloudns.asia
+daemon.asia
+dix.asia
 at
 ac.at
 co.at
@@ -285,6 +288,7 @@ tv.bb
 *.bd
 be
 ac.be
+cloudns.be
 webhosting.be
 blogspot.be
 cloud.interhostsolutions.be
@@ -668,6 +672,7 @@ org.bz
 edu.bz
 gov.bz
 za.bz
+mydns.bz
 gsj.bz
 ca
 ab.ca
@@ -709,6 +714,7 @@ blogspot.cf
 cg
 ch
 square7.ch
+cloudns.ch
 blogspot.ch
 alp1.ae.flow.ch
 appengine.flow.ch
@@ -748,6 +754,7 @@ co.cl
 gob.cl
 gov.cl
 mil.cl
+cloudns.cl
 blogspot.cl
 cm
 co.cm
@@ -857,6 +864,7 @@ leadpages.co
 lpages.co
 mypi.co
 n4t.co
+*.xmit.co
 firewalledreplit.co
 id.firewalledreplit.co
 repl.co
@@ -1439,6 +1447,8 @@ cloudcontrolapp.com
 cf-ipfs.com
 cloudflare-ipfs.com
 trycloudflare.com
+cdn77-storage.com
+dnsabr.com
 *.cprapid.com
 *.customer-oci.com
 *.oci.customer-oci.com
@@ -1655,6 +1665,7 @@ publishproxy.com
 withgoogle.com
 withyoutube.com
 blogspot.com
+grayjayleagues.com
 awsmppl.com
 herokuapp.com
 herokussl.com
@@ -1807,6 +1818,9 @@ alpha.bounty-full.com
 beta.bounty-full.com
 streamlitapp.com
 try-snowplow.com
+w-corp-staticblitz.com
+w-credentialless-staticblitz.com
+w-staticblitz.com
 stackhero-network.com
 playstation-cloud.com
 myspreadshop.com
@@ -1871,6 +1885,7 @@ net.cw
 org.cw
 cx
 gov.cx
+cloudns.cx
 ath.cx
 info.cx
 assessments.cx
@@ -1897,6 +1912,7 @@ blogspot.com.cy
 j.scaleforce.com.cy
 cz
 co.cz
+rsc.contentproxy9.cz
 realm.cz
 e4.cz
 blogspot.cz
@@ -2484,6 +2500,7 @@ browsersafetymark.io
 uk0.bigv.io
 cleverapps.io
 dyndns.dappnode.io
+darklang.io
 dedyn.io
 drud.io
 definima.io
@@ -2532,6 +2549,7 @@ resindevice.io
 devices.resinstaging.io
 hzc.io
 sandcats.io
+client.scrypted.io
 shiftcrypto.io
 shiftedit.io
 mo-siemens.io
@@ -4819,6 +4837,13 @@ handcrafted.jp
 kawaiishop.jp
 supersale.jp
 theshop.jp
+0am.jp
+0g0.jp
+0j0.jp
+0t0.jp
+mydns.jp
+pgw.jp
+wjg.jp
 gehirn.ne.jp
 usercontent.jp
 angry.jp
@@ -5203,7 +5228,6 @@ filegear-ie.me
 filegear-jp.me
 filegear-sg.me
 glitch.me
-ravendb.me
 lohmus.me
 barsy.me
 mcpe.me
@@ -5420,6 +5444,8 @@ clickrising.net
 cloudaccess.net
 cdn77-ssl.net
 r.cdn77.net
+dns-cloud.net
+dns-dynamic.net
 feste-ip.net
 knx-server.net
 static-access.net
@@ -5482,7 +5508,12 @@ b.ssl.fastly.net
 global.ssl.fastly.net
 edgeapp.net
 flynnhosting.net
+keyword-on.net
+live-on.net
+server-on.net
 cdn-edges.net
+localcert.net
+localhostcert.net
 heteml.net
 cloudfunctions.net
 moonscale.net
@@ -6434,6 +6465,7 @@ net.nz
 org.nz
 parliament.nz
 school.nz
+cloudns.nz
 blogspot.co.nz
 om
 co.om
@@ -6456,9 +6488,9 @@ sweetpepper.org
 ae.org
 us.org
 certmgr.org
+ssl.origin.cdn77-secure.org
 c.cdn77.org
 rsc.cdn77.org
-ssl.origin.cdn77-secure.org
 cloudns.org
 duckdns.org
 tunk.org
@@ -6605,6 +6637,7 @@ hopto.org
 myftp.org
 no-ip.org
 zapto.org
+is-local.org
 httpbin.org
 pubtls.org
 jpn.org
@@ -6657,6 +6690,7 @@ edu.ph
 ngo.ph
 mil.ph
 i.ph
+cloudns.ph
 pk
 com.pk
 net.pk
@@ -7000,6 +7034,7 @@ asso.re
 com.re
 nom.re
 blogspot.re
+can.re
 ro
 arts.ro
 com.ro
@@ -7070,7 +7105,6 @@ vps.mcdir.ru
 net.ru
 org.ru
 pp.ru
-123sait.ru
 lk3.ru
 ras.ru
 rw
@@ -7237,6 +7271,7 @@ org.st
 principe.st
 saotome.st
 store.st
+helioho.st
 kirara.st
 noho.st
 su
@@ -7454,6 +7489,7 @@ club.tw
 商業.tw
 mymailer.com.tw
 url.tw
+mydns.tw
 blogspot.tw
 tz
 ac.tz
@@ -7605,6 +7641,7 @@ barsyonline.co.uk
 barsy.uk
 cust.retrosnub.co.uk
 nh-serv.co.uk
+nimsite.uk
 no-ip.co.uk
 wellbeingzone.co.uk
 adimo.co.uk
@@ -7847,12 +7884,16 @@ drud.us
 is-by.us
 land-4-sale.us
 stuff-4-sale.us
+heliohost.us
 phx.enscaled.us
 mircloud.us
 freeddns.us
 golffan.us
 noip.us
 pointto.us
+srv.us
+gh.srv.us
+gl.srv.us
 platterp.us
 servername.us
 lib.de.us
@@ -7880,6 +7921,7 @@ edu.vc
 gv.vc
 d.gv.vc
 0e.vc
+mydns.vc
 ve
 arts.ve
 bib.ve
@@ -8200,6 +8242,8 @@ adaptable.app
 clerk.app
 clerkstage.app
 wnext.app
+csb.app
+preview.csb.app
 cyclic.app
 platform0.app
 deta.app
@@ -8225,8 +8269,8 @@ noop.app
 *.upsun.app
 replit.app
 id.replit.app
-snowflake.app
-privatelink.snowflake.app
+*.snowflake.app
+*.privatelink.snowflake.app
 streamlit.app
 storipress.app
 telebit.app
@@ -8405,6 +8449,7 @@ calvinklein
 cam
 camera
 camp
+at.emf.camp
 canon
 capetown
 capital
@@ -8516,6 +8561,7 @@ smartlabeling.scw.cloud
 runs.onstackit.cloud
 *.sensiosite.cloud
 trafficplex.cloud
+unison-services.cloud
 urown.cloud
 voorloper.cloud
 zap.cloud
@@ -8608,13 +8654,18 @@ deta.dev
 fly.dev
 githubpreview.dev
 *.gateway.dev
+is-a.dev
 iserv.dev
+runcontainers.dev
 *.user.localcert.dev
 loginline.dev
 mediatech.dev
 modx.dev
 ngrok.dev
 ngrok-free.dev
+is-cool.dev
+is-not-a.dev
+localplayer.dev
 platter-app.dev
 replit.dev
 archer.replit.dev
@@ -8977,6 +9028,7 @@ limited
 limo
 lincoln
 link
+myfritz.link
 cyon.link
 ipfs.nftstorage.link
 mypep.link
@@ -9449,6 +9501,7 @@ tools
 top
 now-dns.top
 ntdll.top
+*.wadl.top
 toray
 toshiba
 total
@@ -9534,6 +9587,7 @@ wme
 wolterskluwer
 woodside
 work
+corpnet.work
 works
 world
 wow
