@@ -714,6 +714,9 @@ blogspot.cf
 cg
 ch
 square7.ch
+cust.cloudscale.ch
+objects.lpg.cloudscale.ch
+objects.rma.cloudscale.ch
 cloudns.ch
 blogspot.ch
 alp1.ae.flow.ch
@@ -2328,6 +2331,7 @@ edu.ht
 rel.ht
 gouv.ht
 perso.ht
+rt.ht
 hu
 co.hu
 info.hu
