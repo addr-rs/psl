@@ -141,8 +141,6 @@ net.am
 org.am
 radio.am
 blogspot.am
-neko.am
-nyaa.am
 ao
 ed.ao
 gv.ao
@@ -244,14 +242,6 @@ myspreadshop.com.au
 aw
 com.aw
 ax
-be.ax
-cat.ax
-es.ax
-eu.ax
-gg.ax
-mc.ax
-us.ax
-xy.ax
 az
 com.az
 net.az
@@ -749,7 +739,6 @@ presse.ci
 md.ci
 gouv.ci
 fin.ci
-nl.ci
 *.ck
 !www.ck
 cl
@@ -1691,6 +1680,7 @@ paas.massivegrid.com
 jed.wafaicloud.com
 lon.wafaicloud.com
 ryd.wafaicloud.com
+webadorsite.com
 *.cns.joyent.com
 ktistory.com
 lpusercontent.com
@@ -2214,7 +2204,6 @@ edu.gl
 net.gl
 org.gl
 biz.gl
-xx.gl
 gm
 gn
 ac.gn
@@ -2231,7 +2220,6 @@ mobi.gp
 edu.gp
 org.gp
 asso.gp
-app.gp
 gq
 gr
 com.gr
@@ -2250,9 +2238,6 @@ ind.gt
 mil.gt
 net.gt
 org.gt
-blog.gt
-de.gt
-to.gt
 gu
 com.gu
 edu.gu
@@ -2270,7 +2255,6 @@ edu.gy
 gov.gy
 net.gy
 org.gy
-be.gy
 hk
 com.hk
 edu.hk
@@ -2305,7 +2289,6 @@ org.hn
 net.hn
 mil.hn
 gob.hn
-cc.hn
 hr
 iz.hr
 from.hr
@@ -5010,10 +4993,6 @@ com.kg
 edu.kg
 gov.kg
 mil.kg
-io.kg
-jp.kg
-tv.kg
-uk.kg
 us.kg
 *.kh
 ki
@@ -5167,7 +5146,6 @@ info.ls
 net.ls
 org.ls
 sc.ls
-de.ls
 lt
 gov.lt
 blogspot.lt
@@ -5207,10 +5185,6 @@ asso.mc
 md
 blogspot.md
 ir.md
-at.md
-de.md
-jp.md
-to.md
 me
 co.me
 net.me
@@ -5593,9 +5567,6 @@ sytes.net
 cloudycluster.net
 *.webpaas.ovh.net
 *.hosting.ovh.net
-bar0.net
-bar1.net
-bar2.net
 myradweb.net
 rackmaze.net
 squares.net
@@ -7218,7 +7189,6 @@ ent.platform.sh
 eu.platform.sh
 us.platform.sh
 now.sh
-vxl.sh
 wedeploy.sh
 si
 f5.si
@@ -7351,9 +7321,6 @@ co.sz
 ac.sz
 org.sz
 tc
-ch.tc
-me.tc
-we.tc
 td
 blogspot.td
 tel
@@ -7422,11 +7389,9 @@ edu.to
 mil.to
 611.to
 oya.to
-rdv.to
 x0.to
 vpnplus.to
 direct.quickconnect.to
-nyan.to
 tr
 av.tr
 bbs.tr
@@ -7948,7 +7913,6 @@ store.ve
 tec.ve
 web.ve
 vg
-at.vg
 vi
 co.vi
 com.vi
@@ -8041,9 +8005,6 @@ edu.vu
 net.vu
 org.vu
 cn.vu
-blog.vu
-dev.vu
-me.vu
 wf
 biz.wf
 sch.wf
@@ -9242,7 +9203,6 @@ pohl
 poker
 politie
 porn
-indie.porn
 pramerica
 praxi
 press
@@ -9396,6 +9356,7 @@ fnwk.site
 folionetwork.site
 fastvps.site
 jele.site
+jouwweb.site
 lelux.site
 loginline.site
 barsy.site
