@@ -833,6 +833,7 @@ cn-northwest-1.eb.amazonaws.com.cn
 canva-apps.cn
 *.my.canvasite.cn
 instantcloud.cn
+myqnapcloud.cn
 direct.quickconnect.cn
 co
 arts.co
@@ -1697,7 +1698,6 @@ atmeta.com
 apps.fbsbx.com
 meteorapp.com
 eu.meteorapp.com
-cloudapp.azure.com
 hostedpi.com
 customer.mythic-beasts.com
 caracal.mythic-beasts.com
@@ -1778,8 +1778,10 @@ qualifioapp.com
 ladesk.com
 qbuser.com
 qa2.com
-dev-myqnapcloud.com
 alpha-myqnapcloud.com
+dev-myqnapcloud.com
+mycloudnas.com
+mynascloud.com
 myqnapcloud.com
 *.quipelements.com
 rackmaze.com
