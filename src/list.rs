@@ -32726,35 +32726,56 @@ fn lookup_555_0(acc: usize) -> Info {
     }
 }
 #[inline]
-fn lookup_555_1(acc: usize) -> Info {
-    Info {
-        len: acc + 1 + 3usize,
-        typ: Some(Type::Icann),
-    }
-}
-#[inline]
-fn lookup_555_2(acc: usize) -> Info {
+fn lookup_555_1_0(acc: usize) -> Info {
     Info {
         len: acc + 1 + 4usize,
         typ: Some(Type::Private),
     }
 }
 #[inline]
+fn lookup_555_1<'a, T>(info: Info, mut labels: T, mut acc: usize) -> Info
+where
+    T: Iterator<Item = &'a [u8]>,
+{
+    acc += 1 + 7usize;
+    match labels.next() {
+        Some(label) => match label {
+            [115, 104, 111, 112] => lookup_555_1_0(acc),
+            _ => info,
+        },
+        None => info,
+    }
+}
+#[inline]
+fn lookup_555_2(acc: usize) -> Info {
+    Info {
+        len: acc + 1 + 3usize,
+        typ: Some(Type::Icann),
+    }
+}
+#[inline]
 fn lookup_555_3(acc: usize) -> Info {
+    Info {
+        len: acc + 1 + 4usize,
+        typ: Some(Type::Private),
+    }
+}
+#[inline]
+fn lookup_555_4(acc: usize) -> Info {
     Info {
         len: acc + 1 + 4usize,
         typ: Some(Type::Icann),
     }
 }
 #[inline]
-fn lookup_555_4(acc: usize) -> Info {
+fn lookup_555_5(acc: usize) -> Info {
     Info {
         len: acc + 1 + 2usize,
         typ: Some(Type::Icann),
     }
 }
 #[inline]
-fn lookup_555_5(acc: usize) -> Info {
+fn lookup_555_6(acc: usize) -> Info {
     Info {
         len: acc + 1 + 4usize,
         typ: Some(Type::Icann),
@@ -32773,11 +32794,12 @@ where
     match labels.next() {
         Some(label) => match label {
             [98, 108, 111, 103, 115, 112, 111, 116] => lookup_555_0(acc),
-            [99, 111, 109] => lookup_555_1(acc),
-            [102, 114, 101, 101] => lookup_555_2(acc),
-            [102, 114, 111, 109] => lookup_555_3(acc),
-            [105, 122] => lookup_555_4(acc),
-            [110, 97, 109, 101] => lookup_555_5(acc),
+            [98, 114, 101, 110, 100, 108, 121] => lookup_555_1(info, labels, acc),
+            [99, 111, 109] => lookup_555_2(acc),
+            [102, 114, 101, 101] => lookup_555_3(acc),
+            [102, 114, 111, 109] => lookup_555_4(acc),
+            [105, 122] => lookup_555_5(acc),
+            [110, 97, 109, 101] => lookup_555_6(acc),
             _ => info,
         },
         None => info,

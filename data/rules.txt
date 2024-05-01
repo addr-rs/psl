@@ -2296,6 +2296,7 @@ iz.hr
 from.hr
 name.hr
 com.hr
+shop.brendly.hr
 blogspot.hr
 free.hr
 ht
