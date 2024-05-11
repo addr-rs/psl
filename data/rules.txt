@@ -686,8 +686,10 @@ co.ca
 blogspot.ca
 no-ip.ca
 myspreadshop.ca
+box.ca
 cat
 cc
+cleverapps.cc
 cloudns.cc
 ftpaccess.cc
 game-server.cc
@@ -1462,6 +1464,7 @@ uy.com
 africa.com
 gr.com
 co.com
+*.services.clever-cloud.com
 jdevcloud.com
 wpdevcloud.com
 cloudcontrolled.com
@@ -8274,6 +8277,7 @@ telebit.app
 typedream.app
 vercel.app
 bookonline.app
+zeabur.app
 apple
 aquarelle
 arab
@@ -8539,6 +8543,7 @@ jotelulu.cloud
 kuleuven.cloud
 linkyard.cloud
 *.magentosite.cloud
+observablehq.cloud
 perspecta.cloud
 vapor.cloud
 *.on-rancher.cloud
@@ -9330,6 +9335,8 @@ servers.run
 onporter.run
 repl.run
 stackit.run
+express.val.run
+web.val.run
 wix.run
 rwe
 ryukyu
@@ -9409,6 +9416,7 @@ lelux.site
 loginline.site
 barsy.site
 mintere.site
+notion.site
 omniwe.site
 opensocial.site
 *.platformsh.site
@@ -9489,6 +9497,7 @@ team
 discourse.team
 jelastic.team
 tech
+cleverapps.tech
 technology
 co.technology
 temasek
