@@ -8250,11 +8250,14 @@ deta.app
 ondigitalocean.app
 easypanel.app
 encr.app
+expo.app
+staging.expo.app
 edgecompute.app
 fireweb.app
 onflashdrive.app
 flutterflow.app
 framer.app
+*.hosted.app
 *.run.app
 web.app
 hasura.app
