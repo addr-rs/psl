@@ -1872,11 +1872,12 @@ hotelwithflight.com
 reserve-online.com
 remotewd.com
 pages.wiardweb.com
+wixsite.com
+wixstudio.com
 messwithdns.com
 woltlab-demo.com
 wpenginepowered.com
 js.wpenginepowered.com
-wixsite.com
 xnbay.com
 u2.xnbay.com
 u2-local.xnbay.com
@@ -2533,6 +2534,7 @@ gitlab.io
 lolipop.io
 hasura-app.io
 hostyhosting.io
+hypernode.io
 *.moonscale.io
 paas.beebyte.io
 sekd1.beebyteapp.io
