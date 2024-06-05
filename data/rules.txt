@@ -5455,6 +5455,11 @@ uk.net
 in.net
 clickrising.net
 cloudaccess.net
+cdn.cloudflareanycast.net
+cdn.cloudflarecn.net
+cdn.cloudflareglobal.net
+cloudflare.net
+cdn.cloudflare.net
 r.cdn77.net
 cdn77-ssl.net
 dns-cloud.net
