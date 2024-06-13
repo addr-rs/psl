@@ -9439,6 +9439,7 @@ mintere.site
 notion.site
 omniwe.site
 opensocial.site
+madethis.site
 *.platformsh.site
 *.tst.site
 byen.site
