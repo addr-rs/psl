@@ -836,6 +836,7 @@ canva-apps.cn
 *.my.canvasite.cn
 instantcloud.cn
 myqnapcloud.cn
+as.sh.cn
 direct.quickconnect.cn
 co
 arts.co
@@ -9153,7 +9154,6 @@ mtr
 music
 nab
 nagoya
-natura
 navy
 nba
 nec
