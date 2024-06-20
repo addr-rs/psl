@@ -34471,18 +34471,11 @@ fn lookup_572_4(acc: usize) -> Info {
 fn lookup_572_5(acc: usize) -> Info {
     Info {
         len: acc + 1 + 2usize,
-        typ: Some(Type::Private),
-    }
-}
-#[inline]
-fn lookup_572_6(acc: usize) -> Info {
-    Info {
-        len: acc + 1 + 2usize,
         typ: Some(Type::Icann),
     }
 }
 #[inline]
-fn lookup_572_7(acc: usize) -> Info {
+fn lookup_572_6(acc: usize) -> Info {
     Info {
         len: acc + 1 + 2usize,
         typ: Some(Type::Icann),
@@ -34505,9 +34498,8 @@ where
             [99, 111, 109] => lookup_572_2(acc),
             [110, 101, 116] => lookup_572_3(acc),
             [111, 114, 103] => lookup_572_4(acc),
-            [114, 111] => lookup_572_5(acc),
-            [116, 116] => lookup_572_6(acc),
-            [116, 118] => lookup_572_7(acc),
+            [116, 116] => lookup_572_5(acc),
+            [116, 118] => lookup_572_6(acc),
             _ => info,
         },
         None => info,
@@ -91556,8 +91548,8 @@ fn lookup_1235() -> Info {
 #[inline]
 fn lookup_1236_0(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 2usize,
-        typ: Some(Type::Private),
+        len: acc + 1 + 3usize,
+        typ: Some(Type::Icann),
     }
 }
 #[inline]
@@ -91582,13 +91574,6 @@ fn lookup_1236_3(acc: usize) -> Info {
     }
 }
 #[inline]
-fn lookup_1236_4(acc: usize) -> Info {
-    Info {
-        len: acc + 1 + 3usize,
-        typ: Some(Type::Icann),
-    }
-}
-#[inline]
 fn lookup_1236<'a, T>(mut labels: T) -> Info
 where
     T: Iterator<Item = &'a [u8]>,
@@ -91600,11 +91585,10 @@ where
     };
     match labels.next() {
         Some(label) => match label {
-            [99, 110] => lookup_1236_0(acc),
-            [99, 111, 109] => lookup_1236_1(acc),
-            [101, 100, 117] => lookup_1236_2(acc),
-            [110, 101, 116] => lookup_1236_3(acc),
-            [111, 114, 103] => lookup_1236_4(acc),
+            [99, 111, 109] => lookup_1236_0(acc),
+            [101, 100, 117] => lookup_1236_1(acc),
+            [110, 101, 116] => lookup_1236_2(acc),
+            [111, 114, 103] => lookup_1236_3(acc),
             _ => info,
         },
         None => info,

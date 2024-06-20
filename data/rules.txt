@@ -2436,7 +2436,6 @@ org.im
 plc.co.im
 tt.im
 tv.im
-ro.im
 in
 5g.in
 6g.in
@@ -8051,7 +8050,6 @@ com.vu
 edu.vu
 net.vu
 org.vu
-cn.vu
 wf
 biz.wf
 sch.wf
