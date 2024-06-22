@@ -8274,6 +8274,7 @@ web.app
 hasura.app
 loginline.app
 messerli.app
+netfy.app
 netlify.app
 ngrok.app
 ngrok-free.app
@@ -8727,6 +8728,14 @@ teams.replit.dev
 tucker.replit.dev
 wesley.replit.dev
 worf.replit.dev
+*.d.crm.dev
+*.w.crm.dev
+*.wa.crm.dev
+*.wb.crm.dev
+*.wc.crm.dev
+*.wd.crm.dev
+*.we.crm.dev
+*.wf.crm.dev
 shiftcrypto.dev
 vercel.dev
 *.webhare.dev
@@ -8946,6 +8955,7 @@ wpmudev.host
 jele.host
 mircloud.host
 pcloud.host
+wp2.host
 half.host
 hosting
 opencraft.hosting
@@ -9203,6 +9213,7 @@ staging.onred.one
 service.one
 homelink.one
 ong
+obl.ong
 onl
 online
 eero.online
@@ -9443,6 +9454,7 @@ madethis.site
 byen.site
 srht.site
 novecore.site
+wpsquared.site
 ski
 skin
 sky
