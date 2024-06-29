@@ -834,7 +834,6 @@ cn-northwest-1.eb.amazonaws.com.cn
 *.elb.amazonaws.com.cn
 canva-apps.cn
 *.my.canvasite.cn
-instantcloud.cn
 myqnapcloud.cn
 as.sh.cn
 direct.quickconnect.cn
@@ -1475,7 +1474,6 @@ cloudflare-ipfs.com
 trycloudflare.com
 cdn77-storage.com
 dnsabr.com
-*.cprapid.com
 *.customer-oci.com
 *.oci.customer-oci.com
 *.ocp.customer-oci.com
@@ -1493,6 +1491,7 @@ discordsays.com
 discordsez.com
 drayddns.com
 dreamhosters.com
+durumis.com
 mydrobo.com
 blogdns.com
 cechire.com
@@ -1801,7 +1800,6 @@ pagexl.com
 gotpantheon.com
 upsunapp.com
 platter-app.com
-pleskns.com
 postman-echo.com
 xen.prgmr.com
 pythonanywhere.com
@@ -1873,6 +1871,8 @@ it.com
 wafflecell.com
 hotelwithflight.com
 reserve-online.com
+cprapid.com
+pleskns.com
 remotewd.com
 pages.wiardweb.com
 wixsite.com
@@ -9240,10 +9240,10 @@ hlx3.page
 translated.page
 codeberg.page
 prvcy.page
-pdns.page
-plesk.page
 rocky.page
 magnet.page
+pdns.page
+plesk.page
 panasonic
 paris
 pars
