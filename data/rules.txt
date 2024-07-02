@@ -1692,6 +1692,8 @@ withgoogle.com
 withyoutube.com
 grayjayleagues.com
 awsmppl.com
+hatenablog.com
+hatenadiary.com
 herokuapp.com
 herokussl.com
 impertrix.com
@@ -2568,7 +2570,6 @@ site.rb-hosting.io
 qcx.io
 *.sys.qcx.io
 vaporcloud.io
-g.vbrplsbx.io
 *.on-k3s.io
 *.on-rio.io
 readthedocs.io
@@ -4979,6 +4980,9 @@ weblike.jp
 whitesnow.jp
 zombie.jp
 blogspot.jp
+hateblo.jp
+hatenablog.jp
+hatenadiary.jp
 2-d.jp
 bona.jp
 crap.jp
@@ -5235,6 +5239,7 @@ gov.me
 its.me
 priv.me
 c66.me
+craft.me
 daplie.me
 localhost.daplie.me
 edgestack.me
@@ -6635,6 +6640,7 @@ cloud.fedoraproject.org
 app.os.fedoraproject.org
 app.os.stg.fedoraproject.org
 freedesktop.org
+hatenadiary.org
 hepforge.org
 in-dsl.org
 in-vpn.org
@@ -6938,6 +6944,7 @@ zgorzelec.pl
 beep.pl
 ecommerce-shop.pl
 bielsko.pl
+cfolks.pl
 shoparena.pl
 homesklep.pl
 sdscloud.pl
