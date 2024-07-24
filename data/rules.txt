@@ -1491,7 +1491,6 @@ dnsabr.com
 *.oci.customer-oci.com
 *.ocp.customer-oci.com
 *.ocs.customer-oci.com
-cyclic-app.com
 dattolocal.com
 dattorelay.com
 dattoweb.com
@@ -1709,8 +1708,6 @@ hatenablog.com
 hatenadiary.com
 herokuapp.com
 herokussl.com
-impertrix.com
-impertrixcdn.com
 smushcdn.com
 wphostedmail.com
 wpmucdn.com
@@ -2232,7 +2229,6 @@ co.gg
 net.gg
 org.gg
 kaas.gg
-cya.gg
 stackit.gg
 panel.gg
 daemon.panel.gg
@@ -2495,7 +2491,6 @@ up.in
 us.in
 web.in
 cloudns.in
-cyclic.co.in
 blogspot.in
 barsy.in
 supabase.in
@@ -2571,7 +2566,6 @@ jp.ngrok.io
 sa.ngrok.io
 us.ngrok.io
 stage.nodeart.io
-nid.io
 pantheonsite.io
 dyn53.io
 pstmn.io
@@ -5153,7 +5147,6 @@ per.la
 com.la
 org.la
 bnr.la
-c.la
 lb
 com.lb
 edu.lb
@@ -5257,12 +5250,6 @@ daplie.me
 localhost.daplie.me
 edgestack.me
 filegear.me
-filegear-au.me
-filegear-de.me
-filegear-gb.me
-filegear-ie.me
-filegear-jp.me
-filegear-sg.me
 glitch.me
 lohmus.me
 barsy.me
@@ -8278,7 +8265,6 @@ clerkstage.app
 wnext.app
 csb.app
 preview.csb.app
-cyclic.app
 platform0.app
 deta.app
 ondigitalocean.app
@@ -8289,7 +8275,6 @@ expo.app
 staging.expo.app
 edgecompute.app
 fireweb.app
-onflashdrive.app
 flutterflow.app
 framer.app
 *.hosted.app
@@ -8556,7 +8541,6 @@ clinique
 clothing
 cloud
 *.banzai.cloud
-cyclic.cloud
 elementor.cloud
 eu.encoway.cloud
 *.statics.cloud
@@ -8614,6 +8598,7 @@ s3.pl-waw.scw.cloud
 s3-website.pl-waw.scw.cloud
 scalebook.scw.cloud
 smartlabeling.scw.cloud
+servebolt.cloud
 runs.onstackit.cloud
 *.sensiosite.cloud
 trafficplex.cloud
