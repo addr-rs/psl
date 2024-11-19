@@ -9,7 +9,6 @@ drr.ac
 feedback.ac
 forms.ac
 ad
-nom.ad
 ae
 co.ae
 net.ae
@@ -216,7 +215,6 @@ edu.au
 gov.au
 asn.au
 id.au
-info.au
 conf.au
 oz.au
 act.au
@@ -2646,12 +2644,6 @@ sch.ir
 ايران.ir
 arvanedge.ir
 is
-net.is
-com.is
-edu.is
-gov.is
-org.is
-int.is
 blogspot.is
 it
 gov.it
@@ -9249,6 +9241,7 @@ hlx.page
 hlx3.page
 translated.page
 codeberg.page
+heyflow.page
 prvcy.page
 rocky.page
 pdns.page
@@ -9445,6 +9438,7 @@ cyon.site
 fnwk.site
 folionetwork.site
 fastvps.site
+heyflow.site
 jele.site
 jouwweb.site
 lelux.site
