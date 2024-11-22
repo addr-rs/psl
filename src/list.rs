@@ -29380,7 +29380,7 @@ where
 #[inline]
 fn lookup_334_0(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 3usize,
+        len: acc + 1 + 2usize,
         typ: Some(Type::Icann),
     }
 }
@@ -29413,6 +29413,13 @@ fn lookup_334_4(acc: usize) -> Info {
     }
 }
 #[inline]
+fn lookup_334_5(acc: usize) -> Info {
+    Info {
+        len: acc + 1 + 3usize,
+        typ: Some(Type::Icann),
+    }
+}
+#[inline]
 fn lookup_334<'a, T>(mut labels: T) -> Info
 where
     T: Iterator<Item = &'a [u8]>,
@@ -29424,11 +29431,12 @@ where
     };
     match labels.next() {
         Some(label) => match label {
-            [99, 111, 109] => lookup_334_0(acc),
-            [101, 100, 117] => lookup_334_1(acc),
-            [103, 111, 118] => lookup_334_2(acc),
-            [110, 101, 116] => lookup_334_3(acc),
-            [111, 114, 103] => lookup_334_4(acc),
+            [99, 111] => lookup_334_0(acc),
+            [99, 111, 109] => lookup_334_1(acc),
+            [101, 100, 117] => lookup_334_2(acc),
+            [103, 111, 118] => lookup_334_3(acc),
+            [110, 101, 116] => lookup_334_4(acc),
+            [111, 114, 103] => lookup_334_5(acc),
             _ => info,
         },
         None => info,
@@ -61047,13 +61055,6 @@ fn lookup_750_7(acc: usize) -> Info {
     }
 }
 #[inline]
-fn lookup_750_8(acc: usize) -> Info {
-    Info {
-        len: acc + 1 + 2usize,
-        typ: Some(Type::Icann),
-    }
-}
-#[inline]
 fn lookup_750<'a, T>(mut labels: T) -> Info
 where
     T: Iterator<Item = &'a [u8]>,
@@ -61073,7 +61074,6 @@ where
             [110, 111, 109] => lookup_750_5(acc),
             [111, 114, 103] => lookup_750_6(acc),
             [112, 114, 100] => lookup_750_7(acc),
-            [116, 109] => lookup_750_8(acc),
             _ => info,
         },
         None => info,
