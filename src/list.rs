@@ -32071,7 +32071,7 @@ fn lookup_460_5(acc: usize) -> Info {
 #[inline]
 fn lookup_460_6(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 3usize,
+        len: acc + 1 + 6usize,
         typ: Some(Type::Icann),
     }
 }
@@ -32090,10 +32090,10 @@ where
             [99, 111, 109] => lookup_460_0(acc),
             [101, 100, 117] => lookup_460_1(acc),
             [103, 111, 118] => lookup_460_2(acc),
-            [109, 105, 108] => lookup_460_3(acc),
-            [110, 101, 116] => lookup_460_4(acc),
-            [111, 114, 103] => lookup_460_5(acc),
-            [112, 118, 116] => lookup_460_6(acc),
+            [110, 101, 116] => lookup_460_3(acc),
+            [111, 114, 103] => lookup_460_4(acc),
+            [112, 118, 116] => lookup_460_5(acc),
+            [115, 99, 104, 111, 111, 108] => lookup_460_6(acc),
             _ => info,
         },
         None => info,

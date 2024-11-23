@@ -2225,10 +2225,10 @@ ge
 com.ge
 edu.ge
 gov.ge
-org.ge
-mil.ge
 net.ge
+org.ge
 pvt.ge
+school.ge
 gf
 gg
 co.gg
