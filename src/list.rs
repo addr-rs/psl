@@ -26848,14 +26848,14 @@ fn lookup_291_2(acc: usize) -> Info {
 #[inline]
 fn lookup_291_3(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 3usize,
+        len: acc + 1 + 2usize,
         typ: Some(Type::Icann),
     }
 }
 #[inline]
 fn lookup_291_4(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 4usize,
+        len: acc + 1 + 3usize,
         typ: Some(Type::Icann),
     }
 }
@@ -26863,6 +26863,27 @@ fn lookup_291_4(acc: usize) -> Info {
 fn lookup_291_5(acc: usize) -> Info {
     Info {
         len: acc + 1 + 3usize,
+        typ: Some(Type::Icann),
+    }
+}
+#[inline]
+fn lookup_291_6(acc: usize) -> Info {
+    Info {
+        len: acc + 1 + 4usize,
+        typ: Some(Type::Icann),
+    }
+}
+#[inline]
+fn lookup_291_7(acc: usize) -> Info {
+    Info {
+        len: acc + 1 + 3usize,
+        typ: Some(Type::Icann),
+    }
+}
+#[inline]
+fn lookup_291_8(acc: usize) -> Info {
+    Info {
+        len: acc + 1 + 4usize,
         typ: Some(Type::Icann),
     }
 }
@@ -26881,9 +26902,12 @@ where
             [98, 108, 111, 103, 115, 112, 111, 116] => lookup_291_0(acc),
             [99, 111, 109] => lookup_291_1(acc),
             [101, 100, 117] => lookup_291_2(acc),
-            [105, 110, 116] => lookup_291_3(acc),
-            [110, 111, 109, 101] => lookup_291_4(acc),
-            [111, 114, 103] => lookup_291_5(acc),
+            [105, 100] => lookup_291_3(acc),
+            [105, 110, 116] => lookup_291_4(acc),
+            [110, 101, 116] => lookup_291_5(acc),
+            [110, 111, 109, 101] => lookup_291_6(acc),
+            [111, 114, 103] => lookup_291_7(acc),
+            [112, 117, 98, 108] => lookup_291_8(acc),
             _ => info,
         },
         None => info,

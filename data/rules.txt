@@ -1921,9 +1921,12 @@ org.cu
 cv
 com.cv
 edu.cv
+id.cv
 int.cv
+net.cv
 nome.cv
 org.cv
+publ.cv
 blogspot.cv
 cw
 com.cw
