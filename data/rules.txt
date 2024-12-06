@@ -7941,7 +7941,7 @@ net.vc
 org.vc
 gv.vc
 d.gv.vc
-0e.vc
+*.0e.vc
 mydns.vc
 ve
 arts.ve
