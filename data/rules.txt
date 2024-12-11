@@ -7045,11 +7045,7 @@ publ.pt
 blogspot.pt
 123paginaweb.pt
 pw
-belau.pw
-co.pw
-ed.pw
-go.pw
-or.pw
+gov.pw
 cloudns.pw
 x443.pw
 py
@@ -7672,9 +7668,7 @@ raffleentry.org.uk
 weeklylottery.org.uk
 us
 dni.us
-fed.us
 isa.us
-kids.us
 nsn.us
 ak.us
 al.us
@@ -8254,13 +8248,13 @@ aol
 apartments
 app
 adaptable.app
+aiven.app
 *.beget.app
 clerk.app
 clerkstage.app
 wnext.app
 csb.app
 preview.csb.app
-platform0.app
 deta.app
 ondigitalocean.app
 easypanel.app
@@ -9434,8 +9428,6 @@ site
 *.cloudera.site
 convex.site
 cyon.site
-fnwk.site
-folionetwork.site
 fastvps.site
 heyflow.site
 jele.site
