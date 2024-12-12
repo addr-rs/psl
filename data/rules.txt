@@ -1705,7 +1705,6 @@ grayjayleagues.com
 hatenablog.com
 hatenadiary.com
 herokuapp.com
-herokussl.com
 gr.com
 smushcdn.com
 wphostedmail.com
@@ -2547,6 +2546,7 @@ net.io
 nom.io
 org.io
 *.on-acorn.io
+myaddr.io
 apigee.io
 b-data.io
 beagleboard.io
@@ -8670,6 +8670,7 @@ graphic.design
 bss.design
 dev
 12chars.dev
+myaddr.dev
 panel.dev
 *.lcl.dev
 *.lclstage.dev
@@ -9547,6 +9548,8 @@ today
 prequalifyme.today
 tokyo
 tools
+dyn.addr.tools
+myaddr.tools
 top
 now-dns.top
 ntdll.top
@@ -9600,7 +9603,6 @@ viva
 vivo
 vlaanderen
 vodka
-aaa.vodka
 volvo
 vote
 voting
