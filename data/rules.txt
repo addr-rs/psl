@@ -17,7 +17,6 @@ mil.ae
 net.ae
 org.ae
 sch.ae
-blogspot.ae
 aero
 airline.aero
 airport.aero
@@ -133,7 +132,6 @@ gov.al
 mil.al
 net.al
 org.al
-blogspot.al
 am
 co.am
 com.am
@@ -141,7 +139,6 @@ commune.am
 net.am
 org.am
 radio.am
-blogspot.am
 ao
 co.ao
 ed.ao
@@ -168,7 +165,6 @@ net.ar
 org.ar
 senasa.ar
 tur.ar
-blogspot.com.ar
 arpa
 e164.arpa
 home.arpa
@@ -197,7 +193,6 @@ futurehosting.at
 futuremailing.at
 *.ex.ortsinfo.at
 *.kunden.ortsinfo.at
-blogspot.co.at
 biz.at
 info.at
 123webseite.at
@@ -240,7 +235,6 @@ tas.gov.au
 vic.gov.au
 wa.gov.au
 schools.nsw.edu.au
-blogspot.com.au
 mel.cloudlets.com.au
 myspreadshop.com.au
 aw
@@ -248,6 +242,7 @@ com.aw
 ax
 az
 biz.az
+co.az
 com.az
 edu.az
 gov.az
@@ -266,7 +261,6 @@ gov.ba
 mil.ba
 net.ba
 org.ba
-blogspot.ba
 rs.ba
 bb
 biz.bb
@@ -284,7 +278,6 @@ be
 ac.be
 cloudns.be
 webhosting.be
-blogspot.be
 cloud.interhostsolutions.be
 ezproxy.kuleuven.be
 123website.be
@@ -329,7 +322,6 @@ w.bg
 x.bg
 y.bg
 z.bg
-blogspot.bg
 barsy.bg
 bh
 com.bh
@@ -381,7 +373,6 @@ restaurant.bj
 resto.bj
 tourism.bj
 univ.bj
-blogspot.bj
 bm
 com.bm
 edu.bm
@@ -608,7 +599,6 @@ vix.br
 vlog.br
 wiki.br
 zlg.br
-blogspot.com.br
 ac.leg.br
 al.leg.br
 am.leg.br
@@ -652,14 +642,16 @@ net.bt
 org.bt
 bv
 bw
+ac.bw
 co.bw
+gov.bw
+net.bw
 org.bw
 by
 gov.by
 mil.by
 com.by
 of.by
-blogspot.com.by
 mediatech.by
 bz
 co.bz
@@ -690,7 +682,6 @@ gc.ca
 barsy.ca
 *.awdev.ca
 co.ca
-blogspot.ca
 no-ip.ca
 myspreadshop.ca
 box.ca
@@ -709,7 +700,6 @@ instances.spawn.cc
 cd
 gov.cd
 cf
-blogspot.cf
 cg
 ch
 square7.ch
@@ -717,7 +707,6 @@ cloudns.ch
 cust.cloudscale.ch
 objects.lpg.cloudscale.ch
 objects.rma.cloudscale.ch
-blogspot.ch
 alp1.ae.flow.ch
 appengine.flow.ch
 linkyard-cloud.ch
@@ -754,7 +743,6 @@ gob.cl
 gov.cl
 mil.cl
 cloudns.cl
-blogspot.cl
 cm
 co.cm
 com.cm
@@ -853,7 +841,6 @@ org.co
 carrd.co
 crd.co
 *.otap.co
-blogspot.com.co
 leadpages.co
 lpages.co
 mypi.co
@@ -1927,7 +1914,6 @@ net.cv
 nome.cv
 org.cv
 publ.cv
-blogspot.cv
 cw
 com.cw
 edu.cw
@@ -1958,13 +1944,11 @@ org.cy
 press.cy
 pro.cy
 tm.cy
-blogspot.com.cy
 j.scaleforce.com.cy
 cz
 rsc.contentproxy9.cz
 realm.cz
 e4.cz
-blogspot.cz
 co.cz
 *.cloud.metacentrum.cz
 custom.metacentrum.cz
@@ -1996,7 +1980,6 @@ leitungsen.de
 traeumtgerade.de
 *.frusky.de
 goip.de
-blogspot.de
 günstigbestellen.de
 günstigliefern.de
 pages.it.hs-heilbronn.de
@@ -2057,7 +2040,6 @@ co.dk
 firm.dk
 reg.dk
 store.dk
-blogspot.dk
 123hjemmeside.dk
 myspreadshop.dk
 dm
@@ -2117,7 +2099,6 @@ med.ee
 org.ee
 pri.ee
 riik.ee
-blogspot.com.ee
 eg
 ac.eg
 com.eg
@@ -2133,7 +2114,6 @@ org.eg
 sci.eg
 sport.eg
 tv.eg
-blogspot.com.eg
 *.er
 es
 com.es
@@ -2141,7 +2121,6 @@ edu.es
 gob.es
 nom.es
 org.es
-blogspot.com.es
 123miweb.es
 myspreadshop.es
 et
@@ -2164,7 +2143,6 @@ diskstation.eu
 fi
 aland.fi
 dy.fi
-blogspot.fi
 häkkinen.fi
 iki.fi
 fi.cloudplatform.fi
@@ -2209,7 +2187,6 @@ fbx-os.fr
 fbxos.fr
 freebox-os.fr
 freeboxos.fr
-blogspot.fr
 goupile.fr
 123siteweb.fr
 on-web.fr
@@ -2292,7 +2269,6 @@ edu.gr
 gov.gr
 net.gr
 org.gr
-blogspot.gr
 barsy.gr
 simplesite.gr
 gs
@@ -2343,7 +2319,6 @@ org.hk
 组织.hk
 网絡.hk
 网络.hk
-blogspot.hk
 secaas.hk
 inc.hk
 ltd.hk
@@ -2361,7 +2336,6 @@ from.hr
 iz.hr
 name.hr
 shop.brendly.hr
-blogspot.hr
 free.hr
 ht
 adult.ht
@@ -2414,7 +2388,6 @@ tm.hu
 tozsde.hu
 utazas.hu
 video.hu
-blogspot.hu
 id
 ac.id
 biz.id
@@ -2429,10 +2402,8 @@ ponpes.id
 sch.id
 web.id
 rss.my.id
-blogspot.co.id
 ie
 gov.ie
-blogspot.ie
 myspreadshop.ie
 il
 ac.il
@@ -2443,7 +2414,6 @@ k12.il
 muni.il
 net.il
 org.il
-blogspot.co.il
 ravpage.co.il
 mytabit.co.il
 tabitorder.co.il
@@ -2505,7 +2475,6 @@ uk.in
 up.in
 us.in
 cloudns.in
-blogspot.in
 barsy.in
 web.in
 supabase.in
@@ -2606,7 +2575,6 @@ devices.resinstaging.io
 hzc.io
 sandcats.io
 client.scrypted.io
-shiftedit.io
 mo-siemens.io
 apps.lair.io
 *.stolos.io
@@ -2649,7 +2617,6 @@ sch.ir
 ايران.ir
 arvanedge.ir
 is
-blogspot.is
 it
 edu.it
 gov.it
@@ -3058,7 +3025,6 @@ vs.it
 vt.it
 vv.it
 12chars.it
-blogspot.it
 ibxos.it
 iliadboxos.it
 jc.neen.it
@@ -5002,7 +4968,6 @@ watson.jp
 weblike.jp
 whitesnow.jp
 zombie.jp
-blogspot.jp
 hateblo.jp
 hatenablog.jp
 hatenadiary.jp
@@ -5052,7 +5017,6 @@ mobi.ke
 ne.ke
 or.ke
 sc.ke
-blogspot.co.ke
 kg
 com.kg
 edu.kg
@@ -5130,7 +5094,6 @@ jeonbuk.kr
 jeonnam.kr
 seoul.kr
 ulsan.kr
-blogspot.kr
 kw
 com.kw
 edu.kw
@@ -5177,7 +5140,6 @@ net.lc
 org.lc
 oy.lc
 li
-blogspot.li
 caa.li
 lk
 ac.lk
@@ -5213,9 +5175,7 @@ org.ls
 sc.ls
 lt
 gov.lt
-blogspot.lt
 lu
-blogspot.lu
 123website.lu
 lv
 asn.lv
@@ -5248,7 +5208,6 @@ mc
 asso.mc
 tm.mc
 md
-blogspot.md
 ir.md
 me
 ac.me
@@ -5284,7 +5243,6 @@ i234.me
 myds.me
 synology.me
 site.transip.me
-yombo.me
 nohost.me
 mg
 co.mg
@@ -5305,7 +5263,6 @@ inf.mk
 name.mk
 net.mk
 org.mk
-blogspot.mk
 ml
 com.ml
 edu.ml
@@ -5347,7 +5304,6 @@ com.mt
 edu.mt
 net.mt
 org.mt
-blogspot.com.mt
 mu
 ac.mu
 co.mu
@@ -5389,7 +5345,6 @@ edu.mx
 gob.mx
 net.mx
 org.mx
-blogspot.mx
 my
 biz.my
 com.my
@@ -5399,7 +5354,6 @@ mil.my
 name.my
 net.my
 org.my
-blogspot.my
 mz
 ac.mz
 adv.mz
@@ -5670,7 +5624,6 @@ name.ng
 net.ng
 org.ng
 sch.ng
-blogspot.com.ng
 biz.ng
 co.biz.ng
 dl.biz.ng
@@ -5701,7 +5654,6 @@ web.ni
 nl
 co.nl
 hosting-cluster.nl
-blogspot.nl
 gov.nl
 khplay.nl
 123website.nl
@@ -6464,7 +6416,6 @@ voagat.no
 volda.no
 voss.no
 co.no
-blogspot.no
 123hjemmeside.no
 myspreadshop.no
 *.np
@@ -6499,7 +6450,6 @@ org.nz
 parliament.nz
 school.nz
 cloudns.nz
-blogspot.co.nz
 om
 co.om
 com.om
@@ -6705,7 +6655,6 @@ mil.pe
 net.pe
 nom.pe
 org.pe
-blogspot.pe
 pf
 com.pf
 edu.pf
@@ -7042,7 +6991,6 @@ net.pt
 nome.pt
 org.pt
 publ.pt
-blogspot.pt
 123paginaweb.pt
 pw
 gov.pw
@@ -7065,11 +7013,9 @@ name.qa
 net.qa
 org.qa
 sch.qa
-blogspot.qa
 re
 asso.re
 com.re
-blogspot.re
 netlib.re
 can.re
 ro
@@ -7086,7 +7032,6 @@ tm.ro
 www.ro
 co.ro
 shop.ro
-blogspot.ro
 barsy.ro
 rs
 ac.rs
@@ -7096,7 +7041,6 @@ gov.rs
 in.rs
 org.rs
 shop.brendly.rs
-blogspot.rs
 ua.rs
 barsy.rs
 ox.rs
@@ -7126,7 +7070,6 @@ pyatigorsk.ru
 spb.ru
 vladikavkaz.ru
 vladimir.ru
-blogspot.ru
 na4u.ru
 mircloud.ru
 myjino.ru
@@ -7222,7 +7165,6 @@ x.se
 y.se
 z.se
 com.se
-blogspot.se
 conf.se
 iopsys.se
 123minsida.se
@@ -7234,7 +7176,6 @@ edu.sg
 gov.sg
 net.sg
 org.sg
-blogspot.sg
 enscaled.sg
 sh
 com.sh
@@ -7251,10 +7192,8 @@ si
 f5.si
 gitapp.si
 gitpage.si
-blogspot.si
 sj
 sk
-blogspot.sk
 sl
 com.sl
 edu.sl
@@ -7270,7 +7209,6 @@ gouv.sn
 org.sn
 perso.sn
 univ.sn
-blogspot.sn
 so
 com.so
 edu.so
@@ -7379,7 +7317,6 @@ co.sz
 org.sz
 tc
 td
-blogspot.td
 tel
 tf
 sch.tf
@@ -7473,7 +7410,6 @@ tv.tr
 web.tr
 nc.tr
 gov.nc.tr
-blogspot.com.tr
 tt
 biz.tt
 co.tt
@@ -7507,7 +7443,6 @@ org.tw
 mymailer.com.tw
 url.tw
 mydns.tw
-blogspot.tw
 tz
 ac.tz
 co.tz
@@ -7619,7 +7554,6 @@ ne.ug
 or.ug
 org.ug
 sc.ug
-blogspot.ug
 uk
 ac.uk
 co.uk
@@ -7647,7 +7581,6 @@ independent-panel.uk
 independent-review.uk
 public-inquiry.uk
 royal-commission.uk
-blogspot.co.uk
 pymnt.uk
 j.layershift.co.uk
 glug.org.uk
@@ -7919,7 +7852,6 @@ gub.uy
 mil.uy
 net.uy
 org.uy
-blogspot.com.uy
 uz
 co.uz
 com.uz
@@ -8044,7 +7976,6 @@ tuyenquang.vn
 vinhlong.vn
 vinhphuc.vn
 yenbai.vn
-blogspot.vn
 vu
 com.vu
 edu.vu
@@ -8178,7 +8109,6 @@ org.za
 school.za
 tm.za
 web.za
-blogspot.co.za
 zm
 ac.zm
 biz.zm
@@ -9433,7 +9363,6 @@ fastvps.site
 heyflow.site
 jele.site
 jouwweb.site
-lelux.site
 loginline.site
 barsy.site
 notion.site
