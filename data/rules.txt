@@ -844,7 +844,6 @@ crd.co
 leadpages.co
 lpages.co
 mypi.co
-n4t.co
 *.xmit.co
 firewalledreplit.co
 id.firewalledreplit.co
@@ -1782,7 +1781,6 @@ servesarcasm.com
 stufftoread.com
 unusualperson.com
 workisboring.com
-001www.com
 myiphost.com
 static.observableusercontent.com
 simplesite.com
@@ -2319,7 +2317,6 @@ org.hk
 组织.hk
 网絡.hk
 网络.hk
-secaas.hk
 inc.hk
 ltd.hk
 hm
@@ -9480,7 +9477,6 @@ tools
 dyn.addr.tools
 myaddr.tools
 top
-now-dns.top
 ntdll.top
 *.wadl.top
 toray
