@@ -5294,7 +5294,6 @@ edu.ms
 gov.ms
 net.ms
 org.ms
-lab.ms
 minisite.ms
 mt
 com.mt
