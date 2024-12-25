@@ -1802,7 +1802,6 @@ pagexl.com
 gotpantheon.com
 *.paywhirl.com
 upsunapp.com
-platter-app.com
 postman-echo.com
 xen.prgmr.com
 pythonanywhere.com
@@ -2220,6 +2219,7 @@ gg
 co.gg
 net.gg
 org.gg
+botdash.gg
 kaas.gg
 stackit.gg
 panel.gg
@@ -2398,7 +2398,6 @@ or.id
 ponpes.id
 sch.id
 web.id
-rss.my.id
 ie
 gov.ie
 myspreadshop.ie
@@ -2527,7 +2526,6 @@ dyndns.dappnode.io
 darklang.io
 definima.io
 dedyn.io
-drud.io
 fh-muenster.io
 shw.io
 id.forgerock.io
@@ -2575,7 +2573,6 @@ client.scrypted.io
 mo-siemens.io
 apps.lair.io
 *.stolos.io
-spacekit.io
 musician.io
 utwente.io
 edugit.io
@@ -5493,6 +5490,7 @@ iobb.net
 moonscale.net
 in-dsl.net
 in-vpn.net
+botdash.net
 apps-1and1.net
 ipifony.net
 cloudjiffy.net
@@ -6676,7 +6674,6 @@ gkp.pk
 gob.pk
 gog.pk
 gok.pk
-gon.pk
 gop.pk
 gos.pk
 gov.pk
@@ -7180,6 +7177,7 @@ mil.sh
 net.sh
 org.sh
 hashbang.sh
+botda.sh
 ent.platform.sh
 eu.platform.sh
 us.platform.sh
@@ -7824,7 +7822,6 @@ tec.mi.us
 washtenaw.mi.us
 lib.de.us
 cloudns.us
-drud.us
 is-by.us
 land-4-sale.us
 stuff-4-sale.us
@@ -8196,6 +8193,7 @@ framer.app
 *.run.app
 web.app
 hasura.app
+botdash.app
 loginline.app
 medusajs.app
 messerli.app
@@ -8605,7 +8603,6 @@ panel.dev
 pages.dev
 r2.dev
 workers.dev
-curv.dev
 deno.dev
 deno-staging.dev
 deta.dev
@@ -8614,6 +8611,7 @@ fly.dev
 githubpreview.dev
 *.gateway.dev
 hrsn.dev
+botdash.dev
 is-a-good.dev
 is-a.dev
 iserv.dev
@@ -9386,7 +9384,6 @@ software
 sohu
 solar
 solutions
-diher.solutions
 song
 sony
 soy
@@ -9672,6 +9669,7 @@ vermögensberatung
 广东
 政务
 xyz
+botdash.xyz
 *.telebit.xyz
 yachts
 yahoo
