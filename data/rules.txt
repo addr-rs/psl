@@ -734,7 +734,6 @@ int.ci
 net.ci
 or.ci
 org.ci
-fin.ci
 *.ck
 !www.ck
 cl
@@ -2333,7 +2332,6 @@ from.hr
 iz.hr
 name.hr
 shop.brendly.hr
-free.hr
 ht
 adult.ht
 art.ht
@@ -5134,7 +5132,6 @@ net.lc
 org.lc
 oy.lc
 li
-caa.li
 lk
 ac.lk
 assn.lk
@@ -7034,7 +7031,6 @@ gov.rs
 in.rs
 org.rs
 shop.brendly.rs
-ua.rs
 barsy.rs
 ox.rs
 ru
@@ -7158,7 +7154,6 @@ x.se
 y.se
 z.se
 com.se
-conf.se
 iopsys.se
 123minsida.se
 itcouldbewor.se
