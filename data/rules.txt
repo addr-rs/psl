@@ -2520,6 +2520,7 @@ boxfuse.io
 browsersafetymark.io
 uk0.bigv.io
 cleverapps.io
+cloudbeesusercontent.io
 dyndns.dappnode.io
 darklang.io
 definima.io
@@ -8624,6 +8625,11 @@ is-not-a.dev
 localplayer.dev
 xmit.dev
 platter-app.dev
+sub.psl.hrsn.dev
+*.wc.psl.hrsn.dev
+!ignored.wc.psl.hrsn.dev
+*.sub.wc.psl.hrsn.dev
+!ignored.sub.wc.psl.hrsn.dev
 replit.dev
 archer.replit.dev
 bones.replit.dev
