@@ -7880,6 +7880,7 @@ store.ve
 tec.ve
 web.ve
 vg
+edu.vg
 vi
 co.vi
 com.vi
