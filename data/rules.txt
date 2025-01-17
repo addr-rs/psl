@@ -1820,6 +1820,7 @@ readthedocs-hosted.com
 rhcloud.com
 onrender.com
 app.render.com
+subsc-pay.com
 180r.com
 dojin.com
 sakuratan.com
@@ -5565,6 +5566,7 @@ cloudycluster.net
 rackmaze.net
 myradweb.net
 in.net
+subsc-pay.net
 squares.net
 schokokeks.net
 firewall-gateway.net
