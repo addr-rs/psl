@@ -61167,7 +61167,7 @@ where
 #[inline]
 fn lookup_760_0(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 3usize,
+        len: acc + 1 + 2usize,
         typ: Some(Type::Icann),
     }
 }
@@ -61202,12 +61202,54 @@ fn lookup_760_4(acc: usize) -> Info {
 #[inline]
 fn lookup_760_5(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 3usize,
+        len: acc + 1 + 4usize,
         typ: Some(Type::Icann),
     }
 }
 #[inline]
 fn lookup_760_6(acc: usize) -> Info {
+    Info {
+        len: acc + 1 + 3usize,
+        typ: Some(Type::Icann),
+    }
+}
+#[inline]
+fn lookup_760_7(acc: usize) -> Info {
+    Info {
+        len: acc + 1 + 4usize,
+        typ: Some(Type::Icann),
+    }
+}
+#[inline]
+fn lookup_760_8(acc: usize) -> Info {
+    Info {
+        len: acc + 1 + 4usize,
+        typ: Some(Type::Icann),
+    }
+}
+#[inline]
+fn lookup_760_9(acc: usize) -> Info {
+    Info {
+        len: acc + 1 + 3usize,
+        typ: Some(Type::Icann),
+    }
+}
+#[inline]
+fn lookup_760_10(acc: usize) -> Info {
+    Info {
+        len: acc + 1 + 3usize,
+        typ: Some(Type::Icann),
+    }
+}
+#[inline]
+fn lookup_760_11(acc: usize) -> Info {
+    Info {
+        len: acc + 1 + 2usize,
+        typ: Some(Type::Icann),
+    }
+}
+#[inline]
+fn lookup_760_12(acc: usize) -> Info {
     Info {
         len: acc + 1 + 6usize,
         typ: Some(Type::Icann),
@@ -61225,13 +61267,19 @@ where
     };
     match labels.next() {
         Some(label) => match label {
-            [99, 111, 109] => lookup_760_0(acc),
-            [101, 100, 117] => lookup_760_1(acc),
-            [103, 111, 117, 118] => lookup_760_2(acc),
-            [103, 111, 118] => lookup_760_3(acc),
-            [110, 101, 116] => lookup_760_4(acc),
-            [111, 114, 103] => lookup_760_5(acc),
-            [112, 114, 101, 115, 115, 101] => lookup_760_6(acc),
+            [97, 99] => lookup_760_0(acc),
+            [97, 114, 116] => lookup_760_1(acc),
+            [97, 115, 115, 111] => lookup_760_2(acc),
+            [99, 111, 109] => lookup_760_3(acc),
+            [101, 100, 117] => lookup_760_4(acc),
+            [103, 111, 117, 118] => lookup_760_5(acc),
+            [103, 111, 118] => lookup_760_6(acc),
+            [105, 110, 102, 111] => lookup_760_7(acc),
+            [105, 110, 115, 116] => lookup_760_8(acc),
+            [110, 101, 116] => lookup_760_9(acc),
+            [111, 114, 103] => lookup_760_10(acc),
+            [112, 114] => lookup_760_11(acc),
+            [112, 114, 101, 115, 115, 101] => lookup_760_12(acc),
             _ => info,
         },
         None => info,
