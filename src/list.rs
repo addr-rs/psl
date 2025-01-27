@@ -86780,7 +86780,7 @@ fn lookup_1190_2(acc: usize) -> Info {
 #[inline]
 fn lookup_1190_3(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 2usize,
+        len: acc + 1 + 3usize,
         typ: Some(Type::Icann),
     }
 }
@@ -86794,7 +86794,7 @@ fn lookup_1190_4(acc: usize) -> Info {
 #[inline]
 fn lookup_1190_5(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 2usize,
+        len: acc + 1 + 3usize,
         typ: Some(Type::Icann),
     }
 }
@@ -86807,6 +86807,34 @@ fn lookup_1190_6(acc: usize) -> Info {
 }
 #[inline]
 fn lookup_1190_7(acc: usize) -> Info {
+    Info {
+        len: acc + 1 + 2usize,
+        typ: Some(Type::Icann),
+    }
+}
+#[inline]
+fn lookup_1190_8(acc: usize) -> Info {
+    Info {
+        len: acc + 1 + 2usize,
+        typ: Some(Type::Icann),
+    }
+}
+#[inline]
+fn lookup_1190_9(acc: usize) -> Info {
+    Info {
+        len: acc + 1 + 3usize,
+        typ: Some(Type::Icann),
+    }
+}
+#[inline]
+fn lookup_1190_10(acc: usize) -> Info {
+    Info {
+        len: acc + 1 + 2usize,
+        typ: Some(Type::Icann),
+    }
+}
+#[inline]
+fn lookup_1190_11(acc: usize) -> Info {
     Info {
         len: acc + 1 + 2usize,
         typ: Some(Type::Icann),
@@ -86827,11 +86855,15 @@ where
             [97, 99] => lookup_1190_0(acc),
             [99, 111] => lookup_1190_1(acc),
             [99, 111, 109] => lookup_1190_2(acc),
-            [103, 111] => lookup_1190_3(acc),
-            [110, 101] => lookup_1190_4(acc),
-            [111, 114] => lookup_1190_5(acc),
-            [111, 114, 103] => lookup_1190_6(acc),
-            [115, 99] => lookup_1190_7(acc),
+            [101, 100, 117] => lookup_1190_3(acc),
+            [103, 111] => lookup_1190_4(acc),
+            [103, 111, 118] => lookup_1190_5(acc),
+            [109, 105, 108] => lookup_1190_6(acc),
+            [110, 101] => lookup_1190_7(acc),
+            [111, 114] => lookup_1190_8(acc),
+            [111, 114, 103] => lookup_1190_9(acc),
+            [115, 99] => lookup_1190_10(acc),
+            [117, 115] => lookup_1190_11(acc),
             _ => info,
         },
         None => info,
