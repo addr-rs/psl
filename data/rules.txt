@@ -118,6 +118,7 @@ com.ag
 net.ag
 nom.ag
 org.ag
+obj.ag
 ai
 com.ai
 net.ai
@@ -1714,6 +1715,7 @@ members.linode.com
 *.nodebalancer.linode.com
 *.linodeobjects.com
 ip.linodeusercontent.com
+localtonet.com
 barsycenter.com
 barsyonline.com
 modelscape.com
@@ -2517,6 +2519,7 @@ beagleboard.io
 bitbucket.io
 bluebite.io
 boxfuse.io
+brave.io
 *.s.brave.io
 browsersafetymark.io
 uk0.bigv.io
@@ -5519,6 +5522,7 @@ krellian.net
 ggff.net
 localcert.net
 localhostcert.net
+*.localto.net
 barsy.net
 memset.net
 azure-api.net
@@ -8182,6 +8186,8 @@ app
 adaptable.app
 aiven.app
 *.beget.app
+brave.app
+*.s.brave.app
 clerk.app
 clerkstage.app
 wnext.app
