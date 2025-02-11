@@ -8507,6 +8507,7 @@ ch.trendhosting.cloud
 de.trendhosting.cloud
 jotelulu.cloud
 kuleuven.cloud
+laravel.cloud
 linkyard.cloud
 *.magentosite.cloud
 matlab.cloud
