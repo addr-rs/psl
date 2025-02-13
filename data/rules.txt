@@ -2523,6 +2523,8 @@ boxfuse.io
 brave.io
 *.s.brave.io
 browsersafetymark.io
+cdn.bubble.io
+bubbleapps.io
 uk0.bigv.io
 cleverapps.io
 cloudbeesusercontent.io
