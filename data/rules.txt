@@ -1717,6 +1717,7 @@ members.linode.com
 *.linodeobjects.com
 ip.linodeusercontent.com
 localtonet.com
+lovableproject.com
 barsycenter.com
 barsyonline.com
 modelscape.com
@@ -8213,6 +8214,7 @@ web.app
 hasura.app
 botdash.app
 loginline.app
+lovable.app
 medusajs.app
 messerli.app
 netfy.app
