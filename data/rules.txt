@@ -7885,6 +7885,7 @@ co.ve
 com.ve
 e12.ve
 edu.ve
+emprende.ve
 firm.ve
 gob.ve
 gov.ve
@@ -9387,6 +9388,7 @@ silk
 sina
 singles
 site
+square.site
 *.my.canva.site
 *.cloudera.site
 convex.site
