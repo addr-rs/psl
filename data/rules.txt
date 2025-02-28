@@ -2401,6 +2401,7 @@ or.id
 ponpes.id
 sch.id
 web.id
+zone.id
 ie
 gov.ie
 myspreadshop.ie
@@ -8239,6 +8240,7 @@ vercel.app
 bookonline.app
 wdh.app
 zeabur.app
+*.zerops.app
 apple
 aquarelle
 arab
