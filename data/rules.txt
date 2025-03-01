@@ -9410,6 +9410,7 @@ madethis.site
 byen.site
 srht.site
 novecore.site
+cpanel.site
 wpsquared.site
 ski
 skin
