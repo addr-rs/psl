@@ -8982,7 +8982,6 @@ juniper
 kaufen
 kddi
 kerryhotels
-kerrylogistics
 kerryproperties
 kfh
 kia
@@ -9039,7 +9038,6 @@ cyon.link
 *.dweb.link
 ipfs.nftstorage.link
 mypep.link
-lipsy
 live
 aem.live
 hlx.live
