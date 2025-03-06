@@ -5440,6 +5440,7 @@ dattolocal.net
 mydatto.net
 debian.net
 definima.net
+deno.net
 at-band-camp.net
 blogdns.net
 broke-it.net
