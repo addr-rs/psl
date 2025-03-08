@@ -1871,6 +1871,7 @@ townnews-staging.com
 pro.typeform.com
 hk.com
 it.com
+deus-canvas.com
 *.vultrobjects.com
 wafflecell.com
 hotelwithflight.com
@@ -5504,6 +5505,7 @@ iobb.net
 moonscale.net
 in-dsl.net
 in-vpn.net
+oninferno.net
 botdash.net
 apps-1and1.net
 ipifony.net
