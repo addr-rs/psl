@@ -5069,11 +5069,15 @@ rep.kp
 tra.kp
 kr
 ac.kr
+ai.kr
 co.kr
 es.kr
 go.kr
 hs.kr
+io.kr
+it.kr
 kg.kr
+me.kr
 mil.kr
 ms.kr
 ne.kr
