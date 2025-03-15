@@ -5101,6 +5101,8 @@ jeonbuk.kr
 jeonnam.kr
 seoul.kr
 ulsan.kr
+c01.kr
+eliv-dns.kr
 kw
 com.kw
 edu.kw
@@ -8653,6 +8655,7 @@ githubpreview.dev
 *.gateway.dev
 hrsn.dev
 botdash.dev
+*.inbrowser.dev
 is-a-good.dev
 is-a.dev
 iserv.dev
@@ -9043,6 +9046,7 @@ link
 myfritz.link
 cyon.link
 *.dweb.link
+*.inbrowser.link
 ipfs.nftstorage.link
 mypep.link
 live
