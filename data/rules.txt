@@ -1479,6 +1479,8 @@ cf-ipfs.com
 cloudflare-ipfs.com
 trycloudflare.com
 co.com
+devinapps.com
+staging.devinapps.com
 builtwithdark.com
 demo.datadetect.com
 instance.datadetect.com
@@ -6492,6 +6494,7 @@ ae.org
 cloudns.org
 ip-dynamic.org
 ddnss.org
+dpdns.org
 duckdns.org
 tunk.org
 blogdns.org
