@@ -9052,6 +9052,8 @@ cyon.link
 *.inbrowser.link
 ipfs.nftstorage.link
 mypep.link
+ipfs.storacha.link
+ipfs.w3s.link
 live
 aem.live
 hlx.live
