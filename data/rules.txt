@@ -8863,6 +8863,7 @@ giving
 glass
 gle
 global
+appwrite.global
 globo
 gmail
 gmbh
@@ -9324,6 +9325,7 @@ rsvp
 rugby
 ruhr
 run
+*.appwrite.run
 development.run
 ravendb.run
 liara.run

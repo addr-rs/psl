@@ -489,7 +489,7 @@ where
             [103, 108] => lookup_474(labels),
             [103, 108, 97, 115, 115] => lookup_475(),
             [103, 108, 101] => lookup_476(),
-            [103, 108, 111, 98, 97, 108] => lookup_477(),
+            [103, 108, 111, 98, 97, 108] => lookup_477(labels),
             [103, 108, 111, 98, 111] => lookup_478(),
             [103, 109] => lookup_479(),
             [103, 109, 97, 105, 108] => lookup_480(),
@@ -32821,10 +32821,28 @@ fn lookup_476() -> Info {
     }
 }
 #[inline]
-fn lookup_477() -> Info {
+fn lookup_477_0(acc: usize) -> Info {
     Info {
-        len: 6usize,
+        len: acc + 1 + 8usize,
+        typ: Some(Type::Private),
+    }
+}
+#[inline]
+fn lookup_477<'a, T>(mut labels: T) -> Info
+where
+    T: Iterator<Item = &'a [u8]>,
+{
+    let acc = 6usize;
+    let info = Info {
+        len: acc,
         typ: Some(Type::Icann),
+    };
+    match labels.next() {
+        Some(label) => match label {
+            [97, 112, 112, 119, 114, 105, 116, 101] => lookup_477_0(acc),
+            _ => info,
+        },
+        None => info,
     }
 }
 #[inline]
@@ -81081,7 +81099,7 @@ fn lookup_985_0<'a, T>(info: Info, mut labels: T, mut acc: usize) -> Info
 where
     T: Iterator<Item = &'a [u8]>,
 {
-    acc += 1 + 5usize;
+    acc += 1 + 8usize;
     match labels.next() {
         Some(label) => match label {
             wild => lookup_985_0_0(wild, acc),
@@ -81101,7 +81119,7 @@ fn lookup_985_1<'a, T>(info: Info, mut labels: T, mut acc: usize) -> Info
 where
     T: Iterator<Item = &'a [u8]>,
 {
-    acc += 1 + 4usize;
+    acc += 1 + 5usize;
     match labels.next() {
         Some(label) => match label {
             wild => lookup_985_1_0(wild, acc),
@@ -81121,7 +81139,7 @@ fn lookup_985_2<'a, T>(info: Info, mut labels: T, mut acc: usize) -> Info
 where
     T: Iterator<Item = &'a [u8]>,
 {
-    acc += 1 + 8usize;
+    acc += 1 + 4usize;
     match labels.next() {
         Some(label) => match label {
             wild => lookup_985_2_0(wild, acc),
@@ -81130,21 +81148,41 @@ where
     }
 }
 #[inline]
-fn lookup_985_3(acc: usize) -> Info {
+fn lookup_985_3_0(wild: &[u8], acc: usize) -> Info {
+    Info {
+        len: acc + 1 + wild.len(),
+        typ: Some(Type::Private),
+    }
+}
+#[inline]
+fn lookup_985_3<'a, T>(info: Info, mut labels: T, mut acc: usize) -> Info
+where
+    T: Iterator<Item = &'a [u8]>,
+{
+    acc += 1 + 8usize;
+    match labels.next() {
+        Some(label) => match label {
+            wild => lookup_985_3_0(wild, acc),
+        },
+        None => info,
+    }
+}
+#[inline]
+fn lookup_985_4(acc: usize) -> Info {
     Info {
         len: acc + 1 + 11usize,
         typ: Some(Type::Private),
     }
 }
 #[inline]
-fn lookup_985_4_0(acc: usize) -> Info {
+fn lookup_985_5_0(acc: usize) -> Info {
     Info {
         len: acc + 1 + 4usize,
         typ: Some(Type::Private),
     }
 }
 #[inline]
-fn lookup_985_4<'a, T>(mut labels: T, mut acc: usize) -> Info
+fn lookup_985_5<'a, T>(mut labels: T, mut acc: usize) -> Info
 where
     T: Iterator<Item = &'a [u8]>,
 {
@@ -81155,57 +81193,50 @@ where
     };
     match labels.next() {
         Some(label) => match label {
-            [105, 114, 97, 110] => lookup_985_4_0(acc),
+            [105, 114, 97, 110] => lookup_985_5_0(acc),
             _ => info,
         },
         None => info,
     }
 }
 #[inline]
-fn lookup_985_5_0(wild: &[u8], acc: usize) -> Info {
+fn lookup_985_6_0(wild: &[u8], acc: usize) -> Info {
     Info {
         len: acc + 1 + wild.len(),
         typ: Some(Type::Private),
     }
 }
 #[inline]
-fn lookup_985_5<'a, T>(info: Info, mut labels: T, mut acc: usize) -> Info
+fn lookup_985_6<'a, T>(info: Info, mut labels: T, mut acc: usize) -> Info
 where
     T: Iterator<Item = &'a [u8]>,
 {
     acc += 1 + 9usize;
     match labels.next() {
         Some(label) => match label {
-            wild => lookup_985_5_0(wild, acc),
+            wild => lookup_985_6_0(wild, acc),
         },
         None => info,
     }
 }
 #[inline]
-fn lookup_985_6(acc: usize) -> Info {
+fn lookup_985_7(acc: usize) -> Info {
     Info {
         len: acc + 1 + 8usize,
         typ: Some(Type::Private),
     }
 }
 #[inline]
-fn lookup_985_7(acc: usize) -> Info {
-    Info {
-        len: acc + 1 + 7usize,
-        typ: Some(Type::Private),
-    }
-}
-#[inline]
 fn lookup_985_8(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 4usize,
+        len: acc + 1 + 7usize,
         typ: Some(Type::Private),
     }
 }
 #[inline]
 fn lookup_985_9(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 7usize,
+        len: acc + 1 + 4usize,
         typ: Some(Type::Private),
     }
 }
@@ -81217,36 +81248,43 @@ fn lookup_985_10(acc: usize) -> Info {
     }
 }
 #[inline]
-fn lookup_985_11_0(acc: usize) -> Info {
+fn lookup_985_11(acc: usize) -> Info {
     Info {
         len: acc + 1 + 7usize,
         typ: Some(Type::Private),
     }
 }
 #[inline]
-fn lookup_985_11_1(acc: usize) -> Info {
+fn lookup_985_12_0(acc: usize) -> Info {
+    Info {
+        len: acc + 1 + 7usize,
+        typ: Some(Type::Private),
+    }
+}
+#[inline]
+fn lookup_985_12_1(acc: usize) -> Info {
     Info {
         len: acc + 1 + 3usize,
         typ: Some(Type::Private),
     }
 }
 #[inline]
-fn lookup_985_11<'a, T>(info: Info, mut labels: T, mut acc: usize) -> Info
+fn lookup_985_12<'a, T>(info: Info, mut labels: T, mut acc: usize) -> Info
 where
     T: Iterator<Item = &'a [u8]>,
 {
     acc += 1 + 3usize;
     match labels.next() {
         Some(label) => match label {
-            [101, 120, 112, 114, 101, 115, 115] => lookup_985_11_0(acc),
-            [119, 101, 98] => lookup_985_11_1(acc),
+            [101, 120, 112, 114, 101, 115, 115] => lookup_985_12_0(acc),
+            [119, 101, 98] => lookup_985_12_1(acc),
             _ => info,
         },
         None => info,
     }
 }
 #[inline]
-fn lookup_985_12(acc: usize) -> Info {
+fn lookup_985_13(acc: usize) -> Info {
     Info {
         len: acc + 1 + 3usize,
         typ: Some(Type::Private),
@@ -81264,19 +81302,20 @@ where
     };
     match labels.next() {
         Some(label) => match label {
-            [98, 117, 105, 108, 100] => lookup_985_0(info, labels, acc),
-            [99, 111, 100, 101] => lookup_985_1(info, labels, acc),
-            [100, 97, 116, 97, 98, 97, 115, 101] => lookup_985_2(info, labels, acc),
-            [100, 101, 118, 101, 108, 111, 112, 109, 101, 110, 116] => lookup_985_3(acc),
-            [108, 105, 97, 114, 97] => lookup_985_4(labels, acc),
-            [109, 105, 103, 114, 97, 116, 105, 111, 110] => lookup_985_5(info, labels, acc),
-            [111, 110, 112, 111, 114, 116, 101, 114] => lookup_985_6(acc),
-            [114, 97, 118, 101, 110, 100, 98] => lookup_985_7(acc),
-            [114, 101, 112, 108] => lookup_985_8(acc),
-            [115, 101, 114, 118, 101, 114, 115] => lookup_985_9(acc),
-            [115, 116, 97, 99, 107, 105, 116] => lookup_985_10(acc),
-            [118, 97, 108] => lookup_985_11(info, labels, acc),
-            [119, 105, 120] => lookup_985_12(acc),
+            [97, 112, 112, 119, 114, 105, 116, 101] => lookup_985_0(info, labels, acc),
+            [98, 117, 105, 108, 100] => lookup_985_1(info, labels, acc),
+            [99, 111, 100, 101] => lookup_985_2(info, labels, acc),
+            [100, 97, 116, 97, 98, 97, 115, 101] => lookup_985_3(info, labels, acc),
+            [100, 101, 118, 101, 108, 111, 112, 109, 101, 110, 116] => lookup_985_4(acc),
+            [108, 105, 97, 114, 97] => lookup_985_5(labels, acc),
+            [109, 105, 103, 114, 97, 116, 105, 111, 110] => lookup_985_6(info, labels, acc),
+            [111, 110, 112, 111, 114, 116, 101, 114] => lookup_985_7(acc),
+            [114, 97, 118, 101, 110, 100, 98] => lookup_985_8(acc),
+            [114, 101, 112, 108] => lookup_985_9(acc),
+            [115, 101, 114, 118, 101, 114, 115] => lookup_985_10(acc),
+            [115, 116, 97, 99, 107, 105, 116] => lookup_985_11(acc),
+            [118, 97, 108] => lookup_985_12(info, labels, acc),
+            [119, 105, 120] => lookup_985_13(acc),
             _ => info,
         },
         None => info,
