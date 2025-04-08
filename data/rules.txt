@@ -8251,6 +8251,7 @@ typedream.app
 vercel.app
 bookonline.app
 wdh.app
+windsurf.app
 zeabur.app
 *.zerops.app
 apple
@@ -8436,6 +8437,7 @@ brother
 brussels
 build
 v0.build
+windsurf.build
 builders
 cloudsite.builders
 business
