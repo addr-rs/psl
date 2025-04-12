@@ -164,6 +164,7 @@ musica.ar
 mutual.ar
 net.ar
 org.ar
+seg.ar
 senasa.ar
 tur.ar
 arpa
@@ -904,6 +905,7 @@ auth.ap-southeast-1.amazoncognito.com
 auth.ap-southeast-2.amazoncognito.com
 auth.ap-southeast-3.amazoncognito.com
 auth.ap-southeast-4.amazoncognito.com
+auth.ap-southeast-5.amazoncognito.com
 auth.ca-central-1.amazoncognito.com
 auth.ca-west-1.amazoncognito.com
 auth.eu-central-1.amazoncognito.com
@@ -922,6 +924,7 @@ auth.us-east-1.amazoncognito.com
 auth-fips.us-east-1.amazoncognito.com
 auth.us-east-2.amazoncognito.com
 auth-fips.us-east-2.amazoncognito.com
+auth-fips.us-gov-east-1.amazoncognito.com
 auth-fips.us-gov-west-1.amazoncognito.com
 auth.us-west-1.amazoncognito.com
 auth-fips.us-west-1.amazoncognito.com
@@ -1479,8 +1482,7 @@ cf-ipfs.com
 cloudflare-ipfs.com
 trycloudflare.com
 co.com
-devinapps.com
-staging.devinapps.com
+*.devinapps.com
 builtwithdark.com
 demo.datadetect.com
 instance.datadetect.com
@@ -8211,6 +8213,7 @@ clerkstage.app
 wnext.app
 csb.app
 preview.csb.app
+convex.app
 deta.app
 ondigitalocean.app
 easypanel.app
@@ -8221,6 +8224,7 @@ staging.expo.app
 edgecompute.app
 on-fleek.app
 flutterflow.app
+e2b.app
 framer.app
 *.hosted.app
 *.run.app
@@ -8504,6 +8508,7 @@ clinic
 clinique
 clothing
 cloud
+convex.cloud
 elementor.cloud
 eu.encoway.cloud
 *.statics.cloud
@@ -9413,6 +9418,7 @@ square.site
 convex.site
 cyon.site
 fastvps.site
+figma.site
 heyflow.site
 jele.site
 jouwweb.site
