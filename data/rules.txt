@@ -7561,7 +7561,6 @@ cc.ua
 inf.ua
 ltd.ua
 cx.ua
-ie.ua
 biz.ua
 co.ua
 pp.ua

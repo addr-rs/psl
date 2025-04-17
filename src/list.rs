@@ -86663,7 +86663,7 @@ fn lookup_1185_22(acc: usize) -> Info {
 fn lookup_1185_23(acc: usize) -> Info {
     Info {
         len: acc + 1 + 2usize,
-        typ: Some(Type::Private),
+        typ: Some(Type::Icann),
     }
 }
 #[inline]
@@ -86676,28 +86676,28 @@ fn lookup_1185_24(acc: usize) -> Info {
 #[inline]
 fn lookup_1185_25(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 2usize,
-        typ: Some(Type::Icann),
-    }
-}
-#[inline]
-fn lookup_1185_26(acc: usize) -> Info {
-    Info {
         len: acc + 1 + 3usize,
         typ: Some(Type::Private),
     }
 }
 #[inline]
-fn lookup_1185_27(acc: usize) -> Info {
+fn lookup_1185_26(acc: usize) -> Info {
     Info {
         len: acc + 1 + 15usize,
         typ: Some(Type::Icann),
     }
 }
 #[inline]
-fn lookup_1185_28(acc: usize) -> Info {
+fn lookup_1185_27(acc: usize) -> Info {
     Info {
         len: acc + 1 + 2usize,
+        typ: Some(Type::Icann),
+    }
+}
+#[inline]
+fn lookup_1185_28(acc: usize) -> Info {
+    Info {
+        len: acc + 1 + 7usize,
         typ: Some(Type::Icann),
     }
 }
@@ -86718,7 +86718,7 @@ fn lookup_1185_30(acc: usize) -> Info {
 #[inline]
 fn lookup_1185_31(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 7usize,
+        len: acc + 1 + 12usize,
         typ: Some(Type::Icann),
     }
 }
@@ -86732,21 +86732,21 @@ fn lookup_1185_32(acc: usize) -> Info {
 #[inline]
 fn lookup_1185_33(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 12usize,
+        len: acc + 1 + 4usize,
         typ: Some(Type::Icann),
     }
 }
 #[inline]
 fn lookup_1185_34(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 4usize,
+        len: acc + 1 + 10usize,
         typ: Some(Type::Icann),
     }
 }
 #[inline]
 fn lookup_1185_35(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 10usize,
+        len: acc + 1 + 2usize,
         typ: Some(Type::Icann),
     }
 }
@@ -86760,21 +86760,21 @@ fn lookup_1185_36(acc: usize) -> Info {
 #[inline]
 fn lookup_1185_37(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 2usize,
+        len: acc + 1 + 13usize,
         typ: Some(Type::Icann),
     }
 }
 #[inline]
 fn lookup_1185_38(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 13usize,
+        len: acc + 1 + 4usize,
         typ: Some(Type::Icann),
     }
 }
 #[inline]
 fn lookup_1185_39(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 4usize,
+        len: acc + 1 + 2usize,
         typ: Some(Type::Icann),
     }
 }
@@ -86788,14 +86788,14 @@ fn lookup_1185_40(acc: usize) -> Info {
 #[inline]
 fn lookup_1185_41(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 2usize,
+        len: acc + 1 + 4usize,
         typ: Some(Type::Icann),
     }
 }
 #[inline]
 fn lookup_1185_42(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 4usize,
+        len: acc + 1 + 2usize,
         typ: Some(Type::Icann),
     }
 }
@@ -86809,15 +86809,15 @@ fn lookup_1185_43(acc: usize) -> Info {
 #[inline]
 fn lookup_1185_44(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 2usize,
-        typ: Some(Type::Icann),
+        len: acc + 1 + 3usize,
+        typ: Some(Type::Private),
     }
 }
 #[inline]
 fn lookup_1185_45(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 3usize,
-        typ: Some(Type::Private),
+        len: acc + 1 + 7usize,
+        typ: Some(Type::Icann),
     }
 }
 #[inline]
@@ -86830,106 +86830,106 @@ fn lookup_1185_46(acc: usize) -> Info {
 #[inline]
 fn lookup_1185_47(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 7usize,
+        len: acc + 1 + 5usize,
         typ: Some(Type::Icann),
     }
 }
 #[inline]
 fn lookup_1185_48(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 5usize,
+        len: acc + 1 + 2usize,
         typ: Some(Type::Icann),
     }
 }
 #[inline]
 fn lookup_1185_49(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 2usize,
+        len: acc + 1 + 4usize,
         typ: Some(Type::Icann),
     }
 }
 #[inline]
 fn lookup_1185_50(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 4usize,
+        len: acc + 1 + 2usize,
         typ: Some(Type::Icann),
     }
 }
 #[inline]
 fn lookup_1185_51(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 2usize,
+        len: acc + 1 + 8usize,
         typ: Some(Type::Icann),
     }
 }
 #[inline]
 fn lookup_1185_52(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 8usize,
+        len: acc + 1 + 3usize,
         typ: Some(Type::Icann),
     }
 }
 #[inline]
 fn lookup_1185_53(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 3usize,
+        len: acc + 1 + 8usize,
         typ: Some(Type::Icann),
     }
 }
 #[inline]
 fn lookup_1185_54(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 8usize,
+        len: acc + 1 + 2usize,
         typ: Some(Type::Icann),
     }
 }
 #[inline]
 fn lookup_1185_55(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 2usize,
+        len: acc + 1 + 5usize,
         typ: Some(Type::Icann),
     }
 }
 #[inline]
 fn lookup_1185_56(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 5usize,
+        len: acc + 1 + 6usize,
         typ: Some(Type::Icann),
     }
 }
 #[inline]
 fn lookup_1185_57(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 6usize,
+        len: acc + 1 + 3usize,
         typ: Some(Type::Icann),
     }
 }
 #[inline]
 fn lookup_1185_58(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 3usize,
+        len: acc + 1 + 2usize,
         typ: Some(Type::Icann),
     }
 }
 #[inline]
 fn lookup_1185_59(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 2usize,
+        len: acc + 1 + 7usize,
         typ: Some(Type::Icann),
     }
 }
 #[inline]
 fn lookup_1185_60(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 7usize,
-        typ: Some(Type::Icann),
+        len: acc + 1 + 2usize,
+        typ: Some(Type::Private),
     }
 }
 #[inline]
 fn lookup_1185_61(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 2usize,
-        typ: Some(Type::Private),
+        len: acc + 1 + 5usize,
+        typ: Some(Type::Icann),
     }
 }
 #[inline]
@@ -86942,7 +86942,7 @@ fn lookup_1185_62(acc: usize) -> Info {
 #[inline]
 fn lookup_1185_63(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 5usize,
+        len: acc + 1 + 2usize,
         typ: Some(Type::Icann),
     }
 }
@@ -86956,7 +86956,7 @@ fn lookup_1185_64(acc: usize) -> Info {
 #[inline]
 fn lookup_1185_65(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 2usize,
+        len: acc + 1 + 10usize,
         typ: Some(Type::Icann),
     }
 }
@@ -86970,42 +86970,42 @@ fn lookup_1185_66(acc: usize) -> Info {
 #[inline]
 fn lookup_1185_67(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 10usize,
+        len: acc + 1 + 2usize,
         typ: Some(Type::Icann),
     }
 }
 #[inline]
 fn lookup_1185_68(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 2usize,
+        len: acc + 1 + 4usize,
         typ: Some(Type::Icann),
     }
 }
 #[inline]
 fn lookup_1185_69(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 4usize,
+        len: acc + 1 + 2usize,
         typ: Some(Type::Icann),
     }
 }
 #[inline]
 fn lookup_1185_70(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 2usize,
+        len: acc + 1 + 8usize,
         typ: Some(Type::Icann),
     }
 }
 #[inline]
 fn lookup_1185_71(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 8usize,
+        len: acc + 1 + 2usize,
         typ: Some(Type::Icann),
     }
 }
 #[inline]
 fn lookup_1185_72(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 2usize,
+        len: acc + 1 + 8usize,
         typ: Some(Type::Icann),
     }
 }
@@ -87019,35 +87019,35 @@ fn lookup_1185_73(acc: usize) -> Info {
 #[inline]
 fn lookup_1185_74(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 8usize,
-        typ: Some(Type::Icann),
-    }
-}
-#[inline]
-fn lookup_1185_75(acc: usize) -> Info {
-    Info {
         len: acc + 1 + 1usize,
         typ: Some(Type::Private),
     }
 }
 #[inline]
-fn lookup_1185_76(acc: usize) -> Info {
+fn lookup_1185_75(acc: usize) -> Info {
     Info {
         len: acc + 1 + 7usize,
         typ: Some(Type::Icann),
     }
 }
 #[inline]
-fn lookup_1185_77(acc: usize) -> Info {
+fn lookup_1185_76(acc: usize) -> Info {
     Info {
         len: acc + 1 + 9usize,
         typ: Some(Type::Icann),
     }
 }
 #[inline]
-fn lookup_1185_78(acc: usize) -> Info {
+fn lookup_1185_77(acc: usize) -> Info {
     Info {
         len: acc + 1 + 2usize,
+        typ: Some(Type::Icann),
+    }
+}
+#[inline]
+fn lookup_1185_78(acc: usize) -> Info {
+    Info {
+        len: acc + 1 + 5usize,
         typ: Some(Type::Icann),
     }
 }
@@ -87061,7 +87061,7 @@ fn lookup_1185_79(acc: usize) -> Info {
 #[inline]
 fn lookup_1185_80(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 5usize,
+        len: acc + 1 + 11usize,
         typ: Some(Type::Icann),
     }
 }
@@ -87075,14 +87075,14 @@ fn lookup_1185_81(acc: usize) -> Info {
 #[inline]
 fn lookup_1185_82(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 11usize,
+        len: acc + 1 + 12usize,
         typ: Some(Type::Icann),
     }
 }
 #[inline]
 fn lookup_1185_83(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 12usize,
+        len: acc + 1 + 8usize,
         typ: Some(Type::Icann),
     }
 }
@@ -87096,19 +87096,12 @@ fn lookup_1185_84(acc: usize) -> Info {
 #[inline]
 fn lookup_1185_85(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 8usize,
-        typ: Some(Type::Icann),
-    }
-}
-#[inline]
-fn lookup_1185_86(acc: usize) -> Info {
-    Info {
         len: acc + 1 + 2usize,
         typ: Some(Type::Icann),
     }
 }
 #[inline]
-fn lookup_1185_87(acc: usize) -> Info {
+fn lookup_1185_86(acc: usize) -> Info {
     Info {
         len: acc + 1 + 2usize,
         typ: Some(Type::Icann),
@@ -87153,75 +87146,74 @@ where
             [100, 112] => lookup_1185_20(acc),
             [101, 100, 117] => lookup_1185_21(acc),
             [103, 111, 118] => lookup_1185_22(acc),
-            [105, 101] => lookup_1185_23(acc),
-            [105, 102] => lookup_1185_24(acc),
-            [105, 110] => lookup_1185_25(acc),
-            [105, 110, 102] => lookup_1185_26(acc),
+            [105, 102] => lookup_1185_23(acc),
+            [105, 110] => lookup_1185_24(acc),
+            [105, 110, 102] => lookup_1185_25(acc),
             [105, 118, 97, 110, 111, 45, 102, 114, 97, 110, 107, 105, 118, 115, 107] => {
-                lookup_1185_27(acc)
+                lookup_1185_26(acc)
             }
-            [107, 104] => lookup_1185_28(acc),
-            [107, 104, 97, 114, 107, 105, 118] => lookup_1185_29(acc),
-            [107, 104, 97, 114, 107, 111, 118] => lookup_1185_30(acc),
-            [107, 104, 101, 114, 115, 111, 110] => lookup_1185_31(acc),
-            [107, 104, 109, 101, 108, 110, 105, 116, 115, 107, 105, 121] => lookup_1185_32(acc),
-            [107, 104, 109, 101, 108, 110, 121, 116, 115, 107, 121, 105] => lookup_1185_33(acc),
-            [107, 105, 101, 118] => lookup_1185_34(acc),
-            [107, 105, 114, 111, 118, 111, 103, 114, 97, 100] => lookup_1185_35(acc),
-            [107, 109] => lookup_1185_36(acc),
-            [107, 114] => lookup_1185_37(acc),
+            [107, 104] => lookup_1185_27(acc),
+            [107, 104, 97, 114, 107, 105, 118] => lookup_1185_28(acc),
+            [107, 104, 97, 114, 107, 111, 118] => lookup_1185_29(acc),
+            [107, 104, 101, 114, 115, 111, 110] => lookup_1185_30(acc),
+            [107, 104, 109, 101, 108, 110, 105, 116, 115, 107, 105, 121] => lookup_1185_31(acc),
+            [107, 104, 109, 101, 108, 110, 121, 116, 115, 107, 121, 105] => lookup_1185_32(acc),
+            [107, 105, 101, 118] => lookup_1185_33(acc),
+            [107, 105, 114, 111, 118, 111, 103, 114, 97, 100] => lookup_1185_34(acc),
+            [107, 109] => lookup_1185_35(acc),
+            [107, 114] => lookup_1185_36(acc),
             [107, 114, 111, 112, 121, 118, 110, 121, 116, 115, 107, 121, 105] => {
-                lookup_1185_38(acc)
+                lookup_1185_37(acc)
             }
-            [107, 114, 121, 109] => lookup_1185_39(acc),
-            [107, 115] => lookup_1185_40(acc),
-            [107, 118] => lookup_1185_41(acc),
-            [107, 121, 105, 118] => lookup_1185_42(acc),
-            [108, 103] => lookup_1185_43(acc),
-            [108, 116] => lookup_1185_44(acc),
-            [108, 116, 100] => lookup_1185_45(acc),
-            [108, 117, 103, 97, 110, 115, 107] => lookup_1185_46(acc),
-            [108, 117, 104, 97, 110, 115, 107] => lookup_1185_47(acc),
-            [108, 117, 116, 115, 107] => lookup_1185_48(acc),
-            [108, 118] => lookup_1185_49(acc),
-            [108, 118, 105, 118] => lookup_1185_50(acc),
-            [109, 107] => lookup_1185_51(acc),
-            [109, 121, 107, 111, 108, 97, 105, 118] => lookup_1185_52(acc),
-            [110, 101, 116] => lookup_1185_53(acc),
-            [110, 105, 107, 111, 108, 97, 101, 118] => lookup_1185_54(acc),
-            [111, 100] => lookup_1185_55(acc),
-            [111, 100, 101, 115, 97] => lookup_1185_56(acc),
-            [111, 100, 101, 115, 115, 97] => lookup_1185_57(acc),
-            [111, 114, 103] => lookup_1185_58(acc),
-            [112, 108] => lookup_1185_59(acc),
-            [112, 111, 108, 116, 97, 118, 97] => lookup_1185_60(acc),
-            [112, 112] => lookup_1185_61(acc),
-            [114, 105, 118, 110, 101] => lookup_1185_62(acc),
-            [114, 111, 118, 110, 111] => lookup_1185_63(acc),
-            [114, 118] => lookup_1185_64(acc),
-            [115, 98] => lookup_1185_65(acc),
-            [115, 101, 98, 97, 115, 116, 111, 112, 111, 108] => lookup_1185_66(acc),
-            [115, 101, 118, 97, 115, 116, 111, 112, 111, 108] => lookup_1185_67(acc),
-            [115, 109] => lookup_1185_68(acc),
-            [115, 117, 109, 121] => lookup_1185_69(acc),
-            [116, 101] => lookup_1185_70(acc),
-            [116, 101, 114, 110, 111, 112, 105, 108] => lookup_1185_71(acc),
-            [117, 122] => lookup_1185_72(acc),
-            [117, 122, 104, 103, 111, 114, 111, 100] => lookup_1185_73(acc),
-            [117, 122, 104, 104, 111, 114, 111, 100] => lookup_1185_74(acc),
-            [118] => lookup_1185_75(acc),
-            [118, 105, 110, 110, 105, 99, 97] => lookup_1185_76(acc),
-            [118, 105, 110, 110, 121, 116, 115, 105, 97] => lookup_1185_77(acc),
-            [118, 110] => lookup_1185_78(acc),
-            [118, 111, 108, 121, 110] => lookup_1185_79(acc),
-            [121, 97, 108, 116, 97] => lookup_1185_80(acc),
-            [122, 97, 107, 97, 114, 112, 97, 116, 116, 105, 97] => lookup_1185_81(acc),
-            [122, 97, 112, 111, 114, 105, 122, 104, 122, 104, 101] => lookup_1185_82(acc),
-            [122, 97, 112, 111, 114, 105, 122, 104, 122, 104, 105, 97] => lookup_1185_83(acc),
-            [122, 104, 105, 116, 111, 109, 105, 114] => lookup_1185_84(acc),
-            [122, 104, 121, 116, 111, 109, 121, 114] => lookup_1185_85(acc),
-            [122, 112] => lookup_1185_86(acc),
-            [122, 116] => lookup_1185_87(acc),
+            [107, 114, 121, 109] => lookup_1185_38(acc),
+            [107, 115] => lookup_1185_39(acc),
+            [107, 118] => lookup_1185_40(acc),
+            [107, 121, 105, 118] => lookup_1185_41(acc),
+            [108, 103] => lookup_1185_42(acc),
+            [108, 116] => lookup_1185_43(acc),
+            [108, 116, 100] => lookup_1185_44(acc),
+            [108, 117, 103, 97, 110, 115, 107] => lookup_1185_45(acc),
+            [108, 117, 104, 97, 110, 115, 107] => lookup_1185_46(acc),
+            [108, 117, 116, 115, 107] => lookup_1185_47(acc),
+            [108, 118] => lookup_1185_48(acc),
+            [108, 118, 105, 118] => lookup_1185_49(acc),
+            [109, 107] => lookup_1185_50(acc),
+            [109, 121, 107, 111, 108, 97, 105, 118] => lookup_1185_51(acc),
+            [110, 101, 116] => lookup_1185_52(acc),
+            [110, 105, 107, 111, 108, 97, 101, 118] => lookup_1185_53(acc),
+            [111, 100] => lookup_1185_54(acc),
+            [111, 100, 101, 115, 97] => lookup_1185_55(acc),
+            [111, 100, 101, 115, 115, 97] => lookup_1185_56(acc),
+            [111, 114, 103] => lookup_1185_57(acc),
+            [112, 108] => lookup_1185_58(acc),
+            [112, 111, 108, 116, 97, 118, 97] => lookup_1185_59(acc),
+            [112, 112] => lookup_1185_60(acc),
+            [114, 105, 118, 110, 101] => lookup_1185_61(acc),
+            [114, 111, 118, 110, 111] => lookup_1185_62(acc),
+            [114, 118] => lookup_1185_63(acc),
+            [115, 98] => lookup_1185_64(acc),
+            [115, 101, 98, 97, 115, 116, 111, 112, 111, 108] => lookup_1185_65(acc),
+            [115, 101, 118, 97, 115, 116, 111, 112, 111, 108] => lookup_1185_66(acc),
+            [115, 109] => lookup_1185_67(acc),
+            [115, 117, 109, 121] => lookup_1185_68(acc),
+            [116, 101] => lookup_1185_69(acc),
+            [116, 101, 114, 110, 111, 112, 105, 108] => lookup_1185_70(acc),
+            [117, 122] => lookup_1185_71(acc),
+            [117, 122, 104, 103, 111, 114, 111, 100] => lookup_1185_72(acc),
+            [117, 122, 104, 104, 111, 114, 111, 100] => lookup_1185_73(acc),
+            [118] => lookup_1185_74(acc),
+            [118, 105, 110, 110, 105, 99, 97] => lookup_1185_75(acc),
+            [118, 105, 110, 110, 121, 116, 115, 105, 97] => lookup_1185_76(acc),
+            [118, 110] => lookup_1185_77(acc),
+            [118, 111, 108, 121, 110] => lookup_1185_78(acc),
+            [121, 97, 108, 116, 97] => lookup_1185_79(acc),
+            [122, 97, 107, 97, 114, 112, 97, 116, 116, 105, 97] => lookup_1185_80(acc),
+            [122, 97, 112, 111, 114, 105, 122, 104, 122, 104, 101] => lookup_1185_81(acc),
+            [122, 97, 112, 111, 114, 105, 122, 104, 122, 104, 105, 97] => lookup_1185_82(acc),
+            [122, 104, 105, 116, 111, 109, 105, 114] => lookup_1185_83(acc),
+            [122, 104, 121, 116, 111, 109, 121, 114] => lookup_1185_84(acc),
+            [122, 112] => lookup_1185_85(acc),
+            [122, 116] => lookup_1185_86(acc),
             _ => info,
         },
         None => info,
