@@ -709,6 +709,8 @@ cloudns.ch
 cust.cloudscale.ch
 objects.lpg.cloudscale.ch
 objects.rma.cloudscale.ch
+lpg.objectstorage.ch
+rma.objectstorage.ch
 alp1.ae.flow.ch
 appengine.flow.ch
 linkyard-cloud.ch
@@ -5542,6 +5544,7 @@ localcert.net
 localhostcert.net
 *.localto.net
 barsy.net
+luyani.net
 memset.net
 azure-api.net
 azure-mobile.net
@@ -8232,6 +8235,7 @@ hasura.app
 botdash.app
 loginline.app
 lovable.app
+luyani.app
 medusajs.app
 messerli.app
 netfy.app
@@ -9344,7 +9348,7 @@ servers.run
 onporter.run
 repl.run
 stackit.run
-express.val.run
+val.run
 web.val.run
 wix.run
 rwe
