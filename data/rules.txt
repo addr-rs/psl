@@ -1813,6 +1813,7 @@ gotpantheon.com
 upsunapp.com
 postman-echo.com
 xen.prgmr.com
+dev.project-study.com
 pythonanywhere.com
 eu.pythonanywhere.com
 qa2.com
@@ -5109,6 +5110,8 @@ seoul.kr
 ulsan.kr
 c01.kr
 eliv-dns.kr
+mmv.kr
+vki.kr
 kw
 com.kw
 edu.kw
@@ -8662,6 +8665,7 @@ workers.dev
 deno.dev
 deno-staging.dev
 deta.dev
+lp.dev
 relay.evervault.dev
 fly.dev
 githubpreview.dev
@@ -9422,6 +9426,7 @@ convex.site
 cyon.site
 fastvps.site
 figma.site
+preview.site
 heyflow.site
 jele.site
 jouwweb.site
