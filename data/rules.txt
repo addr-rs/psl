@@ -685,6 +685,7 @@ barsy.ca
 *.awdev.ca
 co.ca
 no-ip.ca
+onid.ca
 myspreadshop.ca
 box.ca
 cat
