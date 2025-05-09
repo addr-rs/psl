@@ -5545,7 +5545,6 @@ uni5.net
 krellian.net
 ggff.net
 localcert.net
-localhostcert.net
 *.localto.net
 barsy.net
 luyani.net
@@ -8670,7 +8669,6 @@ relay.evervault.dev
 fly.dev
 githubpreview.dev
 *.gateway.dev
-hrsn.dev
 botdash.dev
 *.inbrowser.dev
 is-a-good.dev
@@ -8690,11 +8688,6 @@ is-not-a.dev
 localplayer.dev
 xmit.dev
 platter-app.dev
-sub.psl.hrsn.dev
-*.wc.psl.hrsn.dev
-!ignored.wc.psl.hrsn.dev
-*.sub.wc.psl.hrsn.dev
-!ignored.sub.wc.psl.hrsn.dev
 replit.dev
 archer.replit.dev
 bones.replit.dev
@@ -8732,6 +8725,7 @@ worf.replit.dev
 *.wf.crm.dev
 vercel.dev
 *.webhare.dev
+hrsn.dev
 dhl
 diamonds
 diet
