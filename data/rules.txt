@@ -2543,6 +2543,7 @@ dyndns.dappnode.io
 darklang.io
 definima.io
 dedyn.io
+qzz.io
 fh-muenster.io
 shw.io
 id.forgerock.io
@@ -5036,6 +5037,7 @@ mil.kg
 net.kg
 org.kg
 us.kg
+xx.kg
 *.kh
 ki
 biz.ki
