@@ -5153,6 +5153,7 @@ jeonnam.kr
 seoul.kr
 ulsan.kr
 c01.kr
+eliv-cdn.kr
 eliv-dns.kr
 mmv.kr
 vki.kr
@@ -8266,6 +8267,7 @@ deta.app
 ondigitalocean.app
 easypanel.app
 encr.app
+frontend.encr.app
 relay.evervault.app
 expo.app
 staging.expo.app
@@ -8274,6 +8276,7 @@ on-fleek.app
 flutterflow.app
 e2b.app
 framer.app
+github.app
 *.hosted.app
 *.run.app
 web.app
@@ -8708,6 +8711,8 @@ deno.dev
 deno-staging.dev
 deta.dev
 lp.dev
+api.lp.dev
+objects.lp.dev
 relay.evervault.dev
 fly.dev
 githubpreview.dev
@@ -8983,6 +8988,7 @@ fastvps.host
 myfast.host
 tempurl.host
 wpmudev.host
+iserv.host
 jele.host
 mircloud.host
 wp2.host
@@ -9795,7 +9801,6 @@ zara
 zero
 zip
 zone
-cloud66.zone
 *.triton.zone
 stackit.zone
 lima.zone
