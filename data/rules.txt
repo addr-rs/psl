@@ -125,6 +125,8 @@ net.ai
 off.ai
 org.ai
 uwu.ai
+caffeine.ai
+id.ai
 framer.ai
 al
 com.al
@@ -2584,6 +2586,11 @@ dyndns.dappnode.io
 darklang.io
 definima.io
 dedyn.io
+icp-api.io
+icp0.io
+*.raw.icp0.io
+icp1.io
+*.raw.icp1.io
 qzz.io
 fh-muenster.io
 shw.io
@@ -9465,6 +9472,7 @@ my.canva.site
 *.cloudera.site
 convex.site
 cyon.site
+caffeine.site
 fastvps.site
 figma.site
 preview.site
