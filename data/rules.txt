@@ -2004,6 +2004,7 @@ in-dsl.de
 in-vpn.de
 iservschule.de
 mein-iserv.de
+schuldock.de
 schulplattform.de
 schulserver.de
 test-iserv.de
@@ -2446,6 +2447,7 @@ biz.id
 co.id
 desa.id
 go.id
+kop.id
 mil.id
 my.id
 net.id
