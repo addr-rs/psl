@@ -10123,8 +10123,8 @@ fn lookup_162_129(acc: usize) -> Info {
 #[inline]
 fn lookup_162_130(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 3usize,
-        typ: Some(Type::Icann),
+        len: acc + 1 + 4usize,
+        typ: Some(Type::Private),
     }
 }
 #[inline]
@@ -10165,14 +10165,14 @@ fn lookup_162_135(acc: usize) -> Info {
 #[inline]
 fn lookup_162_136(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 2usize,
+        len: acc + 1 + 3usize,
         typ: Some(Type::Icann),
     }
 }
 #[inline]
 fn lookup_162_137(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 3usize,
+        len: acc + 1 + 2usize,
         typ: Some(Type::Icann),
     }
 }
@@ -10193,7 +10193,7 @@ fn lookup_162_139(acc: usize) -> Info {
 #[inline]
 fn lookup_162_140(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 4usize,
+        len: acc + 1 + 3usize,
         typ: Some(Type::Icann),
     }
 }
@@ -10206,6 +10206,13 @@ fn lookup_162_141(acc: usize) -> Info {
 }
 #[inline]
 fn lookup_162_142(acc: usize) -> Info {
+    Info {
+        len: acc + 1 + 4usize,
+        typ: Some(Type::Icann),
+    }
+}
+#[inline]
+fn lookup_162_143(acc: usize) -> Info {
     Info {
         len: acc + 1 + 3usize,
         typ: Some(Type::Icann),
@@ -10353,19 +10360,20 @@ where
             [115, 114, 118] => lookup_162_127(acc),
             [116, 97, 120, 105] => lookup_162_128(acc),
             [116, 99] => lookup_162_129(acc),
-            [116, 101, 99] => lookup_162_130(acc),
-            [116, 101, 111] => lookup_162_131(acc),
-            [116, 104, 101] => lookup_162_132(acc),
-            [116, 109, 112] => lookup_162_133(acc),
-            [116, 114, 100] => lookup_162_134(acc),
-            [116, 117, 114] => lookup_162_135(acc),
-            [116, 118] => lookup_162_136(acc),
-            [117, 100, 105] => lookup_162_137(acc),
-            [118, 101, 116] => lookup_162_138(acc),
-            [118, 105, 120] => lookup_162_139(acc),
-            [118, 108, 111, 103] => lookup_162_140(acc),
-            [119, 105, 107, 105] => lookup_162_141(acc),
-            [122, 108, 103] => lookup_162_142(acc),
+            [116, 99, 104, 101] => lookup_162_130(acc),
+            [116, 101, 99] => lookup_162_131(acc),
+            [116, 101, 111] => lookup_162_132(acc),
+            [116, 104, 101] => lookup_162_133(acc),
+            [116, 109, 112] => lookup_162_134(acc),
+            [116, 114, 100] => lookup_162_135(acc),
+            [116, 117, 114] => lookup_162_136(acc),
+            [116, 118] => lookup_162_137(acc),
+            [117, 100, 105] => lookup_162_138(acc),
+            [118, 101, 116] => lookup_162_139(acc),
+            [118, 105, 120] => lookup_162_140(acc),
+            [118, 108, 111, 103] => lookup_162_141(acc),
+            [119, 105, 107, 105] => lookup_162_142(acc),
+            [122, 108, 103] => lookup_162_143(acc),
             _ => info,
         },
         None => info,

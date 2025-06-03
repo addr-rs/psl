@@ -631,6 +631,7 @@ se.leg.br
 sp.leg.br
 to.leg.br
 simplesite.com.br
+tche.br
 bs
 com.bs
 edu.bs
