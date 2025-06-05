@@ -1730,6 +1730,7 @@ localtonet.com
 lovableproject.com
 barsycenter.com
 barsyonline.com
+*.lutrausercontent.com
 modelscape.com
 mwcloudnonprod.com
 polyspace.com
@@ -9404,6 +9405,7 @@ repl.run
 stackit.run
 val.run
 web.val.run
+vercel.run
 wix.run
 rwe
 ryukyu
