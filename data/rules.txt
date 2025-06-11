@@ -201,6 +201,8 @@ biz.at
 info.at
 123webseite.at
 priv.at
+4.at
+my.at
 myspreadshop.at
 12hp.at
 2ix.at
@@ -2026,6 +2028,7 @@ firewall-gateway.de
 my-gateway.de
 my-router.de
 spdns.de
+my.de
 customer.speedpartner.de
 myspreadshop.de
 taifun-dns.de
@@ -2193,6 +2196,7 @@ cloudns.eu
 jelastic.dogado.eu
 barsy.eu
 spdns.eu
+*.nxa.eu
 *.transurl.eu
 diskstation.eu
 fi
@@ -2348,6 +2352,7 @@ net.gu
 org.gu
 web.gu
 gw
+nx.gw
 gy
 co.gy
 com.gy
