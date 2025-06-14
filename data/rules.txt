@@ -9219,6 +9219,7 @@ nec
 netbank
 netflix
 network
+aem.network
 *.alces.network
 co.network
 arvo.network
@@ -9283,7 +9284,6 @@ nerdpol.ovh
 page
 aem.page
 hlx.page
-hlx3.page
 translated.page
 codeberg.page
 heyflow.page
@@ -9378,6 +9378,7 @@ rest
 restaurant
 review
 reviews
+aem.reviews
 rexroth
 rich
 richardli
