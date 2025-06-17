@@ -37973,26 +37973,33 @@ fn lookup_593_7(acc: usize) -> Info {
 #[inline]
 fn lookup_593_8(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 15usize,
-        typ: Some(Type::Icann),
+        len: acc + 1 + 9usize,
+        typ: Some(Type::Private),
     }
 }
 #[inline]
 fn lookup_593_9(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 14usize,
+        len: acc + 1 + 15usize,
         typ: Some(Type::Icann),
     }
 }
 #[inline]
 fn lookup_593_10(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 10usize,
+        len: acc + 1 + 14usize,
         typ: Some(Type::Icann),
     }
 }
 #[inline]
 fn lookup_593_11(acc: usize) -> Info {
+    Info {
+        len: acc + 1 + 10usize,
+        typ: Some(Type::Icann),
+    }
+}
+#[inline]
+fn lookup_593_12(acc: usize) -> Info {
     Info {
         len: acc + 1 + 10usize,
         typ: Some(Type::Icann),
@@ -38018,10 +38025,11 @@ where
             [110, 101, 116] => lookup_593_5(acc),
             [111, 114, 103] => lookup_593_6(acc),
             [115, 99, 104] => lookup_593_7(acc),
-            [120, 110, 45, 45, 109, 103, 98, 97, 51, 97, 52, 102, 49, 54, 97] => lookup_593_8(acc),
-            [120, 110, 45, 45, 109, 103, 98, 97, 51, 97, 52, 102, 114, 97] => lookup_593_9(acc),
-            [216, 167, 217, 138, 216, 177, 216, 167, 217, 134] => lookup_593_10(acc),
-            [216, 167, 219, 140, 216, 177, 216, 167, 217, 134] => lookup_593_11(acc),
+            [118, 105, 115, 116, 97, 98, 108, 111, 103] => lookup_593_8(acc),
+            [120, 110, 45, 45, 109, 103, 98, 97, 51, 97, 52, 102, 49, 54, 97] => lookup_593_9(acc),
+            [120, 110, 45, 45, 109, 103, 98, 97, 51, 97, 52, 102, 114, 97] => lookup_593_10(acc),
+            [216, 167, 217, 138, 216, 177, 216, 167, 217, 134] => lookup_593_11(acc),
+            [216, 167, 219, 140, 216, 177, 216, 167, 217, 134] => lookup_593_12(acc),
             _ => info,
         },
         None => info,
