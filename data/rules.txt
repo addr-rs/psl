@@ -2055,7 +2055,6 @@ my-wan.de
 syno-ds.de
 synology-diskstation.de
 synology-ds.de
-*.uberspace.de
 virtual-user.de
 virtualuser.de
 community-pro.de
