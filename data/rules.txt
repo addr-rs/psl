@@ -7281,6 +7281,7 @@ net.sh
 org.sh
 hashbang.sh
 botda.sh
+lovable.sh
 ent.platform.sh
 eu.platform.sh
 us.platform.sh
@@ -9490,6 +9491,7 @@ ravendb.run
 liara.run
 iran.liara.run
 servers.run
+lovable.run
 *.build.run
 *.code.run
 *.database.run
