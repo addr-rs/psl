@@ -2022,6 +2022,7 @@ schulplattform.de
 schulserver.de
 test-iserv.de
 keymachine.de
+co.de
 git-repos.de
 lcube-server.de
 svn-repos.de
