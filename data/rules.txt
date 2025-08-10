@@ -125,8 +125,6 @@ net.ai
 off.ai
 org.ai
 uwu.ai
-caffeine.ai
-id.ai
 framer.ai
 al
 com.al
@@ -854,6 +852,7 @@ org.co
 carrd.co
 crd.co
 *.otap.co
+hidns.co
 leadpages.co
 lpages.co
 mypi.co
@@ -2315,7 +2314,6 @@ com.gl
 edu.gl
 net.gl
 org.gl
-biz.gl
 gm
 gn
 ac.gn
@@ -2604,7 +2602,6 @@ dyndns.dappnode.io
 darklang.io
 definima.io
 dedyn.io
-icp-api.io
 icp0.io
 *.raw.icp0.io
 icp1.io
@@ -9741,6 +9738,7 @@ viking
 villas
 vin
 vip
+hidns.vip
 virgin
 visa
 vision
