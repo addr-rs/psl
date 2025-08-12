@@ -8321,6 +8321,7 @@ ngrok-free.app
 noop.app
 *.northflank.app
 *.upsun.app
+up.railway.app
 replit.app
 id.replit.app
 nyat.app
