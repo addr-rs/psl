@@ -1730,6 +1730,8 @@ jed.wafaicloud.com
 ryd.wafaicloud.com
 webadorsite.com
 *.cns.joyent.com
+on-forge.com
+on-vapor.com
 lpusercontent.com
 members.linode.com
 *.nodebalancer.linode.com
@@ -8874,6 +8876,8 @@ worf.replit.dev
 *.wd.crm.dev
 *.we.crm.dev
 *.wf.crm.dev
+erp.dev
+web.erp.dev
 vercel.dev
 *.webhare.dev
 hrsn.dev
