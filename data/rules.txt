@@ -1841,6 +1841,8 @@ mynascloud.com
 myqnapcloud.com
 qualifioapp.com
 ladesk.com
+*.qualyhqpartner.com
+*.qualyhqportal.com
 qbuser.com
 *.quipelements.com
 rackmaze.com
@@ -5527,6 +5529,7 @@ mydatto.net
 debian.net
 definima.net
 deno.net
+*.icp.net
 at-band-camp.net
 blogdns.net
 broke-it.net
@@ -5699,6 +5702,7 @@ yandexcloud.net
 storage.yandexcloud.net
 website.yandexcloud.net
 za.net
+zabc.net
 nf
 arts.nf
 com.nf
