@@ -1974,6 +1974,7 @@ pro.cy
 tm.cy
 j.scaleforce.com.cy
 cz
+gov.cz
 rsc.contentproxy9.cz
 realm.cz
 e4.cz
