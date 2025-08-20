@@ -241,6 +241,8 @@ wa.gov.au
 schools.nsw.edu.au
 mel.cloudlets.com.au
 myspreadshop.com.au
+hrsn.au
+vps.hrsn.au
 aw
 com.aw
 ax
@@ -1752,6 +1754,8 @@ apps.fbsbx.com
 meteorapp.com
 eu.meteorapp.com
 routingthecloud.com
+same-app.com
+same-preview.com
 mydbserver.com
 hostedpi.com
 caracal.mythic-beasts.com
@@ -5312,7 +5316,6 @@ c66.me
 craft.me
 edgestack.me
 filegear.me
-glitch.me
 filegear-sg.me
 lohmus.me
 barsy.me
