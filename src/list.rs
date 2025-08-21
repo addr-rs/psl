@@ -85466,39 +85466,46 @@ fn lookup_1048_20(acc: usize) -> Info {
 #[inline]
 fn lookup_1048_21(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 6usize,
+        len: acc + 1 + 11usize,
         typ: Some(Type::Private),
     }
 }
 #[inline]
 fn lookup_1048_22(acc: usize) -> Info {
     Info {
+        len: acc + 1 + 6usize,
+        typ: Some(Type::Private),
+    }
+}
+#[inline]
+fn lookup_1048_23(acc: usize) -> Info {
+    Info {
         len: acc + 1 + 4usize,
         typ: Some(Type::Private),
     }
 }
 #[inline]
-fn lookup_1048_23_0(wild: &[u8], acc: usize) -> Info {
+fn lookup_1048_24_0(wild: &[u8], acc: usize) -> Info {
     Info {
         len: acc + 1 + wild.len(),
         typ: Some(Type::Private),
     }
 }
 #[inline]
-fn lookup_1048_23<'a, T>(info: Info, mut labels: T, mut acc: usize) -> Info
+fn lookup_1048_24<'a, T>(info: Info, mut labels: T, mut acc: usize) -> Info
 where
     T: Iterator<Item = &'a [u8]>,
 {
     acc += 1 + 3usize;
     match labels.next() {
         Some(label) => match label {
-            wild => lookup_1048_23_0(wild, acc),
+            wild => lookup_1048_24_0(wild, acc),
         },
         None => info,
     }
 }
 #[inline]
-fn lookup_1048_24(acc: usize) -> Info {
+fn lookup_1048_25(acc: usize) -> Info {
     Info {
         len: acc + 1 + 9usize,
         typ: Some(Type::Private),
@@ -85537,10 +85544,11 @@ where
             [111, 112, 101, 110, 115, 111, 99, 105, 97, 108] => lookup_1048_18(acc),
             [112, 108, 97, 116, 102, 111, 114, 109, 115, 104] => lookup_1048_19(info, labels, acc),
             [112, 114, 101, 118, 105, 101, 119] => lookup_1048_20(acc),
-            [115, 113, 117, 97, 114, 101] => lookup_1048_21(acc),
-            [115, 114, 104, 116] => lookup_1048_22(acc),
-            [116, 115, 116] => lookup_1048_23(info, labels, acc),
-            [119, 112, 115, 113, 117, 97, 114, 101, 100] => lookup_1048_24(acc),
+            [115, 111, 117, 114, 99, 101, 99, 114, 97, 102, 116] => lookup_1048_21(acc),
+            [115, 113, 117, 97, 114, 101] => lookup_1048_22(acc),
+            [115, 114, 104, 116] => lookup_1048_23(acc),
+            [116, 115, 116] => lookup_1048_24(info, labels, acc),
+            [119, 112, 115, 113, 117, 97, 114, 101, 100] => lookup_1048_25(acc),
             _ => info,
         },
         None => info,

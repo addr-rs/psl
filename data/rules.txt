@@ -9603,6 +9603,7 @@ srht.site
 novecore.site
 cpanel.site
 wpsquared.site
+sourcecraft.site
 ski
 skin
 sky
