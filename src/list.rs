@@ -4854,28 +4854,10 @@ fn lookup_77_4_1(acc: usize) -> Info {
     }
 }
 #[inline]
-fn lookup_77_4_2_0(acc: usize) -> Info {
+fn lookup_77_4_2(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 7usize,
+        len: acc + 1 + 3usize,
         typ: Some(Type::Icann),
-    }
-}
-#[inline]
-fn lookup_77_4_2<'a, T>(mut labels: T, mut acc: usize) -> Info
-where
-    T: Iterator<Item = &'a [u8]>,
-{
-    acc += 1 + 3usize;
-    let info = Info {
-        len: acc,
-        typ: Some(Type::Icann),
-    };
-    match labels.next() {
-        Some(label) => match label {
-            [115, 99, 104, 111, 111, 108, 115] => lookup_77_4_2_0(acc),
-            _ => info,
-        },
-        None => info,
     }
 }
 #[inline]
@@ -4934,7 +4916,7 @@ where
         Some(label) => match label {
             [97, 99, 116] => lookup_77_4_0(acc),
             [99, 97, 116, 104, 111, 108, 105, 99] => lookup_77_4_1(acc),
-            [110, 115, 119] => lookup_77_4_2(labels, acc),
+            [110, 115, 119] => lookup_77_4_2(acc),
             [110, 116] => lookup_77_4_3(acc),
             [113, 108, 100] => lookup_77_4_4(acc),
             [115, 97] => lookup_77_4_5(acc),
