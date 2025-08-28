@@ -867,6 +867,8 @@ id.firewalledreplit.co
 repl.co
 id.repl.co
 supabase.co
+realtime.supabase.co
+storage.supabase.co
 com
 a2hosted.com
 cpserver.com
@@ -8344,6 +8346,7 @@ storipress.app
 telebit.app
 typedream.app
 vercel.app
+wal.app
 bookonline.app
 wdh.app
 windsurf.app
