@@ -8679,6 +8679,7 @@ uk.reclaim.cloud
 us.reclaim.cloud
 ch.trendhosting.cloud
 de.trendhosting.cloud
+jote.cloud
 jotelulu.cloud
 kuleuven.cloud
 laravel.cloud
@@ -9463,7 +9464,6 @@ realtor
 realty
 recipes
 red
-redstone
 redumbrella
 rehab
 reise
