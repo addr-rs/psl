@@ -266,6 +266,7 @@ gov.ba
 mil.ba
 net.ba
 org.ba
+shop.brendly.ba
 rs.ba
 bb
 biz.bb
@@ -7874,7 +7875,6 @@ lib.mn.us
 cc.mo.us
 lib.mo.us
 cc.ms.us
-lib.ms.us
 cc.mt.us
 lib.mt.us
 cc.nc.us
@@ -8320,6 +8320,7 @@ github.app
 *.run.app
 *.mtls.run.app
 web.app
+hackclub.app
 hasura.app
 botdash.app
 loginline.app
