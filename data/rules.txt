@@ -1518,7 +1518,6 @@ discordsez.com
 drayddns.com
 dreamhosters.com
 durumis.com
-mydrobo.com
 blogdns.com
 cechire.com
 dnsalias.com
@@ -9507,7 +9506,6 @@ development.run
 ravendb.run
 liara.run
 iran.liara.run
-servers.run
 lovable.run
 *.build.run
 *.code.run
