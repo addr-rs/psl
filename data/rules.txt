@@ -1735,6 +1735,8 @@ demo.jelastic.com
 paas.massivegrid.com
 jed.wafaicloud.com
 ryd.wafaicloud.com
+jote-dr-lt1.com
+jote-rd-lt1.com
 webadorsite.com
 *.cns.joyent.com
 on-forge.com
@@ -9600,6 +9602,7 @@ notion.site
 omniwe.site
 opensocial.site
 madethis.site
+support.site
 *.platformsh.site
 *.tst.site
 byen.site
