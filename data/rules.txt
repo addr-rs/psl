@@ -876,8 +876,6 @@ cpserver.com
 adobeaemcloud.com
 *.dev.adobeaemcloud.com
 africa.com
-airkitapps.com
-airkitapps-au.com
 aivencloud.com
 alibabacloudcs.com
 kasserver.com
@@ -2214,7 +2212,6 @@ name.et
 net.et
 org.et
 eu
-airkitapps.eu
 cloudns.eu
 jelastic.dogado.eu
 barsy.eu
@@ -2485,6 +2482,7 @@ or.id
 ponpes.id
 sch.id
 web.id
+e.id
 zone.id
 ie
 gov.ie
