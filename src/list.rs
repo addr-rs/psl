@@ -85130,6 +85130,13 @@ where
     }
 }
 #[inline]
+fn lookup_1032_10(acc: usize) -> Info {
+    Info {
+        len: acc + 1 + 8usize,
+        typ: Some(Type::Private),
+    }
+}
+#[inline]
 fn lookup_1032<'a, T>(mut labels: T) -> Info
 where
     T: Iterator<Item = &'a [u8]>,
@@ -85151,6 +85158,7 @@ where
             [110, 111, 119] => lookup_1032_7(acc),
             [111, 114, 103] => lookup_1032_8(acc),
             [112, 108, 97, 116, 102, 111, 114, 109] => lookup_1032_9(info, labels, acc),
+            [116, 101, 108, 101, 112, 111, 114, 116] => lookup_1032_10(acc),
             _ => info,
         },
         None => info,

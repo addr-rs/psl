@@ -7298,6 +7298,7 @@ lovable.sh
 ent.platform.sh
 eu.platform.sh
 us.platform.sh
+teleport.sh
 now.sh
 si
 f5.si
