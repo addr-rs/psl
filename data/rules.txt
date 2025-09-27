@@ -1481,6 +1481,7 @@ boutir.com
 bplaced.com
 cafjs.com
 canva-apps.com
+rice-labs.com
 cdn77-storage.com
 br.com
 cn.com
@@ -2073,6 +2074,7 @@ virtual-user.de
 virtualuser.de
 community-pro.de
 diskussionsbereich.de
+*.xenonconnect.de
 dj
 dk
 biz.dk
@@ -9503,6 +9505,7 @@ rugby
 ruhr
 run
 *.appwrite.run
+canva.run
 development.run
 ravendb.run
 liara.run
