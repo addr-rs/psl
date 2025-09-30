@@ -8325,6 +8325,7 @@ web.app
 hackclub.app
 hasura.app
 botdash.app
+leapcell.app
 loginline.app
 lovable.app
 luyani.app
@@ -8844,6 +8845,7 @@ botdash.dev
 is-a-good.dev
 is-a.dev
 iserv.dev
+leapcell.dev
 runcontainers.dev
 *.user.localcert.dev
 loginline.dev
@@ -9115,6 +9117,7 @@ wpmudev.host
 iserv.host
 jele.host
 mircloud.host
+bolt.host
 wp2.host
 half.host
 hosting
@@ -9374,6 +9377,7 @@ online
 eero.online
 eero-stage.online
 websitebuilder.online
+leapcell.online
 barsy.online
 ooo
 open
