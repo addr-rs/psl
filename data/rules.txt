@@ -700,6 +700,7 @@ box.ca
 cat
 cc
 cleverapps.cc
+cloud-ip.cc
 cloudns.cc
 ftpaccess.cc
 game-server.cc
@@ -1495,6 +1496,7 @@ uk.com
 us.com
 za.com
 *.services.clever-cloud.com
+abrdns.com
 dnsabr.com
 ip-ddns.com
 jdevcloud.com
