@@ -5629,7 +5629,6 @@ kinghost.net
 uni5.net
 krellian.net
 ggff.net
-localcert.net
 *.localto.net
 barsy.net
 luyani.net
@@ -5709,6 +5708,7 @@ torproject.net
 pages.torproject.net
 vusercontent.net
 reserve-online.net
+localcert.net
 community-pro.net
 meinforum.net
 yandexcloud.net
@@ -8845,7 +8845,6 @@ githubpreview.dev
 botdash.dev
 *.inbrowser.dev
 is-a-good.dev
-is-a.dev
 iserv.dev
 leapcell.dev
 runcontainers.dev
@@ -8902,6 +8901,7 @@ web.erp.dev
 vercel.dev
 *.webhare.dev
 hrsn.dev
+is-a.dev
 dhl
 diamonds
 diet
