@@ -1482,6 +1482,8 @@ boutir.com
 bplaced.com
 cafjs.com
 canva-apps.com
+canva-hosted-embed.com
+canvacode.com
 rice-labs.com
 cdn77-storage.com
 br.com
@@ -9920,6 +9922,7 @@ vermögensberatung
 广东
 政务
 xyz
+caffeine.xyz
 botdash.xyz
 *.telebit.xyz
 yachts
