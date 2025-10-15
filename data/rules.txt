@@ -1738,8 +1738,9 @@ demo.jelastic.com
 paas.massivegrid.com
 jed.wafaicloud.com
 ryd.wafaicloud.com
-jote-dr-lt1.com
-jote-rd-lt1.com
+eu1-plenit.com
+la1-plenit.com
+us1-plenit.com
 webadorsite.com
 *.cns.joyent.com
 on-forge.com
