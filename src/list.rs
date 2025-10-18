@@ -77121,6 +77121,13 @@ fn lookup_851_1(acc: usize) -> Info {
     }
 }
 #[inline]
+fn lookup_851_2(acc: usize) -> Info {
+    Info {
+        len: acc + 1 + 7usize,
+        typ: Some(Type::Private),
+    }
+}
+#[inline]
 fn lookup_851<'a, T>(mut labels: T) -> Info
 where
     T: Iterator<Item = &'a [u8]>,
@@ -77134,6 +77141,7 @@ where
         Some(label) => match label {
             [107, 105, 110] => lookup_851_0(info, labels, acc),
             [115, 101, 114, 118, 105, 99, 101] => lookup_851_1(acc),
+            [119, 101, 98, 115, 105, 116, 101] => lookup_851_2(acc),
             _ => info,
         },
         None => info,
