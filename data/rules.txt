@@ -9521,6 +9521,7 @@ ravendb.run
 liara.run
 iran.liara.run
 lovable.run
+needle.run
 *.build.run
 *.code.run
 *.database.run
