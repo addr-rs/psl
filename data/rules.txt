@@ -8828,6 +8828,7 @@ dev
 12chars.dev
 myaddr.dev
 panel.dev
+bearblog.dev
 *.lcl.dev
 *.lclstage.dev
 *.stg.dev
@@ -8928,7 +8929,6 @@ download
 drive
 dtv
 dubai
-dunlop
 dupont
 durban
 dvag
