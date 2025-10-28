@@ -126,7 +126,7 @@ where
             [98, 98, 118, 97] => lookup_111(),
             [98, 99, 103] => lookup_112(),
             [98, 99, 110] => lookup_113(),
-            [98, 100] => lookup_114(info, labels),
+            [98, 100] => lookup_114(labels),
             [98, 101] => lookup_115(labels),
             [98, 101, 97, 116, 115] => lookup_116(),
             [98, 101, 97, 117, 116, 121] => lookup_117(),
@@ -8403,22 +8403,130 @@ fn lookup_113() -> Info {
     }
 }
 #[inline]
-fn lookup_114_0(wild: &[u8], acc: usize) -> Info {
+fn lookup_114_0(acc: usize) -> Info {
     Info {
-        len: acc + 1 + wild.len(),
+        len: acc + 1 + 2usize,
         typ: Some(Type::Icann),
     }
 }
 #[inline]
-fn lookup_114<'a, T>(mut info: Info, mut labels: T) -> Info
+fn lookup_114_1(acc: usize) -> Info {
+    Info {
+        len: acc + 1 + 2usize,
+        typ: Some(Type::Icann),
+    }
+}
+#[inline]
+fn lookup_114_2(acc: usize) -> Info {
+    Info {
+        len: acc + 1 + 2usize,
+        typ: Some(Type::Icann),
+    }
+}
+#[inline]
+fn lookup_114_3(acc: usize) -> Info {
+    Info {
+        len: acc + 1 + 3usize,
+        typ: Some(Type::Icann),
+    }
+}
+#[inline]
+fn lookup_114_4(acc: usize) -> Info {
+    Info {
+        len: acc + 1 + 3usize,
+        typ: Some(Type::Icann),
+    }
+}
+#[inline]
+fn lookup_114_5(acc: usize) -> Info {
+    Info {
+        len: acc + 1 + 3usize,
+        typ: Some(Type::Icann),
+    }
+}
+#[inline]
+fn lookup_114_6(acc: usize) -> Info {
+    Info {
+        len: acc + 1 + 2usize,
+        typ: Some(Type::Icann),
+    }
+}
+#[inline]
+fn lookup_114_7(acc: usize) -> Info {
+    Info {
+        len: acc + 1 + 4usize,
+        typ: Some(Type::Icann),
+    }
+}
+#[inline]
+fn lookup_114_8(acc: usize) -> Info {
+    Info {
+        len: acc + 1 + 2usize,
+        typ: Some(Type::Icann),
+    }
+}
+#[inline]
+fn lookup_114_9(acc: usize) -> Info {
+    Info {
+        len: acc + 1 + 3usize,
+        typ: Some(Type::Icann),
+    }
+}
+#[inline]
+fn lookup_114_10(acc: usize) -> Info {
+    Info {
+        len: acc + 1 + 3usize,
+        typ: Some(Type::Icann),
+    }
+}
+#[inline]
+fn lookup_114_11(acc: usize) -> Info {
+    Info {
+        len: acc + 1 + 3usize,
+        typ: Some(Type::Icann),
+    }
+}
+#[inline]
+fn lookup_114_12(acc: usize) -> Info {
+    Info {
+        len: acc + 1 + 3usize,
+        typ: Some(Type::Icann),
+    }
+}
+#[inline]
+fn lookup_114_13(acc: usize) -> Info {
+    Info {
+        len: acc + 1 + 2usize,
+        typ: Some(Type::Icann),
+    }
+}
+#[inline]
+fn lookup_114<'a, T>(mut labels: T) -> Info
 where
     T: Iterator<Item = &'a [u8]>,
 {
     let acc = 2usize;
-    info.len = acc;
+    let info = Info {
+        len: acc,
+        typ: Some(Type::Icann),
+    };
     match labels.next() {
         Some(label) => match label {
-            wild => lookup_114_0(wild, acc),
+            [97, 99] => lookup_114_0(acc),
+            [97, 105] => lookup_114_1(acc),
+            [99, 111] => lookup_114_2(acc),
+            [99, 111, 109] => lookup_114_3(acc),
+            [101, 100, 117] => lookup_114_4(acc),
+            [103, 111, 118] => lookup_114_5(acc),
+            [105, 100] => lookup_114_6(acc),
+            [105, 110, 102, 111] => lookup_114_7(acc),
+            [105, 116] => lookup_114_8(acc),
+            [109, 105, 108] => lookup_114_9(acc),
+            [110, 101, 116] => lookup_114_10(acc),
+            [111, 114, 103] => lookup_114_11(acc),
+            [115, 99, 104] => lookup_114_12(acc),
+            [116, 118] => lookup_114_13(acc),
+            _ => info,
         },
         None => info,
     }
