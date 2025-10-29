@@ -2238,6 +2238,7 @@ jelastic.dogado.eu
 barsy.eu
 spdns.eu
 *.nxa.eu
+directwp.eu
 *.transurl.eu
 diskstation.eu
 fi
@@ -2645,6 +2646,7 @@ qzz.io
 fh-muenster.io
 shw.io
 id.forgerock.io
+gitbook.io
 github.io
 gitlab.io
 lolipop.io
@@ -8013,6 +8015,7 @@ emprende.ve
 firm.ve
 gob.ve
 gov.ve
+ia.ve
 info.ve
 int.ve
 mil.ve
@@ -9419,6 +9422,7 @@ codeberg.page
 heyflow.page
 prvcy.page
 rocky.page
+statichost.page
 pdns.page
 plesk.page
 panasonic
