@@ -8322,6 +8322,7 @@ brave.app
 *.s.brave.app
 clerk.app
 clerkstage.app
+cloudflare.app
 wnext.app
 csb.app
 preview.csb.app
