@@ -8374,6 +8374,7 @@ telebit.app
 typedream.app
 vercel.app
 wal.app
+wasmer.app
 bookonline.app
 wdh.app
 windsurf.app
