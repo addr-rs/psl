@@ -37992,50 +37992,50 @@ fn lookup_575_4(acc: usize) -> Info {
 #[inline]
 fn lookup_575_5(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 5usize,
-        typ: Some(Type::Private),
+        len: acc + 1 + 4usize,
+        typ: Some(Type::Icann),
     }
 }
 #[inline]
 fn lookup_575_6(acc: usize) -> Info {
     Info {
         len: acc + 1 + 5usize,
-        typ: Some(Type::Icann),
+        typ: Some(Type::Private),
     }
 }
 #[inline]
 fn lookup_575_7(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 3usize,
+        len: acc + 1 + 5usize,
         typ: Some(Type::Icann),
     }
 }
 #[inline]
 fn lookup_575_8(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 8usize,
+        len: acc + 1 + 3usize,
         typ: Some(Type::Icann),
     }
 }
 #[inline]
 fn lookup_575_9(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 2usize,
+        len: acc + 1 + 8usize,
         typ: Some(Type::Icann),
     }
 }
 #[inline]
 fn lookup_575_10(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 7usize,
-        typ: Some(Type::Private),
+        len: acc + 1 + 2usize,
+        typ: Some(Type::Icann),
     }
 }
 #[inline]
 fn lookup_575_11(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 2usize,
-        typ: Some(Type::Icann),
+        len: acc + 1 + 7usize,
+        typ: Some(Type::Private),
     }
 }
 #[inline]
@@ -38048,56 +38048,56 @@ fn lookup_575_12(acc: usize) -> Info {
 #[inline]
 fn lookup_575_13(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 3usize,
+        len: acc + 1 + 2usize,
         typ: Some(Type::Icann),
     }
 }
 #[inline]
 fn lookup_575_14(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 4usize,
+        len: acc + 1 + 3usize,
         typ: Some(Type::Icann),
     }
 }
 #[inline]
 fn lookup_575_15(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 2usize,
+        len: acc + 1 + 4usize,
         typ: Some(Type::Icann),
     }
 }
 #[inline]
 fn lookup_575_16(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 5usize,
+        len: acc + 1 + 2usize,
         typ: Some(Type::Icann),
     }
 }
 #[inline]
 fn lookup_575_17(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 2usize,
+        len: acc + 1 + 5usize,
         typ: Some(Type::Icann),
     }
 }
 #[inline]
 fn lookup_575_18(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 3usize,
+        len: acc + 1 + 2usize,
         typ: Some(Type::Icann),
     }
 }
 #[inline]
 fn lookup_575_19(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 2usize,
+        len: acc + 1 + 3usize,
         typ: Some(Type::Icann),
     }
 }
 #[inline]
 fn lookup_575_20(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 4usize,
+        len: acc + 1 + 2usize,
         typ: Some(Type::Icann),
     }
 }
@@ -38111,14 +38111,14 @@ fn lookup_575_21(acc: usize) -> Info {
 #[inline]
 fn lookup_575_22(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 3usize,
+        len: acc + 1 + 4usize,
         typ: Some(Type::Icann),
     }
 }
 #[inline]
 fn lookup_575_23(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 7usize,
+        len: acc + 1 + 3usize,
         typ: Some(Type::Icann),
     }
 }
@@ -38132,7 +38132,7 @@ fn lookup_575_24(acc: usize) -> Info {
 #[inline]
 fn lookup_575_25(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 4usize,
+        len: acc + 1 + 7usize,
         typ: Some(Type::Icann),
     }
 }
@@ -38146,35 +38146,35 @@ fn lookup_575_26(acc: usize) -> Info {
 #[inline]
 fn lookup_575_27(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 8usize,
+        len: acc + 1 + 4usize,
         typ: Some(Type::Icann),
     }
 }
 #[inline]
 fn lookup_575_28(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 2usize,
+        len: acc + 1 + 3usize,
         typ: Some(Type::Icann),
     }
 }
 #[inline]
 fn lookup_575_29(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 2usize,
+        len: acc + 1 + 8usize,
         typ: Some(Type::Icann),
     }
 }
 #[inline]
 fn lookup_575_30(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 3usize,
+        len: acc + 1 + 2usize,
         typ: Some(Type::Icann),
     }
 }
 #[inline]
 fn lookup_575_31(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 3usize,
+        len: acc + 1 + 2usize,
         typ: Some(Type::Icann),
     }
 }
@@ -38195,56 +38195,56 @@ fn lookup_575_33(acc: usize) -> Info {
 #[inline]
 fn lookup_575_34(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 2usize,
+        len: acc + 1 + 3usize,
         typ: Some(Type::Icann),
     }
 }
 #[inline]
 fn lookup_575_35(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 4usize,
+        len: acc + 1 + 3usize,
         typ: Some(Type::Icann),
     }
 }
 #[inline]
 fn lookup_575_36(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 3usize,
+        len: acc + 1 + 2usize,
         typ: Some(Type::Icann),
     }
 }
 #[inline]
 fn lookup_575_37(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 3usize,
+        len: acc + 1 + 4usize,
         typ: Some(Type::Icann),
     }
 }
 #[inline]
 fn lookup_575_38(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 8usize,
-        typ: Some(Type::Private),
+        len: acc + 1 + 3usize,
+        typ: Some(Type::Icann),
     }
 }
 #[inline]
 fn lookup_575_39(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 6usize,
+        len: acc + 1 + 3usize,
         typ: Some(Type::Icann),
     }
 }
 #[inline]
 fn lookup_575_40(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 2usize,
-        typ: Some(Type::Icann),
+        len: acc + 1 + 8usize,
+        typ: Some(Type::Private),
     }
 }
 #[inline]
 fn lookup_575_41(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 2usize,
+        len: acc + 1 + 6usize,
         typ: Some(Type::Icann),
     }
 }
@@ -38264,6 +38264,20 @@ fn lookup_575_43(acc: usize) -> Info {
 }
 #[inline]
 fn lookup_575_44(acc: usize) -> Info {
+    Info {
+        len: acc + 1 + 2usize,
+        typ: Some(Type::Icann),
+    }
+}
+#[inline]
+fn lookup_575_45(acc: usize) -> Info {
+    Info {
+        len: acc + 1 + 2usize,
+        typ: Some(Type::Icann),
+    }
+}
+#[inline]
+fn lookup_575_46(acc: usize) -> Info {
     Info {
         len: acc + 1 + 3usize,
         typ: Some(Type::Private),
@@ -38286,46 +38300,48 @@ where
             [97, 99] => lookup_575_2(acc),
             [97, 105] => lookup_575_3(acc),
             [97, 109] => lookup_575_4(acc),
-            [98, 97, 114, 115, 121] => lookup_575_5(acc),
-            [98, 105, 104, 97, 114] => lookup_575_6(acc),
-            [98, 105, 122] => lookup_575_7(acc),
-            [98, 117, 115, 105, 110, 101, 115, 115] => lookup_575_8(acc),
-            [99, 97] => lookup_575_9(acc),
-            [99, 108, 111, 117, 100, 110, 115] => lookup_575_10(acc),
-            [99, 110] => lookup_575_11(acc),
-            [99, 111] => lookup_575_12(acc),
-            [99, 111, 109] => lookup_575_13(acc),
-            [99, 111, 111, 112] => lookup_575_14(acc),
-            [99, 115] => lookup_575_15(acc),
-            [100, 101, 108, 104, 105] => lookup_575_16(acc),
-            [100, 114] => lookup_575_17(acc),
-            [101, 100, 117] => lookup_575_18(acc),
-            [101, 114] => lookup_575_19(acc),
-            [102, 105, 114, 109] => lookup_575_20(acc),
-            [103, 101, 110] => lookup_575_21(acc),
-            [103, 111, 118] => lookup_575_22(acc),
-            [103, 117, 106, 97, 114, 97, 116] => lookup_575_23(acc),
-            [105, 110, 100] => lookup_575_24(acc),
-            [105, 110, 102, 111] => lookup_575_25(acc),
-            [105, 110, 116] => lookup_575_26(acc),
-            [105, 110, 116, 101, 114, 110, 101, 116] => lookup_575_27(acc),
-            [105, 111] => lookup_575_28(acc),
-            [109, 101] => lookup_575_29(acc),
-            [109, 105, 108] => lookup_575_30(acc),
-            [110, 101, 116] => lookup_575_31(acc),
-            [110, 105, 99] => lookup_575_32(acc),
-            [111, 114, 103] => lookup_575_33(acc),
-            [112, 103] => lookup_575_34(acc),
-            [112, 111, 115, 116] => lookup_575_35(acc),
-            [112, 114, 111] => lookup_575_36(acc),
-            [114, 101, 115] => lookup_575_37(acc),
-            [115, 117, 112, 97, 98, 97, 115, 101] => lookup_575_38(acc),
-            [116, 114, 97, 118, 101, 108] => lookup_575_39(acc),
-            [116, 118] => lookup_575_40(acc),
-            [117, 107] => lookup_575_41(acc),
-            [117, 112] => lookup_575_42(acc),
-            [117, 115] => lookup_575_43(acc),
-            [119, 101, 98] => lookup_575_44(acc),
+            [98, 97, 110, 107] => lookup_575_5(acc),
+            [98, 97, 114, 115, 121] => lookup_575_6(acc),
+            [98, 105, 104, 97, 114] => lookup_575_7(acc),
+            [98, 105, 122] => lookup_575_8(acc),
+            [98, 117, 115, 105, 110, 101, 115, 115] => lookup_575_9(acc),
+            [99, 97] => lookup_575_10(acc),
+            [99, 108, 111, 117, 100, 110, 115] => lookup_575_11(acc),
+            [99, 110] => lookup_575_12(acc),
+            [99, 111] => lookup_575_13(acc),
+            [99, 111, 109] => lookup_575_14(acc),
+            [99, 111, 111, 112] => lookup_575_15(acc),
+            [99, 115] => lookup_575_16(acc),
+            [100, 101, 108, 104, 105] => lookup_575_17(acc),
+            [100, 114] => lookup_575_18(acc),
+            [101, 100, 117] => lookup_575_19(acc),
+            [101, 114] => lookup_575_20(acc),
+            [102, 105, 110] => lookup_575_21(acc),
+            [102, 105, 114, 109] => lookup_575_22(acc),
+            [103, 101, 110] => lookup_575_23(acc),
+            [103, 111, 118] => lookup_575_24(acc),
+            [103, 117, 106, 97, 114, 97, 116] => lookup_575_25(acc),
+            [105, 110, 100] => lookup_575_26(acc),
+            [105, 110, 102, 111] => lookup_575_27(acc),
+            [105, 110, 116] => lookup_575_28(acc),
+            [105, 110, 116, 101, 114, 110, 101, 116] => lookup_575_29(acc),
+            [105, 111] => lookup_575_30(acc),
+            [109, 101] => lookup_575_31(acc),
+            [109, 105, 108] => lookup_575_32(acc),
+            [110, 101, 116] => lookup_575_33(acc),
+            [110, 105, 99] => lookup_575_34(acc),
+            [111, 114, 103] => lookup_575_35(acc),
+            [112, 103] => lookup_575_36(acc),
+            [112, 111, 115, 116] => lookup_575_37(acc),
+            [112, 114, 111] => lookup_575_38(acc),
+            [114, 101, 115] => lookup_575_39(acc),
+            [115, 117, 112, 97, 98, 97, 115, 101] => lookup_575_40(acc),
+            [116, 114, 97, 118, 101, 108] => lookup_575_41(acc),
+            [116, 118] => lookup_575_42(acc),
+            [117, 107] => lookup_575_43(acc),
+            [117, 112] => lookup_575_44(acc),
+            [117, 115] => lookup_575_45(acc),
+            [119, 101, 98] => lookup_575_46(acc),
             _ => info,
         },
         None => info,
