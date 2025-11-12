@@ -5611,6 +5611,7 @@ debian.net
 definima.net
 deno.net
 *.icp.net
+de5.net
 at-band-camp.net
 blogdns.net
 broke-it.net
@@ -5774,6 +5775,7 @@ ts.net
 *.c.ts.net
 torproject.net
 pages.torproject.net
+tunnelmole.net
 vusercontent.net
 reserve-online.net
 localcert.net
