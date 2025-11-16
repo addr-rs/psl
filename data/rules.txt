@@ -887,6 +887,7 @@ id.repl.co
 supabase.co
 realtime.supabase.co
 storage.supabase.co
+umso.co
 com
 a2hosted.com
 cpserver.com
@@ -8756,6 +8757,7 @@ clothing
 cloud
 convex.cloud
 elementor.cloud
+emergent.cloud
 eu.encoway.cloud
 *.statics.cloud
 ravendb.cloud
@@ -9205,6 +9207,7 @@ host
 cloudaccess.host
 freesite.host
 easypanel.host
+emergent.host
 fastvps.host
 myfast.host
 tempurl.host
