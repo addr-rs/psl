@@ -240,7 +240,6 @@ vic.gov.au
 wa.gov.au
 mel.cloudlets.com.au
 myspreadshop.com.au
-hrsn.au
 vps.hrsn.au
 aw
 com.aw
@@ -2277,6 +2276,7 @@ net.et
 org.et
 eu
 cloudns.eu
+prvw.eu
 jelastic.dogado.eu
 barsy.eu
 spdns.eu
@@ -8425,7 +8425,6 @@ vercel.app
 wal.app
 wasmer.app
 bookonline.app
-wdh.app
 windsurf.app
 zeabur.app
 *.zerops.app
