@@ -1986,6 +1986,7 @@ js.wpenginepowered.com
 xnbay.com
 u2.xnbay.com
 u2-local.xnbay.com
+xtooldevice.com
 yolasite.com
 coop
 cr
@@ -2551,6 +2552,7 @@ or.id
 ponpes.id
 sch.id
 web.id
+ᬩᬮᬶ.id
 e.id
 zone.id
 ie
@@ -8936,6 +8938,7 @@ relay.evervault.dev
 fly.dev
 githubpreview.dev
 *.gateway.dev
+grebedoc.dev
 botdash.dev
 *.inbrowser.dev
 is-a-good.dev
