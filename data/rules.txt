@@ -5725,6 +5725,8 @@ westus2.azurestaticapps.net
 azurewebsites.net
 cloudapp.net
 trafficmanager.net
+servicebus.usgovcloudapi.net
+usgovcloudapp.net
 blob.core.windows.net
 servicebus.windows.net
 sn.mynetname.net
@@ -8021,6 +8023,8 @@ stuff-4-sale.us
 heliohost.us
 phx.enscaled.us
 mircloud.us
+azure-api.us
+azurewebsites.us
 ngo.us
 golffan.us
 noip.us
@@ -8391,6 +8395,7 @@ on-fleek.app
 flutterflow.app
 e2b.app
 framer.app
+gadget.app
 github.app
 *.hosted.app
 *.run.app
@@ -8921,6 +8926,8 @@ dev
 myaddr.dev
 panel.dev
 bearblog.dev
+brave.dev
+*.s.brave.dev
 *.lcl.dev
 *.lclstage.dev
 *.stg.dev
@@ -9212,6 +9219,7 @@ easypanel.host
 emergent.host
 fastvps.host
 myfast.host
+gadget.host
 tempurl.host
 wpmudev.host
 iserv.host
@@ -9473,7 +9481,6 @@ one
 service.one
 website.one
 ong
-obl.ong
 onl
 online
 eero.online
