@@ -893,6 +893,7 @@ cpserver.com
 adobeaemcloud.com
 *.dev.adobeaemcloud.com
 africa.com
+*.auiusercontent.com
 aivencloud.com
 alibabacloudcs.com
 kasserver.com
