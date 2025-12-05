@@ -879,6 +879,8 @@ leadpages.co
 lpages.co
 mypi.co
 *.xmit.co
+*.clusters.rdpa.co
+*.srvrless.rdpa.co
 firewalledreplit.co
 id.firewalledreplit.co
 repl.co
@@ -1735,6 +1737,7 @@ kozow.com
 loseyourip.com
 ooguy.com
 theworkpc.com
+preview.emergentagent.com
 mytuleap.com
 tuleap-partners.com
 encoreapi.com
@@ -7271,7 +7274,6 @@ mcpre.ru
 net.ru
 org.ru
 pp.ru
-lk3.ru
 ras.ru
 rw
 ac.rw
