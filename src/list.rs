@@ -86047,14 +86047,21 @@ fn lookup_1013() -> Info {
     }
 }
 #[inline]
-fn lookup_1014_0_0(acc: usize) -> Info {
+fn lookup_1014_0(acc: usize) -> Info {
+    Info {
+        len: acc + 1 + 2usize,
+        typ: Some(Type::Private),
+    }
+}
+#[inline]
+fn lookup_1014_1_0(acc: usize) -> Info {
     Info {
         len: acc + 1 + 7usize,
         typ: Some(Type::Private),
     }
 }
 #[inline]
-fn lookup_1014_0<'a, T>(mut labels: T, mut acc: usize) -> Info
+fn lookup_1014_1<'a, T>(mut labels: T, mut acc: usize) -> Info
 where
     T: Iterator<Item = &'a [u8]>,
 {
@@ -86065,10 +86072,24 @@ where
     };
     match labels.next() {
         Some(label) => match label {
-            [115, 101, 114, 118, 105, 99, 101] => lookup_1014_0_0(acc),
+            [115, 101, 114, 118, 105, 99, 101] => lookup_1014_1_0(acc),
             _ => info,
         },
         None => info,
+    }
+}
+#[inline]
+fn lookup_1014_2(acc: usize) -> Info {
+    Info {
+        len: acc + 1 + 2usize,
+        typ: Some(Type::Private),
+    }
+}
+#[inline]
+fn lookup_1014_3(acc: usize) -> Info {
+    Info {
+        len: acc + 1 + 3usize,
+        typ: Some(Type::Private),
     }
 }
 #[inline]
@@ -86083,7 +86104,10 @@ where
     };
     match labels.next() {
         Some(label) => match label {
-            [103, 111, 118] => lookup_1014_0(labels, acc),
+            [99, 111] => lookup_1014_0(acc),
+            [103, 111, 118] => lookup_1014_1(labels, acc),
+            [109, 101] => lookup_1014_2(acc),
+            [111, 114, 103] => lookup_1014_3(acc),
             _ => info,
         },
         None => info,

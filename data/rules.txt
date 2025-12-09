@@ -9672,6 +9672,9 @@ schule
 schwarz
 science
 scot
+co.scot
+me.scot
+org.scot
 gov.scot
 service.gov.scot
 search
