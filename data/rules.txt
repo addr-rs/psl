@@ -1761,7 +1761,6 @@ fastvps-server.com
 mydobiss.com
 firebaseapp.com
 fldrv.com
-forgeblocks.com
 framercanvas.com
 freebox-os.com
 freeboxos.com
@@ -1908,6 +1907,7 @@ pgfog.com
 pagexl.com
 gotpantheon.com
 *.paywhirl.com
+forgeblocks.com
 upsunapp.com
 postman-echo.com
 xen.prgmr.com
@@ -2707,6 +2707,7 @@ uk.in
 up.in
 us.in
 cloudns.in
+indevs.in
 barsy.in
 web.in
 supabase.in
@@ -2772,7 +2773,6 @@ icp1.io
 *.raw.icp1.io
 qzz.io
 fh-muenster.io
-id.forgerock.io
 gitbook.io
 github.io
 gitlab.io
@@ -2798,6 +2798,7 @@ sa.ngrok.io
 us.ngrok.io
 stage.nodeart.io
 pantheonsite.io
+id.forgerock.io
 pstmn.io
 mock.pstmn.io
 protonet.io
@@ -8443,6 +8444,21 @@ anz
 aol
 apartments
 apple
+int.apple
+*.cloud.int.apple
+*.r.cloud.int.apple
+*.ap-north-1.r.cloud.int.apple
+*.ap-south-1.r.cloud.int.apple
+*.ap-south-2.r.cloud.int.apple
+*.eu-central-1.r.cloud.int.apple
+*.eu-north-1.r.cloud.int.apple
+*.us-central-1.r.cloud.int.apple
+*.us-central-2.r.cloud.int.apple
+*.us-east-1.r.cloud.int.apple
+*.us-east-2.r.cloud.int.apple
+*.us-west-1.r.cloud.int.apple
+*.us-west-2.r.cloud.int.apple
+*.us-west-3.r.cloud.int.apple
 aquarelle
 arab
 aramco
@@ -9447,6 +9463,7 @@ netflix
 network
 aem.network
 *.alces.network
+appwrite.network
 co.network
 arvo.network
 azimuth.network
