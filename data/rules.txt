@@ -5267,6 +5267,7 @@ net.kg
 org.kg
 us.kg
 xx.kg
+ae.kg
 *.kh
 ki
 biz.ki
@@ -7457,6 +7458,7 @@ gitapp.si
 gitpage.si
 sj
 sk
+org.sk
 sl
 com.sl
 edu.sl
@@ -7650,6 +7652,7 @@ oya.to
 x0.to
 direct.quickconnect.to
 vpnplus.to
+nett.to
 tr
 av.tr
 bbs.tr
