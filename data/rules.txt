@@ -724,6 +724,11 @@ twmail.cc
 csx.cc
 fantasyleague.cc
 instances.spawn.cc
+ec.cc
+eu.cc
+gu.cc
+uk.cc
+us.cc
 cd
 gov.cd
 cc.cd
@@ -8120,6 +8125,7 @@ gub.uy
 mil.uy
 net.uy
 org.uy
+gv.uy
 uz
 co.uz
 com.uz
