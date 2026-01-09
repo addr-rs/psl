@@ -2281,6 +2281,7 @@ org.et
 eu
 cloudns.eu
 prvw.eu
+deuxfleurs.eu
 jelastic.dogado.eu
 barsy.eu
 spdns.eu
@@ -9524,6 +9525,7 @@ page
 aem.page
 hlx.page
 codeberg.page
+deuxfleurs.page
 heyflow.page
 prvcy.page
 rocky.page
