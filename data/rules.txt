@@ -2072,6 +2072,7 @@ usr.cloud.muni.cz
 de
 bplaced.de
 square7.de
+*.bwcloud-os-instance.de
 com.de
 dyn.cosidns.de
 dnsupdater.de
@@ -5267,6 +5268,7 @@ jeonnam.kr
 seoul.kr
 ulsan.kr
 c01.kr
+eliv-api.kr
 eliv-cdn.kr
 eliv-dns.kr
 mmv.kr
