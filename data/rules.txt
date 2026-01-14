@@ -1991,6 +1991,7 @@ cprapid.com
 pleskns.com
 remotewd.com
 pages.wiardweb.com
+base44-sandbox.com
 wixsite.com
 wixstudio.com
 messwithdns.com
@@ -8438,6 +8439,7 @@ wal.app
 wasmer.app
 bookonline.app
 windsurf.app
+base44.app
 zeabur.app
 *.zerops.app
 apple
