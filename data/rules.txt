@@ -126,6 +126,7 @@ off.ai
 org.ai
 uwu.ai
 framer.ai
+kiloapps.ai
 al
 com.al
 edu.al
@@ -2711,6 +2712,7 @@ hypernode.io
 paas.beebyte.io
 sekd1.beebyteapp.io
 jele.io
+kiloapps.io
 webthings.io
 loginline.io
 barsy.io
