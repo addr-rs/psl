@@ -8388,6 +8388,7 @@ wnext.app
 csb.app
 preview.csb.app
 convex.app
+corespeed.app
 deta.app
 ondigitalocean.app
 easypanel.app
@@ -8412,6 +8413,7 @@ hackclub.app
 hasura.app
 onhercules.app
 botdash.app
+shiptoday.app
 leapcell.app
 loginline.app
 lovable.app
@@ -8419,6 +8421,7 @@ luyani.app
 magicpatterns.app
 medusajs.app
 messerli.app
+miren.app
 mocha.app
 netlify.app
 ngrok.app
@@ -8718,6 +8721,7 @@ broker
 brother
 brussels
 build
+shiptoday.build
 v0.build
 windsurf.build
 builders
@@ -9047,6 +9051,7 @@ discount
 discover
 dish
 diy
+discourse.diy
 dnp
 docs
 doctor
@@ -9826,6 +9831,7 @@ swiss
 sydney
 systems
 knightpoint.systems
+miren.systems
 tab
 taipei
 talk
