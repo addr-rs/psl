@@ -1390,6 +1390,7 @@ s3.dualstack.us-gov-east-1.amazonaws.com
 s3-accesspoint.dualstack.us-gov-east-1.amazonaws.com
 s3-accesspoint-fips.dualstack.us-gov-east-1.amazonaws.com
 s3-fips.dualstack.us-gov-east-1.amazonaws.com
+s3-website.dualstack.us-gov-east-1.amazonaws.com
 s3.us-gov-east-1.amazonaws.com
 s3-accesspoint.us-gov-east-1.amazonaws.com
 s3-accesspoint-fips.us-gov-east-1.amazonaws.com
@@ -1400,6 +1401,7 @@ s3.dualstack.us-gov-west-1.amazonaws.com
 s3-accesspoint.dualstack.us-gov-west-1.amazonaws.com
 s3-accesspoint-fips.dualstack.us-gov-west-1.amazonaws.com
 s3-fips.dualstack.us-gov-west-1.amazonaws.com
+s3-website.dualstack.us-gov-west-1.amazonaws.com
 s3.us-gov-west-1.amazonaws.com
 s3-accesspoint.us-gov-west-1.amazonaws.com
 s3-accesspoint-fips.us-gov-west-1.amazonaws.com
@@ -2282,6 +2284,7 @@ name.et
 net.et
 org.et
 eu
+auth.cognito-idp.eusc-de-east-1.on.amazonwebservices.eu
 cloudns.eu
 prvw.eu
 deuxfleurs.eu
@@ -8631,6 +8634,7 @@ transfer-webapp.ap-southeast-2.on.aws
 transfer-webapp.ap-southeast-3.on.aws
 transfer-webapp.ap-southeast-4.on.aws
 transfer-webapp.ap-southeast-5.on.aws
+transfer-webapp.ap-southeast-7.on.aws
 transfer-webapp.ca-central-1.on.aws
 transfer-webapp.ca-west-1.on.aws
 transfer-webapp.eu-central-1.on.aws
@@ -8644,6 +8648,7 @@ transfer-webapp.eu-west-3.on.aws
 transfer-webapp.il-central-1.on.aws
 transfer-webapp.me-central-1.on.aws
 transfer-webapp.me-south-1.on.aws
+transfer-webapp.mx-central-1.on.aws
 transfer-webapp.sa-east-1.on.aws
 transfer-webapp.us-east-1.on.aws
 transfer-webapp.us-east-2.on.aws
