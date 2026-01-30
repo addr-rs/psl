@@ -2715,6 +2715,7 @@ hypernode.io
 paas.beebyte.io
 sekd1.beebyteapp.io
 jele.io
+keenetic.io
 kiloapps.io
 webthings.io
 loginline.io
@@ -5562,6 +5563,7 @@ name
 forgot.her.name
 forgot.his.name
 ispmanager.name
+keenetic.name
 nc
 asso.nc
 nom.nc
@@ -7167,6 +7169,7 @@ med.pro
 recht.pro
 12chars.pro
 cloudns.pro
+keenetic.pro
 barsy.pro
 ngrok.pro
 ps
@@ -9029,7 +9032,20 @@ teams.replit.dev
 tucker.replit.dev
 wesley.replit.dev
 worf.replit.dev
+*.aa.crm.dev
+*.ab.crm.dev
+*.ac.crm.dev
+*.ad.crm.dev
+*.ae.crm.dev
+*.af.crm.dev
+*.ci.crm.dev
 *.d.crm.dev
+*.pa.crm.dev
+*.pb.crm.dev
+*.pc.crm.dev
+*.pd.crm.dev
+*.pe.crm.dev
+*.pf.crm.dev
 *.w.crm.dev
 *.wa.crm.dev
 *.wb.crm.dev
@@ -9381,6 +9397,7 @@ cyon.link
 joinmc.link
 *.dweb.link
 *.inbrowser.link
+keenetic.link
 ipfs.nftstorage.link
 mypep.link
 ipfs.storacha.link
@@ -9769,6 +9786,7 @@ support.site
 *.platformsh.site
 *.tst.site
 byen.site
+sol.site
 srht.site
 novecore.site
 cpanel.site
