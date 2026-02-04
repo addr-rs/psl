@@ -3198,7 +3198,6 @@ vr.it
 vs.it
 vt.it
 vv.it
-12chars.it
 ibxos.it
 iliadboxos.it
 jc.neen.it
@@ -5737,8 +5736,14 @@ azurewebsites.net
 cloudapp.net
 trafficmanager.net
 servicebus.usgovcloudapi.net
+blob.core.usgovcloudapi.net
+file.core.usgovcloudapi.net
+web.core.usgovcloudapi.net
 usgovcloudapp.net
+usgovtrafficmanager.net
 blob.core.windows.net
+file.core.windows.net
+web.core.windows.net
 servicebus.windows.net
 sn.mynetname.net
 routingthecloud.net
@@ -7167,7 +7172,6 @@ jur.pro
 law.pro
 med.pro
 recht.pro
-12chars.pro
 cloudns.pro
 keenetic.pro
 barsy.pro
@@ -8961,7 +8965,6 @@ design
 graphic.design
 bss.design
 dev
-12chars.dev
 myaddr.dev
 panel.dev
 bearblog.dev
