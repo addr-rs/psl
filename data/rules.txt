@@ -9228,7 +9228,6 @@ godaddy
 gold
 goldpoint
 golf
-goo
 goodyear
 goog
 cloud.goog
