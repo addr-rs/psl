@@ -5630,6 +5630,7 @@ mydatto.net
 debian.net
 definima.net
 deno.net
+sandbox.deno.net
 *.icp.net
 de5.net
 at-band-camp.net
@@ -8162,6 +8163,7 @@ hanoi.vn
 hatinh.vn
 haugiang.vn
 hoabinh.vn
+hue.vn
 hungyen.vn
 khanhhoa.vn
 kiengiang.vn
