@@ -8818,6 +8818,8 @@ clothing
 cloud
 antagonist.cloud
 convex.cloud
+eu-west-1.convex.cloud
+us-east-1.convex.cloud
 elementor.cloud
 emergent.cloud
 eu.encoway.cloud
@@ -9089,6 +9091,7 @@ discover
 dish
 diy
 discourse.diy
+imagine.diy
 dnp
 docs
 doctor
@@ -9781,6 +9784,8 @@ square.site
 my.canva.site
 *.cloudera.site
 convex.site
+eu-west-1.convex.site
+us-east-1.convex.site
 cyon.site
 caffeine.site
 fastvps.site
