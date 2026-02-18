@@ -2349,6 +2349,7 @@ fbxos.fr
 freebox-os.fr
 freeboxos.fr
 goupile.fr
+kdns.fr
 123siteweb.fr
 on-web.fr
 chirurgiens-dentistes-en-france.fr
