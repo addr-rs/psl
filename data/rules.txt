@@ -2000,6 +2000,7 @@ cprapid.com
 pleskns.com
 remotewd.com
 pages.wiardweb.com
+drive-platform.com
 base44-sandbox.com
 wixsite.com
 wixstudio.com
@@ -2774,6 +2775,7 @@ tickets.io
 2038.io
 webflow.io
 webflowtest.io
+drive-platform.io
 editorx.io
 wixstudio.io
 basicserver.io
@@ -8818,6 +8820,7 @@ clinique
 clothing
 cloud
 antagonist.cloud
+*.begetcdn.cloud
 convex.cloud
 eu-west-1.convex.cloud
 us-east-1.convex.cloud
