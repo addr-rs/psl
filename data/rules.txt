@@ -5414,6 +5414,7 @@ priv.me
 c66.me
 craft.me
 edgestack.me
+mybox.me
 filegear.me
 filegear-sg.me
 lohmus.me
@@ -8930,6 +8931,7 @@ nog.community
 ravendb.community
 myforum.community
 company
+mybox.company
 compare
 computer
 comsec
@@ -9118,6 +9120,7 @@ education
 co.education
 email
 on.crisp.email
+intouch.email
 p.tawk.email
 p.tawkto.email
 emerck
@@ -9582,6 +9585,7 @@ aem.page
 hlx.page
 codeberg.page
 deuxfleurs.page
+mybox.page
 heyflow.page
 prvcy.page
 rocky.page

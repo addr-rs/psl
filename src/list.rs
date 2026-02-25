@@ -273,7 +273,7 @@ where
             [99, 111, 109] => lookup_258(labels),
             [99, 111, 109, 109, 98, 97, 110, 107] => lookup_259(),
             [99, 111, 109, 109, 117, 110, 105, 116, 121] => lookup_260(labels),
-            [99, 111, 109, 112, 97, 110, 121] => lookup_261(),
+            [99, 111, 109, 112, 97, 110, 121] => lookup_261(labels),
             [99, 111, 109, 112, 97, 114, 101] => lookup_262(),
             [99, 111, 109, 112, 117, 116, 101, 114] => lookup_263(),
             [99, 111, 109, 115, 101, 99] => lookup_264(),
@@ -30783,10 +30783,28 @@ where
     }
 }
 #[inline]
-fn lookup_261() -> Info {
+fn lookup_261_0(acc: usize) -> Info {
     Info {
-        len: 7usize,
+        len: acc + 1 + 5usize,
+        typ: Some(Type::Private),
+    }
+}
+#[inline]
+fn lookup_261<'a, T>(mut labels: T) -> Info
+where
+    T: Iterator<Item = &'a [u8]>,
+{
+    let acc = 7usize;
+    let info = Info {
+        len: acc,
         typ: Some(Type::Icann),
+    };
+    match labels.next() {
+        Some(label) => match label {
+            [109, 121, 98, 111, 120] => lookup_261_0(acc),
+            _ => info,
+        },
+        None => info,
     }
 }
 #[inline]
@@ -35286,24 +35304,10 @@ where
     }
 }
 #[inline]
-fn lookup_359_1_0(acc: usize) -> Info {
+fn lookup_359_1(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 1usize,
+        len: acc + 1 + 7usize,
         typ: Some(Type::Private),
-    }
-}
-#[inline]
-fn lookup_359_1<'a, T>(info: Info, mut labels: T, mut acc: usize) -> Info
-where
-    T: Iterator<Item = &'a [u8]>,
-{
-    acc += 1 + 4usize;
-    match labels.next() {
-        Some(label) => match label {
-            [112] => lookup_359_1_0(acc),
-            _ => info,
-        },
-        None => info,
     }
 }
 #[inline]
@@ -35318,10 +35322,31 @@ fn lookup_359_2<'a, T>(info: Info, mut labels: T, mut acc: usize) -> Info
 where
     T: Iterator<Item = &'a [u8]>,
 {
-    acc += 1 + 6usize;
+    acc += 1 + 4usize;
     match labels.next() {
         Some(label) => match label {
             [112] => lookup_359_2_0(acc),
+            _ => info,
+        },
+        None => info,
+    }
+}
+#[inline]
+fn lookup_359_3_0(acc: usize) -> Info {
+    Info {
+        len: acc + 1 + 1usize,
+        typ: Some(Type::Private),
+    }
+}
+#[inline]
+fn lookup_359_3<'a, T>(info: Info, mut labels: T, mut acc: usize) -> Info
+where
+    T: Iterator<Item = &'a [u8]>,
+{
+    acc += 1 + 6usize;
+    match labels.next() {
+        Some(label) => match label {
+            [112] => lookup_359_3_0(acc),
             _ => info,
         },
         None => info,
@@ -35340,8 +35365,9 @@ where
     match labels.next() {
         Some(label) => match label {
             [99, 114, 105, 115, 112] => lookup_359_0(info, labels, acc),
-            [116, 97, 119, 107] => lookup_359_1(info, labels, acc),
-            [116, 97, 119, 107, 116, 111] => lookup_359_2(info, labels, acc),
+            [105, 110, 116, 111, 117, 99, 104] => lookup_359_1(acc),
+            [116, 97, 119, 107] => lookup_359_2(info, labels, acc),
+            [116, 97, 119, 107, 116, 111] => lookup_359_3(info, labels, acc),
             _ => info,
         },
         None => info,
@@ -66119,96 +66145,103 @@ fn lookup_734_20(acc: usize) -> Info {
 #[inline]
 fn lookup_734_21(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 4usize,
+        len: acc + 1 + 5usize,
         typ: Some(Type::Private),
     }
 }
 #[inline]
 fn lookup_734_22(acc: usize) -> Info {
     Info {
+        len: acc + 1 + 4usize,
+        typ: Some(Type::Private),
+    }
+}
+#[inline]
+fn lookup_734_23(acc: usize) -> Info {
+    Info {
         len: acc + 1 + 3usize,
         typ: Some(Type::Icann),
     }
 }
 #[inline]
-fn lookup_734_23(acc: usize) -> Info {
+fn lookup_734_24(acc: usize) -> Info {
     Info {
         len: acc + 1 + 6usize,
         typ: Some(Type::Private),
     }
 }
 #[inline]
-fn lookup_734_24(acc: usize) -> Info {
+fn lookup_734_25(acc: usize) -> Info {
     Info {
         len: acc + 1 + 4usize,
         typ: Some(Type::Private),
     }
 }
 #[inline]
-fn lookup_734_25(acc: usize) -> Info {
-    Info {
-        len: acc + 1 + 3usize,
-        typ: Some(Type::Icann),
-    }
-}
-#[inline]
 fn lookup_734_26(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 4usize,
+        len: acc + 1 + 3usize,
         typ: Some(Type::Icann),
     }
 }
 #[inline]
 fn lookup_734_27(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 9usize,
-        typ: Some(Type::Private),
+        len: acc + 1 + 4usize,
+        typ: Some(Type::Icann),
     }
 }
 #[inline]
 fn lookup_734_28(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 8usize,
+        len: acc + 1 + 9usize,
         typ: Some(Type::Private),
     }
 }
 #[inline]
 fn lookup_734_29(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 4usize,
+        len: acc + 1 + 8usize,
         typ: Some(Type::Private),
     }
 }
 #[inline]
-fn lookup_734_30_0(acc: usize) -> Info {
+fn lookup_734_30(acc: usize) -> Info {
     Info {
         len: acc + 1 + 4usize,
         typ: Some(Type::Private),
     }
 }
 #[inline]
-fn lookup_734_30<'a, T>(info: Info, mut labels: T, mut acc: usize) -> Info
+fn lookup_734_31_0(acc: usize) -> Info {
+    Info {
+        len: acc + 1 + 4usize,
+        typ: Some(Type::Private),
+    }
+}
+#[inline]
+fn lookup_734_31<'a, T>(info: Info, mut labels: T, mut acc: usize) -> Info
 where
     T: Iterator<Item = &'a [u8]>,
 {
     acc += 1 + 7usize;
     match labels.next() {
         Some(label) => match label {
-            [115, 105, 116, 101] => lookup_734_30_0(acc),
+            [115, 105, 116, 101] => lookup_734_31_0(acc),
             _ => info,
         },
         None => info,
     }
 }
 #[inline]
-fn lookup_734_31(acc: usize) -> Info {
+fn lookup_734_32(acc: usize) -> Info {
     Info {
         len: acc + 1 + 3usize,
         typ: Some(Type::Private),
     }
 }
 #[inline]
-fn lookup_734_32(acc: usize) -> Info {
+fn lookup_734_33(acc: usize) -> Info {
     Info {
         len: acc + 1 + 6usize,
         typ: Some(Type::Private),
@@ -66247,18 +66280,19 @@ where
             [108, 111, 103, 105, 110, 116, 111] => lookup_734_18(acc),
             [108, 111, 104, 109, 117, 115] => lookup_734_19(acc),
             [109, 99, 100, 105, 114] => lookup_734_20(acc),
-            [109, 121, 100, 115] => lookup_734_21(acc),
-            [110, 101, 116] => lookup_734_22(acc),
-            [110, 111, 104, 111, 115, 116] => lookup_734_23(acc),
-            [110, 111, 105, 112] => lookup_734_24(acc),
-            [111, 114, 103] => lookup_734_25(acc),
-            [112, 114, 105, 118] => lookup_734_26(acc),
-            [115, 111, 117, 110, 100, 99, 97, 115, 116] => lookup_734_27(acc),
-            [115, 121, 110, 111, 108, 111, 103, 121] => lookup_734_28(acc),
-            [116, 99, 112, 52] => lookup_734_29(acc),
-            [116, 114, 97, 110, 115, 105, 112] => lookup_734_30(info, labels, acc),
-            [118, 112, 52] => lookup_734_31(acc),
-            [119, 101, 98, 104, 111, 112] => lookup_734_32(acc),
+            [109, 121, 98, 111, 120] => lookup_734_21(acc),
+            [109, 121, 100, 115] => lookup_734_22(acc),
+            [110, 101, 116] => lookup_734_23(acc),
+            [110, 111, 104, 111, 115, 116] => lookup_734_24(acc),
+            [110, 111, 105, 112] => lookup_734_25(acc),
+            [111, 114, 103] => lookup_734_26(acc),
+            [112, 114, 105, 118] => lookup_734_27(acc),
+            [115, 111, 117, 110, 100, 99, 97, 115, 116] => lookup_734_28(acc),
+            [115, 121, 110, 111, 108, 111, 103, 121] => lookup_734_29(acc),
+            [116, 99, 112, 52] => lookup_734_30(acc),
+            [116, 114, 97, 110, 115, 105, 112] => lookup_734_31(info, labels, acc),
+            [118, 112, 52] => lookup_734_32(acc),
+            [119, 101, 98, 104, 111, 112] => lookup_734_33(acc),
             _ => info,
         },
         None => info,
@@ -81680,14 +81714,14 @@ fn lookup_866_4(acc: usize) -> Info {
 #[inline]
 fn lookup_866_5(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 4usize,
+        len: acc + 1 + 5usize,
         typ: Some(Type::Private),
     }
 }
 #[inline]
 fn lookup_866_6(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 5usize,
+        len: acc + 1 + 4usize,
         typ: Some(Type::Private),
     }
 }
@@ -81707,6 +81741,13 @@ fn lookup_866_8(acc: usize) -> Info {
 }
 #[inline]
 fn lookup_866_9(acc: usize) -> Info {
+    Info {
+        len: acc + 1 + 5usize,
+        typ: Some(Type::Private),
+    }
+}
+#[inline]
+fn lookup_866_10(acc: usize) -> Info {
     Info {
         len: acc + 1 + 10usize,
         typ: Some(Type::Private),
@@ -81729,11 +81770,12 @@ where
             [100, 101, 117, 120, 102, 108, 101, 117, 114, 115] => lookup_866_2(acc),
             [104, 101, 121, 102, 108, 111, 119] => lookup_866_3(acc),
             [104, 108, 120] => lookup_866_4(acc),
-            [112, 100, 110, 115] => lookup_866_5(acc),
-            [112, 108, 101, 115, 107] => lookup_866_6(acc),
-            [112, 114, 118, 99, 121] => lookup_866_7(acc),
-            [114, 111, 99, 107, 121] => lookup_866_8(acc),
-            [115, 116, 97, 116, 105, 99, 104, 111, 115, 116] => lookup_866_9(acc),
+            [109, 121, 98, 111, 120] => lookup_866_5(acc),
+            [112, 100, 110, 115] => lookup_866_6(acc),
+            [112, 108, 101, 115, 107] => lookup_866_7(acc),
+            [112, 114, 118, 99, 121] => lookup_866_8(acc),
+            [114, 111, 99, 107, 121] => lookup_866_9(acc),
+            [115, 116, 97, 116, 105, 99, 104, 111, 115, 116] => lookup_866_10(acc),
             _ => info,
         },
         None => info,
