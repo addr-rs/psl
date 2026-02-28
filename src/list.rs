@@ -643,7 +643,7 @@ where
             }
             [107, 102, 104] => lookup_627(),
             [107, 103] => lookup_628(labels),
-            [107, 104] => lookup_629(info, labels),
+            [107, 104] => lookup_629(labels),
             [107, 105] => lookup_630(labels),
             [107, 105, 97] => lookup_631(),
             [107, 105, 100, 115] => lookup_632(),
@@ -63428,22 +63428,58 @@ where
     }
 }
 #[inline]
-fn lookup_629_0(wild: &[u8], acc: usize) -> Info {
+fn lookup_629_0(acc: usize) -> Info {
     Info {
-        len: acc + 1 + wild.len(),
+        len: acc + 1 + 3usize,
         typ: Some(Type::Icann),
     }
 }
 #[inline]
-fn lookup_629<'a, T>(mut info: Info, mut labels: T) -> Info
+fn lookup_629_1(acc: usize) -> Info {
+    Info {
+        len: acc + 1 + 3usize,
+        typ: Some(Type::Icann),
+    }
+}
+#[inline]
+fn lookup_629_2(acc: usize) -> Info {
+    Info {
+        len: acc + 1 + 3usize,
+        typ: Some(Type::Icann),
+    }
+}
+#[inline]
+fn lookup_629_3(acc: usize) -> Info {
+    Info {
+        len: acc + 1 + 3usize,
+        typ: Some(Type::Icann),
+    }
+}
+#[inline]
+fn lookup_629_4(acc: usize) -> Info {
+    Info {
+        len: acc + 1 + 3usize,
+        typ: Some(Type::Icann),
+    }
+}
+#[inline]
+fn lookup_629<'a, T>(mut labels: T) -> Info
 where
     T: Iterator<Item = &'a [u8]>,
 {
     let acc = 2usize;
-    info.len = acc;
+    let info = Info {
+        len: acc,
+        typ: Some(Type::Icann),
+    };
     match labels.next() {
         Some(label) => match label {
-            wild => lookup_629_0(wild, acc),
+            [99, 111, 109] => lookup_629_0(acc),
+            [101, 100, 117] => lookup_629_1(acc),
+            [103, 111, 118] => lookup_629_2(acc),
+            [110, 101, 116] => lookup_629_3(acc),
+            [111, 114, 103] => lookup_629_4(acc),
+            _ => info,
         },
         None => info,
     }
