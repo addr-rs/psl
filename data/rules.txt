@@ -300,6 +300,7 @@ cloudns.be
 webhosting.be
 cloud.interhostsolutions.be
 ezproxy.kuleuven.be
+my.be
 123website.be
 myspreadshop.be
 *.transurl.be
@@ -9204,6 +9205,7 @@ frontier
 ftr
 fujitsu
 fun
+ms.fun
 fund
 furniture
 futbol
@@ -9789,6 +9791,7 @@ shopware.shop
 shopping
 shouji
 show
+ms.show
 silk
 sina
 singles
