@@ -1837,7 +1837,6 @@ magicpatternsapp.com
 modelscape.com
 mwcloudnonprod.com
 polyspace.com
-mazeplay.com
 miniserver.com
 atmeta.com
 apps.fbsbx.com
