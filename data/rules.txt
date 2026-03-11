@@ -8428,7 +8428,9 @@ encr.app
 frontend.encr.app
 relay.evervault.app
 expo.app
+on.expo.app
 staging.expo.app
+on.staging.expo.app
 edgecompute.app
 on-fleek.app
 flutterflow.app
@@ -10147,7 +10149,7 @@ zara
 zero
 zip
 zone
-*.triton.zone
 stackit.zone
 lima.zone
+*.triton.zone
 zuerich
