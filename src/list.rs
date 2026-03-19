@@ -99322,21 +99322,28 @@ fn lookup_1428_1(acc: usize) -> Info {
     }
 }
 #[inline]
-fn lookup_1428_2_0(wild: &[u8], acc: usize) -> Info {
+fn lookup_1428_2(acc: usize) -> Info {
+    Info {
+        len: acc + 1 + 3usize,
+        typ: Some(Type::Private),
+    }
+}
+#[inline]
+fn lookup_1428_3_0(wild: &[u8], acc: usize) -> Info {
     Info {
         len: acc + 1 + wild.len(),
         typ: Some(Type::Private),
     }
 }
 #[inline]
-fn lookup_1428_2<'a, T>(info: Info, mut labels: T, mut acc: usize) -> Info
+fn lookup_1428_3<'a, T>(info: Info, mut labels: T, mut acc: usize) -> Info
 where
     T: Iterator<Item = &'a [u8]>,
 {
     acc += 1 + 7usize;
     match labels.next() {
         Some(label) => match label {
-            wild => lookup_1428_2_0(wild, acc),
+            wild => lookup_1428_3_0(wild, acc),
         },
         None => info,
     }
@@ -99355,7 +99362,8 @@ where
         Some(label) => match label {
             [98, 111, 116, 100, 97, 115, 104] => lookup_1428_0(acc),
             [99, 97, 102, 102, 101, 105, 110, 101] => lookup_1428_1(acc),
-            [116, 101, 108, 101, 98, 105, 116] => lookup_1428_2(info, labels, acc),
+            [101, 120, 101] => lookup_1428_2(acc),
+            [116, 101, 108, 101, 98, 105, 116] => lookup_1428_3(info, labels, acc),
             _ => info,
         },
         None => info,
