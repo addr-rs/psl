@@ -8463,6 +8463,7 @@ ngrok-free.app
 *.developer.app
 noop.app
 *.northflank.app
+pplx.app
 *.upsun.app
 up.railway.app
 replit.app
@@ -9012,6 +9013,7 @@ lp.dev
 api.lp.dev
 objects.lp.dev
 relay.evervault.dev
+payload.dev
 fly.dev
 githubpreview.dev
 *.gateway.dev
