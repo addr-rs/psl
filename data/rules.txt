@@ -1918,7 +1918,6 @@ authgearapps.com
 outsystemscloud.com
 ownprovider.com
 pgfog.com
-pagexl.com
 gotpantheon.com
 *.paywhirl.com
 forgeblocks.com
