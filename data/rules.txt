@@ -8438,6 +8438,7 @@ apartments
 app
 adaptable.app
 aiven.app
+claude.app
 *.beget.app
 brave.app
 *.s.brave.app
@@ -9134,8 +9135,6 @@ dhl
 diamonds
 diet
 digital
-cloudapps.digital
-london.cloudapps.digital
 direct
 libp2p.direct
 directory
