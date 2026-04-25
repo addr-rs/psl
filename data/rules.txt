@@ -1548,6 +1548,9 @@ appspacehosted.com
 appspaceusercontent.com
 on-aptible.com
 myasustor.com
+*.atlassian-3p.com
+*.atlassian-3p-us-gov-mod.com
+*.atlassian-isolated-3p.com
 balena-devices.com
 boutir.com
 bplaced.com
@@ -1842,6 +1845,7 @@ polyspace.com
 miniserver.com
 atmeta.com
 apps.fbsbx.com
+*.metaaiusercontent.com
 meteorapp.com
 eu.meteorapp.com
 routingthecloud.com
@@ -6814,6 +6818,7 @@ sk.eu.org
 tr.eu.org
 uk.eu.org
 us.eu.org
+fspages.org
 fedorainfracloud.org
 fedorapeople.org
 cloud.fedoraproject.org
@@ -9843,6 +9848,7 @@ convex.site
 eu-west-1.convex.site
 us-east-1.convex.site
 cyon.site
+piebox.site
 caffeine.site
 fastvps.site
 figma.site
@@ -9888,6 +9894,7 @@ sony
 soy
 spa
 space
+deployagent.space
 myfast.space
 heiyu.space
 hf.space
