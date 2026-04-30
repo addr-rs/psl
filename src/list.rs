@@ -37244,6 +37244,27 @@ fn lookup_439_0(acc: usize) -> Info {
     }
 }
 #[inline]
+fn lookup_439_1(acc: usize) -> Info {
+    Info {
+        len: acc + 1 + 4usize,
+        typ: Some(Type::Private),
+    }
+}
+#[inline]
+fn lookup_439_2(acc: usize) -> Info {
+    Info {
+        len: acc + 1 + 4usize,
+        typ: Some(Type::Private),
+    }
+}
+#[inline]
+fn lookup_439_3(acc: usize) -> Info {
+    Info {
+        len: acc + 1 + 4usize,
+        typ: Some(Type::Private),
+    }
+}
+#[inline]
 fn lookup_439<'a, T>(mut labels: T) -> Info
 where
     T: Iterator<Item = &'a [u8]>,
@@ -37256,6 +37277,9 @@ where
     match labels.next() {
         Some(label) => match label {
             [109, 115] => lookup_439_0(acc),
+            [118, 105, 99, 112] => lookup_439_1(acc),
+            [121, 105, 99, 112] => lookup_439_2(acc),
+            [122, 105, 99, 112] => lookup_439_3(acc),
             _ => info,
         },
         None => info,

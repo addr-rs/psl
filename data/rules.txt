@@ -9251,6 +9251,9 @@ ftr
 fujitsu
 fun
 ms.fun
+vicp.fun
+yicp.fun
+zicp.fun
 fund
 furniture
 futbol
