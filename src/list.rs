@@ -35527,31 +35527,31 @@ where
     }
 }
 #[inline]
-fn lookup_359_0_0(acc: usize) -> Info {
-    Info {
-        len: acc + 1 + 2usize,
-        typ: Some(Type::Private),
-    }
-}
-#[inline]
-fn lookup_359_0<'a, T>(info: Info, mut labels: T, mut acc: usize) -> Info
-where
-    T: Iterator<Item = &'a [u8]>,
-{
-    acc += 1 + 5usize;
-    match labels.next() {
-        Some(label) => match label {
-            [111, 110] => lookup_359_0_0(acc),
-            _ => info,
-        },
-        None => info,
-    }
-}
-#[inline]
-fn lookup_359_1(acc: usize) -> Info {
+fn lookup_359_0(acc: usize) -> Info {
     Info {
         len: acc + 1 + 7usize,
         typ: Some(Type::Private),
+    }
+}
+#[inline]
+fn lookup_359_1_0(acc: usize) -> Info {
+    Info {
+        len: acc + 1 + 1usize,
+        typ: Some(Type::Private),
+    }
+}
+#[inline]
+fn lookup_359_1<'a, T>(info: Info, mut labels: T, mut acc: usize) -> Info
+where
+    T: Iterator<Item = &'a [u8]>,
+{
+    acc += 1 + 4usize;
+    match labels.next() {
+        Some(label) => match label {
+            [112] => lookup_359_1_0(acc),
+            _ => info,
+        },
+        None => info,
     }
 }
 #[inline]
@@ -35566,31 +35566,10 @@ fn lookup_359_2<'a, T>(info: Info, mut labels: T, mut acc: usize) -> Info
 where
     T: Iterator<Item = &'a [u8]>,
 {
-    acc += 1 + 4usize;
-    match labels.next() {
-        Some(label) => match label {
-            [112] => lookup_359_2_0(acc),
-            _ => info,
-        },
-        None => info,
-    }
-}
-#[inline]
-fn lookup_359_3_0(acc: usize) -> Info {
-    Info {
-        len: acc + 1 + 1usize,
-        typ: Some(Type::Private),
-    }
-}
-#[inline]
-fn lookup_359_3<'a, T>(info: Info, mut labels: T, mut acc: usize) -> Info
-where
-    T: Iterator<Item = &'a [u8]>,
-{
     acc += 1 + 6usize;
     match labels.next() {
         Some(label) => match label {
-            [112] => lookup_359_3_0(acc),
+            [112] => lookup_359_2_0(acc),
             _ => info,
         },
         None => info,
@@ -35608,10 +35587,9 @@ where
     };
     match labels.next() {
         Some(label) => match label {
-            [99, 114, 105, 115, 112] => lookup_359_0(info, labels, acc),
-            [105, 110, 116, 111, 117, 99, 104] => lookup_359_1(acc),
-            [116, 97, 119, 107] => lookup_359_2(info, labels, acc),
-            [116, 97, 119, 107, 116, 111] => lookup_359_3(info, labels, acc),
+            [105, 110, 116, 111, 117, 99, 104] => lookup_359_0(acc),
+            [116, 97, 119, 107] => lookup_359_1(info, labels, acc),
+            [116, 97, 119, 107, 116, 111] => lookup_359_2(info, labels, acc),
             _ => info,
         },
         None => info,
