@@ -10202,4 +10202,6 @@ zone
 stackit.zone
 lima.zone
 *.triton.zone
+prg1-zerops.zone
+*.zerops.zone
 zuerich

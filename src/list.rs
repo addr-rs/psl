@@ -100308,26 +100308,53 @@ fn lookup_1447_0(acc: usize) -> Info {
 #[inline]
 fn lookup_1447_1(acc: usize) -> Info {
     Info {
+        len: acc + 1 + 11usize,
+        typ: Some(Type::Private),
+    }
+}
+#[inline]
+fn lookup_1447_2(acc: usize) -> Info {
+    Info {
         len: acc + 1 + 7usize,
         typ: Some(Type::Private),
     }
 }
 #[inline]
-fn lookup_1447_2_0(wild: &[u8], acc: usize) -> Info {
+fn lookup_1447_3_0(wild: &[u8], acc: usize) -> Info {
     Info {
         len: acc + 1 + wild.len(),
         typ: Some(Type::Private),
     }
 }
 #[inline]
-fn lookup_1447_2<'a, T>(info: Info, mut labels: T, mut acc: usize) -> Info
+fn lookup_1447_3<'a, T>(info: Info, mut labels: T, mut acc: usize) -> Info
 where
     T: Iterator<Item = &'a [u8]>,
 {
     acc += 1 + 6usize;
     match labels.next() {
         Some(label) => match label {
-            wild => lookup_1447_2_0(wild, acc),
+            wild => lookup_1447_3_0(wild, acc),
+        },
+        None => info,
+    }
+}
+#[inline]
+fn lookup_1447_4_0(wild: &[u8], acc: usize) -> Info {
+    Info {
+        len: acc + 1 + wild.len(),
+        typ: Some(Type::Private),
+    }
+}
+#[inline]
+fn lookup_1447_4<'a, T>(info: Info, mut labels: T, mut acc: usize) -> Info
+where
+    T: Iterator<Item = &'a [u8]>,
+{
+    acc += 1 + 6usize;
+    match labels.next() {
+        Some(label) => match label {
+            wild => lookup_1447_4_0(wild, acc),
         },
         None => info,
     }
@@ -100345,8 +100372,10 @@ where
     match labels.next() {
         Some(label) => match label {
             [108, 105, 109, 97] => lookup_1447_0(acc),
-            [115, 116, 97, 99, 107, 105, 116] => lookup_1447_1(acc),
-            [116, 114, 105, 116, 111, 110] => lookup_1447_2(info, labels, acc),
+            [112, 114, 103, 49, 45, 122, 101, 114, 111, 112, 115] => lookup_1447_1(acc),
+            [115, 116, 97, 99, 107, 105, 116] => lookup_1447_2(acc),
+            [116, 114, 105, 116, 111, 110] => lookup_1447_3(info, labels, acc),
+            [122, 101, 114, 111, 112, 115] => lookup_1447_4(info, labels, acc),
             _ => info,
         },
         None => info,
