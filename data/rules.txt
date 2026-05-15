@@ -8000,8 +8000,6 @@ cc.mt.us
 lib.mt.us
 cc.nc.us
 lib.nc.us
-cc.nd.us
-lib.nd.us
 cc.ne.us
 lib.ne.us
 cc.nh.us
@@ -9132,6 +9130,8 @@ worf.replit.dev
 *.wf.crm.dev
 erp.dev
 web.erp.dev
+t3.storage.dev
+t3.storageapi.dev
 vercel.dev
 vivenushop.dev
 *.webhare.dev
