@@ -2001,7 +2001,6 @@ vivenushop.com
 *.vultrobjects.com
 wafflecell.com
 hotelwithflight.com
-reserve-online.com
 cprapid.com
 pleskns.com
 remotewd.com
@@ -2562,6 +2561,7 @@ utazas.hu
 video.hu
 id
 ac.id
+ai.id
 biz.id
 co.id
 desa.id
@@ -8510,7 +8510,6 @@ typedream.app
 vercel.app
 wal.app
 wasmer.app
-bookonline.app
 windsurf.app
 base44.app
 zeabur.app
@@ -9623,6 +9622,7 @@ eero-stage.online
 websitebuilder.online
 leapcell.online
 barsy.online
+book.online
 ooo
 open
 oracle
