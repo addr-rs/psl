@@ -871,6 +871,7 @@ transfer-webapp.cn-north-1.on.amazonwebservices.com.cn
 transfer-webapp.cn-northwest-1.on.amazonwebservices.com.cn
 canva-apps.cn
 my.canvasite.cn
+khsj.cn
 myqnapcloud.cn
 as.sh.cn
 direct.quickconnect.cn
@@ -9472,6 +9473,7 @@ limo
 lincoln
 link
 myfritz.link
+canva.link
 cyon.link
 joinmc.link
 *.dweb.link
