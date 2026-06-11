@@ -9868,6 +9868,7 @@ co.site
 notion.site
 omniwe.site
 opensocial.site
+chatgpt.site
 madethis.site
 support.site
 *.platformsh.site
@@ -9901,6 +9902,7 @@ spa
 space
 deployagent.space
 myfast.space
+vibehost.space
 heiyu.space
 hf.space
 static.hf.space
