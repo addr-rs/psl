@@ -188,6 +188,7 @@ sth.ac.at
 co.at
 gv.at
 or.at
+dnshome.at
 wien.funkfeuer.at
 *.futurecms.at
 *.ex.futurecms.at
@@ -2104,7 +2105,11 @@ dyndns1.de
 home-webserver.de
 dyn.home-webserver.de
 myhome-server.de
+ddnssec.de
 dnshome.de
+dyndnssec.de
+heimdns.de
+srvdns.de
 fuettertdasnetz.de
 isteingeek.de
 istmein.de
@@ -2301,6 +2306,7 @@ auth.cognito-idp.eusc-de-east-1.on.amazonwebservices.eu
 cloudns.eu
 prvw.eu
 deuxfleurs.eu
+dnshome.eu
 jelastic.dogado.eu
 barsy.eu
 spdns.eu
@@ -3214,6 +3220,7 @@ vr.it
 vs.it
 vt.it
 vv.it
+dnshome.it
 ibxos.it
 iliadboxos.it
 jc.neen.it
@@ -8498,6 +8505,7 @@ noop.app
 *.northflank.app
 pplx.app
 *.upsun.app
+puter.app
 up.railway.app
 replit.app
 id.replit.app
@@ -8730,6 +8738,7 @@ banamex
 band
 bank
 bar
+resolve.bar
 barcelona
 barclaycard
 barclays
@@ -8750,6 +8759,7 @@ beats
 beauty
 beer
 berlin
+ddns.berlin
 best
 bestbuy
 bet
@@ -8865,6 +8875,7 @@ antagonist.cloud
 convex.cloud
 eu-west-1.convex.cloud
 us-east-1.convex.cloud
+dnshome.cloud
 elementor.cloud
 emergent.cloud
 eu.encoway.cloud
@@ -9599,6 +9610,7 @@ nissay
 nokia
 norton
 now
+dyn.now
 nowruz
 nowtv
 nra
@@ -9622,6 +9634,7 @@ onl
 online
 eero.online
 eero-stage.online
+heimdns.online
 websitebuilder.online
 leapcell.online
 barsy.online
@@ -9875,6 +9888,7 @@ support.site
 *.platformsh.site
 *.tst.site
 byen.site
+puter.site
 sol.site
 srht.site
 novecore.site
@@ -10075,11 +10089,13 @@ wme
 woodside
 work
 imagine-proxy.work
+puter.work
 works
 world
 wow
 wtc
 wtf
+ddns.wtf
 xbox
 xerox
 xihuan
