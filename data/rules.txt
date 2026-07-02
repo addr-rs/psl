@@ -6839,7 +6839,6 @@ in-dsl.org
 in-vpn.org
 js.org
 barsy.org
-mayfirst.org
 routingthecloud.org
 bmoattachments.org
 cable-modem.org
