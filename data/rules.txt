@@ -197,8 +197,6 @@ futurehosting.at
 futuremailing.at
 *.ex.ortsinfo.at
 *.kunden.ortsinfo.at
-biz.at
-info.at
 123webseite.at
 priv.at
 4.at
@@ -5456,6 +5454,7 @@ i234.me
 myds.me
 synology.me
 site.transip.me
+grok.me
 nohost.me
 mg
 co.mg
