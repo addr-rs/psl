@@ -1831,6 +1831,13 @@ fn lookup_9_8(acc: usize) -> Info {
     }
 }
 #[inline]
+fn lookup_9_9(acc: usize) -> Info {
+    Info {
+        len: acc + 1 + 3usize,
+        typ: Some(Type::Private),
+    }
+}
+#[inline]
 fn lookup_9<'a, T>(mut labels: T) -> Info
 where
     T: Iterator<Item = &'a [u8]>,
@@ -1851,6 +1858,7 @@ where
             [109, 105, 108] => lookup_9_6(acc),
             [110, 101, 116] => lookup_9_7(acc),
             [111, 114, 103] => lookup_9_8(acc),
+            [115, 99, 104] => lookup_9_9(acc),
             _ => info,
         },
         None => info,
@@ -31478,20 +31486,20 @@ fn lookup_290_0(acc: usize) -> Info {
 fn lookup_290_1(acc: usize) -> Info {
     Info {
         len: acc + 1 + 3usize,
-        typ: Some(Type::Icann),
+        typ: Some(Type::Private),
     }
 }
 #[inline]
 fn lookup_290_2(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 2usize,
+        len: acc + 1 + 3usize,
         typ: Some(Type::Icann),
     }
 }
 #[inline]
 fn lookup_290_3(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 3usize,
+        len: acc + 1 + 2usize,
         typ: Some(Type::Icann),
     }
 }
@@ -31505,22 +31513,36 @@ fn lookup_290_4(acc: usize) -> Info {
 #[inline]
 fn lookup_290_5(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 4usize,
+        len: acc + 1 + 3usize,
         typ: Some(Type::Icann),
     }
 }
 #[inline]
 fn lookup_290_6(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 3usize,
+        len: acc + 1 + 4usize,
         typ: Some(Type::Icann),
     }
 }
 #[inline]
 fn lookup_290_7(acc: usize) -> Info {
     Info {
+        len: acc + 1 + 3usize,
+        typ: Some(Type::Icann),
+    }
+}
+#[inline]
+fn lookup_290_8(acc: usize) -> Info {
+    Info {
         len: acc + 1 + 4usize,
         typ: Some(Type::Icann),
+    }
+}
+#[inline]
+fn lookup_290_9(acc: usize) -> Info {
+    Info {
+        len: acc + 1 + 5usize,
+        typ: Some(Type::Private),
     }
 }
 #[inline]
@@ -31536,13 +31558,15 @@ where
     match labels.next() {
         Some(label) => match label {
             [99, 111, 109] => lookup_290_0(acc),
-            [101, 100, 117] => lookup_290_1(acc),
-            [105, 100] => lookup_290_2(acc),
-            [105, 110, 116] => lookup_290_3(acc),
-            [110, 101, 116] => lookup_290_4(acc),
-            [110, 111, 109, 101] => lookup_290_5(acc),
-            [111, 114, 103] => lookup_290_6(acc),
-            [112, 117, 98, 108] => lookup_290_7(acc),
+            [100, 101, 118] => lookup_290_1(acc),
+            [101, 100, 117] => lookup_290_2(acc),
+            [105, 100] => lookup_290_3(acc),
+            [105, 110, 116] => lookup_290_4(acc),
+            [110, 101, 116] => lookup_290_5(acc),
+            [110, 111, 109, 101] => lookup_290_6(acc),
+            [111, 114, 103] => lookup_290_7(acc),
+            [112, 117, 98, 108] => lookup_290_8(acc),
+            [115, 116, 111, 114, 101] => lookup_290_9(acc),
             _ => info,
         },
         None => info,

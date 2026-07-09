@@ -6,6 +6,7 @@ mil.ac
 net.ac
 org.ac
 drr.ac
+sch.ac
 feedback.ac
 forms.ac
 ad
@@ -2044,6 +2045,8 @@ net.cv
 nome.cv
 org.cv
 publ.cv
+dev.cv
+store.cv
 cw
 com.cw
 edu.cw
