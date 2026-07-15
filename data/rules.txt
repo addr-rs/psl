@@ -2129,6 +2129,8 @@ in-brb.de
 in-butter.de
 in-dsl.de
 in-vpn.de
+home64.de
+ipv64.de
 iservschule.de
 mein-iserv.de
 schuldock.de
@@ -2387,12 +2389,16 @@ edu.gd
 gov.gd
 ge
 com.ge
+cyb.ge
 edu.ge
 gov.ge
+llc.ge
 net.ge
+online.ge
 org.ge
 pvt.ge
 school.ge
+tnx.ge
 gf
 gg
 co.gg
@@ -2619,7 +2625,9 @@ in
 5g.in
 6g.in
 ac.in
+aero.in
 ai.in
+alumni.in
 am.in
 bank.in
 bihar.in
@@ -2654,8 +2662,10 @@ pg.in
 post.in
 pro.in
 res.in
+school.in
 travel.in
 tv.in
+ub.in
 uk.in
 up.in
 us.in
@@ -5729,6 +5739,7 @@ oninferno.net
 botdash.net
 apps-1and1.net
 ipifony.net
+ipv64.net
 cloudjiffy.net
 fra1-de.cloudjiffy.net
 west1-us.cloudjiffy.net
@@ -5907,13 +5918,17 @@ no
 fhs.no
 folkebibl.no
 fylkesbibl.no
+gielda.no
+herad.no
 idrett.no
+kommune.no
 museum.no
 priv.no
+suohkan.no
+tjielte.no
+uenorge.no
 vgs.no
 dep.no
-herad.no
-kommune.no
 mil.no
 stat.no
 aa.no
@@ -6049,7 +6064,7 @@ askøy.no
 askvoll.no
 asnes.no
 åsnes.no
-audnedaln.no
+audnedal.no
 aukra.no
 aure.no
 aurland.no
@@ -6160,7 +6175,6 @@ forsand.no
 fosnes.no
 fræna.no
 frana.no
-frei.no
 frogn.no
 froland.no
 frosta.no
@@ -6211,6 +6225,7 @@ halden.no
 halsa.no
 hamar.no
 hamaroy.no
+hamarøy.no
 hammarfeasta.no
 hámmárfeasta.no
 hammerfest.no
@@ -6265,6 +6280,7 @@ karasjohka.no
 kárášjohka.no
 karasjok.no
 karlsoy.no
+karlsøy.no
 karmoy.no
 karmøy.no
 kautokeino.no
@@ -6453,6 +6469,7 @@ ralingen.no
 rana.no
 randaberg.no
 rauma.no
+re.no
 rendalen.no
 rennebu.no
 rennesoy.no
@@ -6610,6 +6627,7 @@ tysvær.no
 tysvar.no
 ullensaker.no
 ullensvang.no
+ulstein.no
 ulvik.no
 unjarga.no
 unjárga.no
@@ -7573,7 +7591,6 @@ or.th
 online.th
 shop.th
 tj
-ac.tj
 biz.tj
 co.tj
 com.tj
@@ -9827,6 +9844,7 @@ me.scot
 org.scot
 gov.scot
 service.gov.scot
+mygov.scot
 search
 seat
 secure
