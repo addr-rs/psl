@@ -1774,7 +1774,6 @@ us-1.evennode.com
 us-2.evennode.com
 us-3.evennode.com
 us-4.evennode.com
-onfabrica.com
 fastly-edge.com
 fastly-terrarium.com
 fastvps-server.com
@@ -1979,7 +1978,6 @@ w-corp-staticblitz.com
 w-credentialless-staticblitz.com
 w-staticblitz.com
 stackhero-network.com
-api.stdlib.com
 strapiapp.com
 media.strapiapp.com
 streak-link.com
@@ -2723,7 +2721,6 @@ brave.io
 browsersafetymark.io
 cdn.bubble.io
 bubbleapps.io
-uk0.bigv.io
 cleverapps.io
 cloudbeesusercontent.io
 dyndns.dappnode.io
@@ -2766,7 +2763,6 @@ pantheonsite.io
 id.forgerock.io
 pstmn.io
 mock.pstmn.io
-protonet.io
 qcx.io
 *.sys.qcx.io
 qoto.io
@@ -2778,7 +2774,6 @@ site.rb-hosting.io
 readthedocs.io
 resindevice.io
 devices.resinstaging.io
-hzc.io
 sandcats.io
 client.scrypted.io
 mo-siemens.io
@@ -2885,7 +2880,6 @@ trentin-sudtirol.it
 trentin-südtirol.it
 trentin-sued-tirol.it
 trentin-suedtirol.it
-trentino.it
 trentino-a-adige.it
 trentino-aadige.it
 trentino-alto-adige.it
@@ -2906,7 +2900,6 @@ trentinos-tirol.it
 trentinostirol.it
 trentinosud-tirol.it
 trentinosüd-tirol.it
-trentinosudtirol.it
 trentinosüdtirol.it
 trentinosued-tirol.it
 trentinosuedtirol.it
@@ -2922,7 +2915,6 @@ umbria.it
 val-d-aosta.it
 val-daosta.it
 vald-aosta.it
-valdaosta.it
 valle-aosta.it
 valle-d-aosta.it
 valle-daosta.it
@@ -2958,7 +2950,6 @@ aosta.it
 aoste.it
 ap.it
 aq.it
-aquila.it
 ar.it
 arezzo.it
 ascoli-piceno.it
@@ -3182,6 +3173,9 @@ sondrio.it
 sp.it
 sr.it
 ss.it
+su.it
+sud-sardegna.it
+sudsardegna.it
 südtirol.it
 suedtirol.it
 sv.it
@@ -3202,6 +3196,7 @@ trani-barletta-andria.it
 traniandriabarletta.it
 tranibarlettaandria.it
 trapani.it
+trentino.it
 trento.it
 treviso.it
 trieste.it
@@ -3220,6 +3215,7 @@ ve.it
 venezia.it
 venice.it
 verbania.it
+verbano-cusio-ossola.it
 vercelli.it
 verona.it
 vi.it
@@ -5660,7 +5656,6 @@ ctfcloud.net
 feste-ip.net
 knx-server.net
 static-access.net
-*.cryptonomic.net
 dattolocal.net
 mydatto.net
 debian.net
@@ -7828,8 +7823,6 @@ org.uk
 plc.uk
 police.uk
 *.sch.uk
-dh.bytemark.co.uk
-vm.bytemark.co.uk
 api.gov.uk
 conn.uk
 copro.uk
@@ -9235,7 +9228,6 @@ fan
 mkm.fan
 fans
 farm
-storj.farm
 farmers
 fashion
 fast
