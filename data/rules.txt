@@ -8472,7 +8472,6 @@ csb.app
 preview.csb.app
 convex.app
 corespeed.app
-deta.app
 ondigitalocean.app
 easypanel.app
 encr.app
@@ -9072,7 +9071,6 @@ r2.dev
 workers.dev
 deno.dev
 deno-staging.dev
-deta.dev
 lp.dev
 api.lp.dev
 objects.lp.dev
