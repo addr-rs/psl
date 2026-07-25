@@ -9896,6 +9896,7 @@ madethis.site
 support.site
 *.platformsh.site
 *.tst.site
+playcode.site
 byen.site
 puter.site
 sol.site
@@ -10077,6 +10078,7 @@ watch
 watches
 weather
 weatherchannel
+web
 webcam
 weber
 website
