@@ -2708,7 +2708,6 @@ mil.io
 net.io
 nom.io
 org.io
-*.on-acorn.io
 myaddr.io
 apigee.io
 b-data.io
