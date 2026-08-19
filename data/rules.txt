@@ -908,6 +908,7 @@ adobeaemcloud.com
 africa.com
 *.auiusercontent.com
 aivencloud.com
+*.aivencloud.com
 alibabacloudcs.com
 kasserver.com
 execute-api.af-south-1.amazonaws.com
@@ -1543,6 +1544,7 @@ us-west-1.elasticbeanstalk.com
 us-west-2.elasticbeanstalk.com
 *.elb.amazonaws.com
 awsglobalaccelerator.com
+*.cursorusercontent.com
 siiites.com
 appspacehosted.com
 appspaceusercontent.com
@@ -8457,7 +8459,6 @@ anz
 aol
 apartments
 app
-adaptable.app
 aiven.app
 claude.app
 *.beget.app
@@ -8467,6 +8468,7 @@ clerk.app
 clerkstage.app
 cloudflare.app
 wnext.app
+codepen.app
 csb.app
 preview.csb.app
 convex.app
@@ -8891,6 +8893,7 @@ eu.encoway.cloud
 *.statics.cloud
 ravendb.cloud
 hstgr.cloud
+online-server.cloud
 es-1.axarnet.cloud
 diadem.cloud
 vip.jelastic.cloud
@@ -9068,6 +9071,7 @@ brave.dev
 pages.dev
 r2.dev
 workers.dev
+codepen.dev
 deno.dev
 deno-staging.dev
 lp.dev
@@ -9618,6 +9622,7 @@ nokia
 norton
 now
 dyn.now
+here.now
 nowruz
 nowtv
 nra
@@ -9898,6 +9903,9 @@ support.site
 playcode.site
 byen.site
 puter.site
+scw.site
+ams.scw.site
+waw.scw.site
 sol.site
 srht.site
 novecore.site
