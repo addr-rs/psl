@@ -907,7 +907,6 @@ adobeaemcloud.com
 *.dev.adobeaemcloud.com
 africa.com
 *.auiusercontent.com
-aivencloud.com
 *.aivencloud.com
 alibabacloudcs.com
 kasserver.com
@@ -1544,6 +1543,8 @@ us-west-1.elasticbeanstalk.com
 us-west-2.elasticbeanstalk.com
 *.elb.amazonaws.com
 awsglobalaccelerator.com
+claudeusercontent.com
+frame.claudeusercontent.com
 *.cursorusercontent.com
 siiites.com
 appspacehosted.com
