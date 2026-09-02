@@ -2014,9 +2014,6 @@ messwithdns.com
 woltlab-demo.com
 wpenginepowered.com
 js.wpenginepowered.com
-xnbay.com
-u2.xnbay.com
-u2-local.xnbay.com
 xtooldevice.com
 yolasite.com
 coop
@@ -2322,8 +2319,6 @@ dy.fi
 häkkinen.fi
 iki.fi
 fi.cloudplatform.fi
-demo.datacenter.fi
-paas.datacenter.fi
 kapsi.fi
 123kotisivu.fi
 myspreadshop.fi
@@ -9494,6 +9489,7 @@ like
 lilly
 limited
 limo
+*.eth.limo
 lincoln
 link
 myfritz.link
@@ -9503,6 +9499,7 @@ joinmc.link
 *.dweb.link
 *.inbrowser.link
 keenetic.link
+*.eth.link
 ipfs.nftstorage.link
 mypep.link
 ipfs.storacha.link
