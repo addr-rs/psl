@@ -869,6 +869,7 @@ cn-northwest-1.eb.amazonaws.com.cn
 transfer-webapp.cn-north-1.on.amazonwebservices.com.cn
 transfer-webapp.cn-northwest-1.on.amazonwebservices.com.cn
 canva-apps.cn
+canva-code.cn
 my.canvasite.cn
 khsj.cn
 myqnapcloud.cn
@@ -8516,6 +8517,7 @@ puter.app
 up.railway.app
 replit.app
 id.replit.app
+rocketpreview.app
 nyat.app
 *.snowflake.app
 *.privatelink.snowflake.app
@@ -9602,6 +9604,7 @@ azimuth.network
 tlon.network
 neustar
 new
+*.builtwithrocket.new
 news
 noticeable.news
 next
@@ -9621,6 +9624,7 @@ norton
 now
 dyn.now
 here.now
+tmp.now
 nowruz
 nowtv
 nra
