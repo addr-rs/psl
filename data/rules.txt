@@ -5437,6 +5437,7 @@ priv.me
 c66.me
 craft.me
 edgestack.me
+opencloud.me
 mybox.me
 filegear.me
 seprox.hooc.me
