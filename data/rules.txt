@@ -428,6 +428,7 @@ deporte.bo
 ecologia.bo
 economia.bo
 empresa.bo
+ia.bo
 indigena.bo
 industria.bo
 info.bo
@@ -7269,9 +7270,11 @@ net.pn
 org.pn
 post
 pr
+ac.pr
 biz.pr
 com.pr
 edu.pr
+est.pr
 gov.pr
 info.pr
 isla.pr
@@ -7279,8 +7282,6 @@ name.pr
 net.pr
 org.pr
 pro.pr
-ac.pr
-est.pr
 prof.pr
 pro
 aaa.pro
