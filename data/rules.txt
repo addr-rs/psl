@@ -9863,6 +9863,7 @@ ruhr
 run
 *.appwrite.run
 canva.run
+cloud.run
 development.run
 ravendb.run
 liara.run
@@ -10037,6 +10038,7 @@ shopware.store
 storebase.store
 stream
 studio
+ai.studio
 study
 style
 sucks
