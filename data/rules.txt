@@ -1808,6 +1808,7 @@ hatenadiary.com
 hercules-app.com
 hercules-dev.com
 herokuapp.com
+*.compute.herokuapp.com
 gr.com
 smushcdn.com
 wphostedmail.com
@@ -1937,8 +1938,6 @@ dev.project-study.com
 pythonanywhere.com
 eu.pythonanywhere.com
 qa2.com
-alpha-myqnapcloud.com
-dev-myqnapcloud.com
 mycloudnas.com
 mynascloud.com
 myqnapcloud.com
