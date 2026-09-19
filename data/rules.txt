@@ -1782,6 +1782,7 @@ fastly-edge.com
 fastly-terrarium.com
 fastvps-server.com
 mydobiss.com
+hosted-by-files.com
 firebaseapp.com
 fldrv.com
 framercanvas.com
