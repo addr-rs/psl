@@ -7511,6 +7511,7 @@ lovable.sh
 ent.platform.sh
 eu.platform.sh
 us.platform.sh
+surge.sh
 teleport.sh
 now.sh
 si

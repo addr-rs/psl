@@ -89457,6 +89457,13 @@ where
 #[inline]
 fn lookup_1030_10(acc: usize) -> Info {
     Info {
+        len: acc + 1 + 5usize,
+        typ: Some(Type::Private),
+    }
+}
+#[inline]
+fn lookup_1030_11(acc: usize) -> Info {
+    Info {
         len: acc + 1 + 8usize,
         typ: Some(Type::Private),
     }
@@ -89483,7 +89490,8 @@ where
             [110, 111, 119] => lookup_1030_7(acc),
             [111, 114, 103] => lookup_1030_8(acc),
             [112, 108, 97, 116, 102, 111, 114, 109] => lookup_1030_9(info, labels, acc),
-            [116, 101, 108, 101, 112, 111, 114, 116] => lookup_1030_10(acc),
+            [115, 117, 114, 103, 101] => lookup_1030_10(acc),
+            [116, 101, 108, 101, 112, 111, 114, 116] => lookup_1030_11(acc),
             _ => info,
         },
         None => info,
