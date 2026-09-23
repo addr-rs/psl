@@ -1588,6 +1588,9 @@ trycloudflare.com
 co.com
 *.devinapps.com
 builtwithdark.com
+aws.databricksapps.com
+*.azure.databricksapps.com
+gcp.databricksapps.com
 demo.datadetect.com
 instance.datadetect.com
 dattolocal.com
@@ -8152,6 +8155,7 @@ mus.mi.us
 tec.mi.us
 washtenaw.mi.us
 cloudns.us
+aws-gov.databricksapps.us
 is-by.us
 land-4-sale.us
 stuff-4-sale.us
