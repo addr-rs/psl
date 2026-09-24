@@ -297,6 +297,7 @@ be
 ac.be
 cloudns.be
 webhosting.be
+site.webhosting.be
 cloud.interhostsolutions.be
 ezproxy.kuleuven.be
 my.be
@@ -5977,6 +5978,7 @@ web.ni
 nl
 co.nl
 hosting-cluster.nl
+site.hosting-cluster.nl
 gov.nl
 khplay.nl
 123website.nl
@@ -7238,6 +7240,7 @@ dkonto.pl
 you2.pl
 shoparena.pl
 homesklep.pl
+iqhs.pl
 sdscloud.pl
 unicloud.pl
 lodz.pl
