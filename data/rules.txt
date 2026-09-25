@@ -8569,6 +8569,7 @@ e2b.app
 framer.app
 gadget.app
 github.app
+glideos.app
 *.hosted.app
 *.run.app
 *.mtls.run.app
