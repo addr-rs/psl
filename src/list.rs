@@ -91484,13 +91484,6 @@ fn lookup_1040_0(acc: usize) -> Info {
 #[inline]
 fn lookup_1040_1(acc: usize) -> Info {
     Info {
-        len: acc + 1 + 6usize,
-        typ: Some(Type::Private),
-    }
-}
-#[inline]
-fn lookup_1040_2(acc: usize) -> Info {
-    Info {
         len: acc + 1 + 7usize,
         typ: Some(Type::Private),
     }
@@ -91508,8 +91501,7 @@ where
     match labels.next() {
         Some(label) => match label {
             [102, 53] => lookup_1040_0(acc),
-            [103, 105, 116, 97, 112, 112] => lookup_1040_1(acc),
-            [103, 105, 116, 112, 97, 103, 101] => lookup_1040_2(acc),
+            [103, 105, 116, 112, 97, 103, 101] => lookup_1040_1(acc),
             _ => info,
         },
         None => info,
