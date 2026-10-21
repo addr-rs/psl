@@ -1842,7 +1842,6 @@ framercanvas.com
 freebox-os.com
 freeboxos.com
 freemyip.com
-aliases121.com
 gentapps.com
 gentlentapis.com
 githubusercontent.com
@@ -7802,7 +7801,6 @@ mil.to
 net.to
 org.to
 611.to
-oya.to
 x0.to
 direct.quickconnect.to
 vpnplus.to
