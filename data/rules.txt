@@ -912,6 +912,7 @@ africa.com
 *.auiusercontent.com
 *.aivencloud.com
 alibabacloudcs.com
+*.ztna-dingtalk.com
 kasserver.com
 execute-api.af-south-1.amazonaws.com
 execute-api.ap-east-1.amazonaws.com
