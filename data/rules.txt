@@ -9496,7 +9496,6 @@ health
 hra.health
 healthcare
 help
-helsinki
 here
 hermes
 hiphop
