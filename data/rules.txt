@@ -9272,6 +9272,7 @@ is-a-fullstack.dev
 is-cool.dev
 is-not-a.dev
 localplayer.dev
+pagelemon.dev
 xmit.dev
 platter-app.dev
 *.replit.dev
