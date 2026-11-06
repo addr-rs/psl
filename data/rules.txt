@@ -1598,7 +1598,6 @@ us-west-2.elasticbeanstalk.com
 awsglobalaccelerator.com
 claudeusercontent.com
 frame.claudeusercontent.com
-*.cursorusercontent.com
 siiites.com
 appspacehosted.com
 appspaceusercontent.com
@@ -2069,6 +2068,7 @@ vipsinaapp.com
 streamlitapp.com
 try-snowplow.com
 playstation-cloud.com
+*.cursorusercontent.com
 myspreadshop.com
 w-corp-staticblitz.com
 w-credentialless-staticblitz.com
@@ -5549,13 +5549,13 @@ webhop.me
 soundcast.me
 tcp4.me
 vp4.me
+grok.me
 diskstation.me
 dscloud.me
 i234.me
 myds.me
 synology.me
 site.transip.me
-grok.me
 nohost.me
 mg
 co.mg
@@ -8669,6 +8669,7 @@ shiptoday.app
 leapcell.app
 loginline.app
 lovable.app
+auth.lovable.app
 luyani.app
 magicpatterns.app
 medusajs.app
@@ -8690,6 +8691,7 @@ id.replit.app
 retool.app
 rocketpreview.app
 nyat.app
+sliplane.app
 *.snowflake.app
 *.privatelink.snowflake.app
 streamlit.app
@@ -8974,6 +8976,8 @@ bosch
 bostik
 boston
 bot
+*.apps.grok.bot
+*.pages.grok.bot
 boutique
 box
 bradesco
@@ -9819,6 +9823,7 @@ codeberg.page
 deuxfleurs.page
 mybox.page
 heyflow.page
+linkyhost.page
 prvcy.page
 rocky.page
 statichost.page
@@ -9949,6 +9954,7 @@ needle.run
 *.migration.run
 onporter.run
 repl.run
+sanity.run
 stackit.run
 val.run
 web.val.run
@@ -10032,6 +10038,7 @@ us-east-1.convex.site
 cyon.site
 piebox.site
 caffeine.site
+docsflowy.site
 fastvps.site
 figma.site
 figma-gov.site
@@ -10082,6 +10089,7 @@ sony
 soy
 spa
 space
+manus.space
 deployagent.space
 myfast.space
 vibehost.space
@@ -10112,6 +10120,7 @@ storebase.store
 stream
 studio
 ai.studio
+sanity.studio
 study
 style
 sucks
