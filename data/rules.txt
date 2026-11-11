@@ -2210,6 +2210,7 @@ leitungsen.de
 traeumtgerade.de
 *.frusky.de
 goip.de
+gov.de
 günstigbestellen.de
 günstigliefern.de
 pages.it.hs-heilbronn.de
@@ -8636,6 +8637,7 @@ brave.app
 clerk.app
 clerkstage.app
 cloudflare.app
+cloudzyro.app
 wnext.app
 codepen.app
 csb.app
@@ -9237,6 +9239,7 @@ design
 graphic.design
 bss.design
 dev
+abyme.dev
 myaddr.dev
 panel.dev
 bearblog.dev
