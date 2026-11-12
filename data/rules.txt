@@ -9834,6 +9834,7 @@ linkyhost.page
 prvcy.page
 rocky.page
 statichost.page
+vibekit.page
 pdns.page
 plesk.page
 panasonic
