@@ -1966,6 +1966,7 @@ cloud.nospamproxy.com
 o365.cloud.nospamproxy.com
 4u.com
 nfshost.com
+ninjaneer-sites.com
 3utilities.com
 blogsyte.com
 ciscofreak.com
@@ -2019,6 +2020,7 @@ authgear-staging.com
 authgearapps.com
 outsystemscloud.com
 ownprovider.com
+myoxypages.com
 pgfog.com
 gotpantheon.com
 *.paywhirl.com
@@ -2440,6 +2442,8 @@ org.fm
 radio.fm
 *.user.fm
 fo
+co.fo
+com.fo
 fr
 asso.fr
 com.fr
@@ -2490,6 +2494,7 @@ org.ge
 pvt.ge
 school.ge
 tnx.ge
+ddns.ge
 gf
 gg
 co.gg
@@ -2868,6 +2873,7 @@ resindevice.io
 devices.resinstaging.io
 sandcats.io
 client.scrypted.io
+wz.io
 mo-siemens.io
 apps.lair.io
 *.stolos.io
@@ -2875,6 +2881,7 @@ musician.io
 utwente.io
 edugit.io
 telebit.io
+terramind.io
 cust.dev.thingdust.io
 reservd.dev.thingdust.io
 cust.disrec.thingdust.io
@@ -5535,6 +5542,7 @@ edgestack.me
 opencloud.me
 mybox.me
 filegear.me
+xwx.me
 seprox.hooc.me
 filegear-sg.me
 lohmus.me
@@ -7044,6 +7052,7 @@ jpn.org
 my-firewall.org
 myfirewall.org
 spdns.org
+wz.org
 small-web.org
 dsmynas.org
 familyds.org
@@ -7601,6 +7610,7 @@ gov.sh
 mil.sh
 net.sh
 org.sh
+bearly.sh
 hashbang.sh
 botda.sh
 lovable.sh
@@ -8629,6 +8639,7 @@ anz
 aol
 apartments
 app
+agilevibes.app
 aiven.app
 claude.app
 *.beget.app
@@ -8735,6 +8746,8 @@ arab
 aramco
 archi
 army
+dns.army
+v6.army
 art
 arte
 asda
@@ -8989,6 +9002,7 @@ bot
 *.pages.grok.bot
 boutique
 box
+sail.box
 bradesco
 bridgestone
 broadway
@@ -9289,6 +9303,9 @@ localplayer.dev
 pagelemon.dev
 xmit.dev
 platter-app.dev
+reliantlabs.dev
+sites.reliantlabs.dev
+reliantpreview.dev
 *.replit.dev
 *.teams.replit.dev
 *.aa.crm.dev
@@ -9333,7 +9350,6 @@ discover
 dish
 diy
 discourse.diy
-imagine.diy
 dnp
 docs
 doctor
@@ -9393,6 +9409,8 @@ farm
 farmers
 fashion
 fast
+space.fast
+view.fast
 fedex
 feedback
 ferrari
@@ -9546,6 +9564,7 @@ iserv.host
 jele.host
 mircloud.host
 bolt.host
+voati.host
 wp2.host
 half.host
 hosting
@@ -9755,6 +9774,8 @@ music
 nab
 nagoya
 navy
+dns.navy
+v6.navy
 nba
 nec
 netbank
@@ -9839,7 +9860,9 @@ deuxfleurs.page
 mybox.page
 heyflow.page
 linkyhost.page
+mymagic.page
 prvcy.page
+omgs.page
 rocky.page
 statichost.page
 vibekit.page
@@ -9946,6 +9969,7 @@ rip
 clan.rip
 rocks
 myddns.rocks
+v6.rocks
 stackit.rocks
 lima-city.rocks
 webspace.rocks
@@ -9977,6 +10001,7 @@ stackit.run
 val.run
 web.val.run
 vercel.run
+sm.run
 wix.run
 rwe
 ryukyu
@@ -10284,7 +10309,6 @@ winners
 wme
 woodside
 work
-imagine-proxy.work
 puter.work
 works
 world
