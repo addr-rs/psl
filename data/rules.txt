@@ -125,6 +125,7 @@ com.ai
 net.ai
 off.ai
 org.ai
+apps.devs.ai
 uwu.ai
 framer.ai
 kiloapps.ai
@@ -142,6 +143,7 @@ commune.am
 net.am
 org.am
 radio.am
+*.2na.am
 ao
 co.ao
 ed.ao
@@ -733,6 +735,7 @@ eu.cc
 gu.cc
 uk.cc
 us.cc
+loc.cc
 cd
 gov.cd
 cc.cd
@@ -9858,12 +9861,14 @@ prod.page
 codeberg.page
 deuxfleurs.page
 mybox.page
+ginta.page
 heyflow.page
 linkyhost.page
 mymagic.page
 prvcy.page
 omgs.page
 rocky.page
+solidres.page
 statichost.page
 vibekit.page
 pdns.page
@@ -10074,6 +10079,7 @@ singles
 site
 square.site
 my.canva.site
+ceero.site
 *.cloudera.site
 convex.site
 eu-west-1.convex.site
