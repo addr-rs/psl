@@ -1845,6 +1845,7 @@ framercanvas.com
 freebox-os.com
 freeboxos.com
 freemyip.com
+gcorecdn.com
 gentapps.com
 gentlentapis.com
 githubusercontent.com
@@ -2849,6 +2850,8 @@ kiloapps.io
 webthings.io
 loginline.io
 barsy.io
+mailerpage.io
+subscribepage.io
 *.azurecontainer.io
 ngrok.io
 ap.ngrok.io
@@ -7404,6 +7407,7 @@ law.pro
 med.pro
 recht.pro
 cloudns.pro
+prod.enter.pro
 keenetic.pro
 barsy.pro
 ngrok.pro
@@ -8675,6 +8679,7 @@ sprites.app
 e2b.app
 framer.app
 gadget.app
+fastedge.app
 github.app
 glideos.app
 *.hosted.app
@@ -9336,6 +9341,7 @@ erp.dev
 web.erp.dev
 t3.storage.dev
 t3.storageapi.dev
+uncld.dev
 vercel.dev
 vivenushop.dev
 *.webhare.dev
@@ -10095,6 +10101,7 @@ preview.site
 heyflow.site
 jele.site
 jouwweb.site
+kliv.site
 loginline.site
 barsy.site
 medusajs.site
