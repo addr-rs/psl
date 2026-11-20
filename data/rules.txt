@@ -726,6 +726,7 @@ game-server.cc
 myphotos.cc
 scrapping.cc
 twmail.cc
+pvf.cc
 csx.cc
 fantasyleague.cc
 instances.spawn.cc
@@ -777,6 +778,8 @@ net.ci
 or.ci
 org.ci
 us.ci
+kz.ci
+xyz.ci
 *.ck
 !www.ck
 cl
@@ -2031,6 +2034,7 @@ gotpantheon.com
 forgeblocks.com
 upsunapp.com
 postman-echo.com
+*.prairielearn-user-content.com
 xen.prgmr.com
 dev.project-study.com
 pythonanywhere.com
