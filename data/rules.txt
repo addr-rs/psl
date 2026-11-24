@@ -128,6 +128,7 @@ org.ai
 apps.devs.ai
 uwu.ai
 framer.ai
+*.airoapp.ai
 kiloapps.ai
 al
 com.al
@@ -1608,6 +1609,7 @@ siiites.com
 appspacehosted.com
 appspaceusercontent.com
 on-aptible.com
+sites.aspirethemes.com
 myasustor.com
 *.atlassian-3p.com
 *.atlassian-3p-us-gov-mod.com
@@ -9105,6 +9107,7 @@ elementor.cloud
 emergent.cloud
 eu.encoway.cloud
 *.statics.cloud
+*.host.cloud
 ravendb.cloud
 hstgr.cloud
 online-server.cloud
