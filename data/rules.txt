@@ -1612,8 +1612,11 @@ on-aptible.com
 sites.aspirethemes.com
 myasustor.com
 *.atlassian-3p.com
+*.shared.atlassian-3p.com
 *.atlassian-3p-us-gov-mod.com
+*.shared.atlassian-3p-us-gov-mod.com
 *.atlassian-isolated-3p.com
+*.shared.atlassian-isolated-3p.com
 balena-devices.com
 boutir.com
 bplaced.com
@@ -1871,6 +1874,7 @@ hercules-app.com
 hercules-dev.com
 herokuapp.com
 *.compute.herokuapp.com
+onhomemade.com
 gr.com
 smushcdn.com
 wphostedmail.com
@@ -2069,6 +2073,7 @@ x0.com
 logoip.com
 scrysec.com
 firewall-gateway.com
+shipstatic.com
 myshopblocks.com
 myshopify.com
 shopitsite.com
@@ -5422,6 +5427,7 @@ jeonbuk.kr
 jeonnam.kr
 seoul.kr
 ulsan.kr
+ipdisk.co.kr
 c01.kr
 eliv-api.kr
 eliv-cdn.kr
@@ -6978,6 +6984,7 @@ mywire.org
 roxa.org
 webredirect.org
 twmail.org
+iptime.org
 eu.org
 al.eu.org
 asso.eu.org
@@ -8042,7 +8049,6 @@ nh-serv.co.uk
 nimsite.uk
 no-ip.co.uk
 *.oraclegovcloudapps.uk
-adimo.co.uk
 myspreadshop.co.uk
 affinitylottery.org.uk
 raffleentry.org.uk
@@ -8278,7 +8284,6 @@ land-4-sale.us
 stuff-4-sale.us
 heliohost.us
 phx.enscaled.us
-mircloud.us
 azure-api.us
 azurewebsites.us
 ngo.us
@@ -8659,6 +8664,7 @@ agilevibes.app
 aiven.app
 claude.app
 *.beget.app
+blacktops.app
 brave.app
 *.s.brave.app
 clerk.app
@@ -9112,7 +9118,6 @@ ravendb.cloud
 hstgr.cloud
 online-server.cloud
 es-1.axarnet.cloud
-diadem.cloud
 vip.jelastic.cloud
 jele.cloud
 it1.eur.aruba.jenv-aruba.cloud
@@ -9304,7 +9309,6 @@ botdash.dev
 *.inbrowser.dev
 is-a-good.dev
 iserv.dev
-leapcell.dev
 runcontainers.dev
 *.user.localcert.dev
 loginline.dev
@@ -9581,7 +9585,6 @@ tempurl.host
 wpmudev.host
 iserv.host
 jele.host
-mircloud.host
 bolt.host
 voati.host
 wp2.host
@@ -9701,6 +9704,7 @@ myfritz.link
 canva.link
 cyon.link
 joinmc.link
+faable.link
 *.dweb.link
 *.inbrowser.link
 keenetic.link
@@ -9855,7 +9859,6 @@ eero.online
 eero-stage.online
 heimdns.online
 websitebuilder.online
-leapcell.online
 barsy.online
 book.online
 ooo
@@ -9873,6 +9876,7 @@ nerdpol.ovh
 page
 aem.page
 hlx.page
+blacktops.page
 prod.page
 codeberg.page
 deuxfleurs.page
@@ -10108,6 +10112,7 @@ fastvps.site
 figma.site
 figma-gov.site
 preview.site
+greybull.site
 heyflow.site
 jele.site
 jouwweb.site
