@@ -130,6 +130,7 @@ uwu.ai
 framer.ai
 *.airoapp.ai
 kiloapps.ai
+relumesite.ai
 al
 com.al
 edu.al
@@ -2040,6 +2041,7 @@ myoxypages.com
 pgfog.com
 gotpantheon.com
 *.paywhirl.com
+phronusercontent.com
 forgeblocks.com
 upsunapp.com
 postman-echo.com
@@ -7649,6 +7651,7 @@ us.platform.sh
 surge.sh
 teleport.sh
 now.sh
+xport.sh
 si
 f5.si
 gitpage.si
@@ -8747,7 +8750,9 @@ sliplane.app
 *.snowflake.app
 *.privatelink.snowflake.app
 streamlit.app
+softr.app
 spawnbase.app
+staticrun.app
 strw.app
 telebit.app
 typedream.app
@@ -9480,6 +9485,7 @@ forum
 foundation
 fox
 free
+xport.free
 fresenius
 frl
 frogans
@@ -9601,6 +9607,7 @@ bolt.host
 voati.host
 wp2.host
 half.host
+xport.host
 hosting
 opencraft.hosting
 hot
@@ -9729,6 +9736,7 @@ live
 aem.live
 hlx.live
 *.ewp.live
+spheron.live
 living
 llc
 llp
