@@ -8672,6 +8672,7 @@ apartments
 app
 agilevibes.app
 aiven.app
+aiwebinfra.app
 claude.app
 *.beget.app
 blacktops.app
@@ -8716,6 +8717,7 @@ hasura.app
 onhercules.app
 hostney.app
 botdash.app
+lambforge.app
 shiptoday.app
 loginline.app
 lovable.app
@@ -9880,6 +9882,7 @@ eero-stage.online
 heimdns.online
 websitebuilder.online
 barsy.online
+tnas.online
 book.online
 ooo
 open
@@ -10118,6 +10121,7 @@ silk
 sina
 singles
 site
+agental.site
 square.site
 my.canva.site
 ceero.site
@@ -10494,6 +10498,7 @@ zara
 zero
 zip
 zone
+eureka.zone
 stackit.zone
 lima.zone
 *.triton.zone
